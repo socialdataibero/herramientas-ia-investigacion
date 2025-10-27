@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "9ac549e7fb348230",
+    "type": "split",
+    "children": [
+      {
+        "id": "93911ebe0fb48c18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e77d54d0bcaf2f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "book_ia/09-Glosario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09-Glosario"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee94f1dbd3c0b2ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cbfb66785f5b44f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b23cdac127928c9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "daa0d4c316f62ab7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b690edb4c60b3fba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5
+  },
+  "right": {
+    "id": "b9c761f3571d2503",
+    "type": "split",
+    "children": [
+      {
+        "id": "4067943045dca6d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19fa0de2d4faf35b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "703070c52fe786a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a007cd57841ad2ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ad23319d15391ad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "system3-relay:Relay": false
+    }
+  },
+  "active": "e77d54d0bcaf2f01",
+  "lastOpenFiles": [
+    "book_ia/08-Referencias.md",
+    "book_ia/07-Ética.md",
+    "book_ia/06-Herramientas-Externas.md",
+    "book_ia/05-Sistema-Integracion.md",
+    "book_ia/04-Revisión-Literatura-IA.md",
+    "book_ia/03-Ingeniería-Contexto.md",
+    "book_ia/02-Ingeniería-Prompts.md",
+    "book_ia/01-Fundamentos-IA-Generativa.md",
+    "book_ia/00-Introducción.md",
+    "book_ia",
+    "tutoriales_herramientas/extras/digital_garden.md",
+    "tutoriales_herramientas/notebooklm.md",
+    "tutoriales_herramientas/litmaps.md",
+    "tutoriales_herramientas/elicit.md",
+    "tutoriales_herramientas/consensus.md",
+    "book_ia/09-Glosario.md",
+    "Copia-Book",
+    "Untitled.md",
+    "recursos/logos/EducaIA_largo.svg",
+    "00-Introducción.md.tmp.19944.1761186426805",
+    "07-Ética.md.tmp.19944.1761186376706",
+    "07-Ética.md.tmp.19944.1761186374798",
+    "07-Ética.md.tmp.19944.1761186372744",
+    "07-Ética.md.tmp.19944.1761186370730",
+    "07-Ética.md.tmp.19944.1761186368678",
+    "07-Ética.md.tmp.19944.1761186366605",
+    "07-Ética.md.tmp.19944.1761186362602",
+    "recursos/imagenes_portada/Gemini_Generated_Image_byudq9byudq9byud.png",
+    "ARMANDO/Untitled.md",
+    "ARMANDO/etica_gpt.md",
+    "Archivo/07-Ética.md",
+    "ARMANDO/herramientas_ia_gpt.md",
+    "Archivo/04-Revision-Literatura-IA.md",
+    "Archivo/03-Ingenieria-Contexto.md",
+    "Archivo/02-Ingeniería-Prompts.md",
+    "ARMANDO/fundamentos_claude.md",
+    "ARMANDO/contexto_gpt.md",
+    "recursos/logos/SocialData_blanco.svg",
+    "Pasted image 20251022024342.png",
+    "recursos/logos/EducaIA.svg",
+    "recursos/logos/SocialData.svg",
+    "recursos/EducaIA.svg",
+    "recursos/SocialData.svg"
+  ]
+}

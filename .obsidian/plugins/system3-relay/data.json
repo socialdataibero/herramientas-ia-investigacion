@@ -1,0 +1,56 @@
+{
+  "release": {
+    "channel": "stable"
+  },
+  "sharedFolders": [
+    {
+      "path": "tutoriales_herramientas",
+      "guid": "42a9634d-b6de-4306-9dde-861297fc0265",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "relay": "30ea6c62-e974-4a69-b151-489187466cd0"
+    },
+    {
+      "path": "book_ia",
+      "guid": "ceb78822-aa00-43cc-a333-600c432e3d3e",
+      "relay": "30ea6c62-e974-4a69-b151-489187466cd0",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "endpoints": {},
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "enableVerifyUploads": false,
+  "enableAutomaticDiffResolution": false,
+  "enableDiscordLogin": false,
+  "enableOIDCLogin": true,
+  "enableGitHubLogin": true,
+  "enableSelfManageHosts": false,
+  "enableToasts": false,
+  "debugging": false,
+  "login": {
+    "provider": "google"
+  },
+  "enableDocumentServer": true,
+  "enableMicrosoftLogin": true
+}

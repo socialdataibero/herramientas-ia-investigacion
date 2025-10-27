@@ -1,0 +1,7 @@
+{
+  "enabledCssSnippets": [
+    "project-card",
+    "sidebar"
+  ],
+  "cssTheme": "Minimal"
+}
