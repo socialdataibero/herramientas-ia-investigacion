@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book_ia/05-Sistema-Integracion.md",
+                "file": "book_ia/00-Prefacio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Sistema-Integracion"
+              "title": "00-Prefacio"
             }
           }
         ],
@@ -186,17 +186,19 @@
   },
   "active": "9751d35128c0cf9b",
   "lastOpenFiles": [
-    "book_ia/04-Revisión-Literatura-IA.md",
+    "book_ia/¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
+    "book_ia/00-Prefacio.md",
     "book_ia/03-Ingeniería-Contexto.md",
     "book_ia/02-Ingeniería-Prompts.md",
     "book_ia/01-Fundamentos-IA-Generativa.md",
-    "book_ia/00-Prefacio.md",
-    "book_ia/00-¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
+    "LICENSE.md",
+    "book_ia/05-Sistema-Integracion.md",
+    "README.md",
+    "book_ia/04-Revisión-Literatura-IA.md",
     "book_ia/09-Glosario.md",
     "book_ia/08-Referencias.md",
     "book_ia/07-Ética.md",
     "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
-    "book_ia/05-Sistema-Integracion.md",
     "tutoriales_herramientas/litmaps.md",
     "Untitled.md",
     "book_ia/00-Bienvenidos a Herramientas de IA para la Investigación Académica.md",
@@ -212,12 +214,10 @@
     "ARMANDO/Litmaps_GPT.md",
     "ARMANDO/Untitled",
     "Pasted image 20251031223121.png",
-    "Tutorial para descargar carpeta del book en relay.md",
     "Pasted image 20251028094128.png",
     "Pasted image 20251028094421.png",
     "Pasted image 20251028094212.png",
     "book_ia",
-    "tutoriales_herramientas/extras/digital_garden.md",
     "Copia-Book",
     "recursos/logos/EducaIA_largo.svg",
     "00-Introducción.md.tmp.19944.1761186426805",

@@ -1,6 +1,6 @@
 ---
 dg-publish: true
-dg-home: true
+dg-home: false
 dg-path: 00-Introducción.md
 cssClasses:
   - img-grid
