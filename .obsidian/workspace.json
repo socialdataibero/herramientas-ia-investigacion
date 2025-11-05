@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book_ia/00-Prefacio.md",
+                "file": "book_ia/01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Prefacio"
+              "title": "01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #)"
             }
           }
         ],
@@ -186,19 +186,22 @@
   },
   "active": "9751d35128c0cf9b",
   "lastOpenFiles": [
-    "book_ia/¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
-    "book_ia/00-Prefacio.md",
+    "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
+    "book_ia/05-Sistema-Integracion.md",
+    "book_ia/04-Revisión-Literatura-IA.md",
     "book_ia/03-Ingeniería-Contexto.md",
     "book_ia/02-Ingeniería-Prompts.md",
+    "book_ia/01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #).md",
     "book_ia/01-Fundamentos-IA-Generativa.md",
+    "book_ia/00-Prefacio.md",
+    "book_ia/00-Herramientas de IA para la Investigación Académica.md",
+    "book_ia/00-¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
+    "book_ia/¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
     "LICENSE.md",
-    "book_ia/05-Sistema-Integracion.md",
     "README.md",
-    "book_ia/04-Revisión-Literatura-IA.md",
     "book_ia/09-Glosario.md",
     "book_ia/08-Referencias.md",
     "book_ia/07-Ética.md",
-    "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
     "tutoriales_herramientas/litmaps.md",
     "Untitled.md",
     "book_ia/00-Bienvenidos a Herramientas de IA para la Investigación Académica.md",
@@ -209,9 +212,6 @@
     "tutoriales_herramientas/consensus.md",
     "ARMANDO/Untitled.md",
     "tutoriales_herramientas/notebooklm.md",
-    "ARMANDO/Elicit_GPT.md",
-    "ARMANDO/CONSENSUS_GPT.md",
-    "ARMANDO/Litmaps_GPT.md",
     "ARMANDO/Untitled",
     "Pasted image 20251031223121.png",
     "Pasted image 20251028094128.png",

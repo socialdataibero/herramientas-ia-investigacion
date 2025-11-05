@@ -1,39 +1,50 @@
----
-dg-publish: true
-dg-home: false
-dg-path: 00-Introducción.md
-cssClasses:
-  - img-grid
-  - cards
----
-
-![[SocialData_blanco.svg]]![[EducaIA_largo.svg]]
-
----
-
-## Introducción
+# Prefacio
 
 Hablar hoy de Inteligencia Artificial (IA) es hablar de una tecnología que está transformando nuestra manera de aprender, crear y trabajar. Particularmente, la [[09-Glosario#IA Generativa|IA generativa]] (capaz de generar contenido nuevo) está integrándose rápidamente en nuestras actividades cotidianas: nos ayuda a escribir textos, preparar materiales educativos, automatizar tareas y programar.
 
-En el ámbito de la investigación científica, su impacto es particularmente notable. Procesos que tradicionalmente requerían trabajo meticuloso (como la revisión exhaustiva de literatura, la redacción de artículos y el análisis de grandes conjuntos de datos) están siendo redefinidos por sus algoritmos capaces de sintetizar información, identificar patrones complejos y asistir en el flujo creativo y cognitivo.
+En el ámbito de la investigación científica, su impacto es particularmente notable. Procesos que tradicionalmente requerían trabajo meticuloso (como la revisión exhaustiva de literatura, la redacción de artículos y el análisis de grandes conjuntos de datos) están siendo redefinidos por algoritmos capaces de sintetizar información, identificar patrones complejos en los datos y asistir en el flujo creativo y cognitivo de generación de conocimiento.
 
-Esta transformación, sin embargo, trae consigo desafíos importantes y nos lleva a formular preguntas esenciales, entre ellas: ¿Cómo podemos, como estudiantes, docentes e investigadores, navegar este ecosistema sin perdernos entre soluciones verdaderamente útiles y ruido pasajero? ¿Cómo mitigar riesgos como las alucinaciones (citas fabricadas o datos inventados), la manipulación de información y los comportamientos desalineados? Y, más importante aún, ¿cómo integramos estas tecnologías en nuestros flujos de trabajo de manera ética, rigurosa y eficaz?
+Sin embargo, esta transformación trae desafíos importantes:
+- Cómo distinguir entre soluciones verdaderamente útiles y ruido pasajero?
+- ¿Cómo mitigar riesgos como las alucinaciones (citas fabricadas o datos inventados), la manipulación de información y los comportamientos desalineados? 
+- Y, más importante aún, ¿cómo integramos estas tecnologías en nuestros flujos de trabajo de manera ética, rigurosa y eficaz?
 
-Este libro, _Herramientas de IA para la Investigación Académica_, nace como respuesta a estos desafíos. No es un manual técnico para expertos en IA, sino una guía práctica y accesible pensada para estudiantes, docentes e investigadores que buscan aprovechar estas herramientas de manera responsable.
+Este libro nace como respuesta práctica a estos desafíos, proporcionando una guía accesible para aprovechar estas herramientas de manera responsable en el contexto académico.
 
-Nuestro viaje comenzará con los _Fundamentos de la IA Generativa_, para luego dominar la _Ingeniería de Prompts_ y la _Ingeniería de Contexto_ (herramientas esenciales para interactuar efectivamente con estos sistemas). Exploraremos las _Herramientas de IA para la Revisión de Literatura_, aprenderemos a construir _Sistemas de Integración de Investigación con IA_ robustos y profundizaremos en el _Análisis cuantitativo y cualitativo asistido con IA_. Dedicaremos un capítulo fundamental a la _Ética_ en el uso de la IA, pilar indispensable para garantizar la integridad en nuestra labor.
+## Esquema
 
-Nuestra objetivo es lograr una alfabetización sobre el uso de la Inteligencia Artificial y convertirla en una aliada poderosa para el trabajo académico, siempre consciente de sus limitaciones. 
+El libro está organizado en capítulos progresivos que construyen competencias desde los fundamentos hasta aplicaciones especializadas:
 
-A través de explicaciones claras, ejemplos prácticos y tutoriales paso a paso, descubrirás cómo estas herramientas pueden ser de gran apoyo para descubrir, analizar y comunicar el conocimiento, siempre que mantengas el control y la supervisión crítica.
+- ⁠*Capítulo 1: Fundamentos de la IA Generativa* introduce los conceptos esenciales sobre qué es la IA generativa, cómo funciona y sus capacidades y limitaciones.
+- ⁠*Capítulo 2: Ingeniería de Prompts* presenta técnicas para diseñar instrucciones efectivas y obtener mejores resultados.
+- *Capítulo 3: Ingeniería de Contexto* explora como proporcionar el contexto adecuado para maximizar la precisión y relevancia de las respuestas.
+- ⁠*Capítulo 4: Herramientas de IA para la Revisión de Literatura* da a conocer herramientas y estrategias para la búsqueda, análisis y síntesis de literatura académica.
+- *Capítulo 5: Sistemas de Integración de Investigación con IA* muestra cómo construir flujos de trabajo robustos que integren IA en el proceso de investigación.
+- *Capítulo 6: Análisis Cuantitativo y Cualitativo Asistido* cubre técnicas de análisis de datos asistido por IA, desde estadísticas hasta análisis de texto..
+- *Capítulo 7: Ética en el Uso de IA* examina consideraciones éticas fundamentales, sesgos y mejores prácticas.
 
+## Acerca de este libro
 
+Este libro está diseñado para estudiantes, docentes e investigadores que buscan integrar herramientas de IA en su trabajo académico. No es un manual técnico para expertos en IA, sino una guía práctica y accesible para la investigación académica.
 
+No asumimos conocimientos previos de programación o inteligencia artificial. Los conceptos técnicos se introducen gradualmente con explicaciones claras y ejemplos prácticos.
+
+Suponemos que el lector tiene experiencia básica con chatbots de IA (como ChatGPT, Gemini, DeepSeek, Qwen, Le Chat, etc), con herramientas digitales de investigación (gestores bibliográficos, procesadores de texto) y está interesado en mejorar su productividad académica mediante IA.
+
+## Aspectos técnicos
+
+El libro fue escrito en [Markdown](https://www.markdownguide.org/) utilizando [Obsidian](https://obsidian.md/) como editor principal y los plugin  [Digital Garden](https://herramientasiainvestigacion.vercel.app/) para la publicación en internet y  [Relay](https://github.com/No-Instructions/Relay) para colaboración en tiempo real entre autores. El sitio web está alojado en [vercel](https://herramientasiainvestigacion.vercel.app/) y se actualiza automáticamente con cada cambio en el repositorio de [Github](), el cual incluye todos los prompts, plantillas y ejemplos de código, y está disponible publicamente.
+
+## Agradecimientos
+
+Estamos muy agradecidos por el apoyo de la Dirección de Innovación Educativa y Vicerrectoría Académica de la Universidad Iberoamericana Ciudad de México, cuyo respaldo institucional fue fundamental para este proyecto. Nuestro reconocimiento especial a todos los participantes de nuestros cursos y talleres, cuyas preguntas y retroalimentación enriquecieron significativamente este trabajo, así como a los colegas que compartieron sus experiencias y contribuyeron de diversas formas a hacer realidad esta obra digital.
+
+Por último, dedicamos este libro a todas las personas y organizaciones que trabajan incansablemente por una inteligencia artificial segura, ética e inclusiva. Este trabajo es para ustedes, quienes entienden que la verdadera innovación no está solo en desarrollar tecnología más avanzada, sino en asegurar que sus beneficios lleguen a todos y que su uso fortalezca, no comprometa, la integridad de la investigación científica.
 
 ---
 # índice
 
-```dataview
+⁠ dataview
 TABLE WITHOUT ID
     icono AS " ",
     file.link AS Título,
@@ -41,7 +52,7 @@ TABLE WITHOUT ID
     estado AS Estado
 FROM #proyecto-ia
 SORT file.name ASC
-```
+ ⁠
 
 ---
 ## Herramientas IA 
@@ -50,4 +61,3 @@ SORT file.name ASC
 
 ---
 ## Contacto
-
