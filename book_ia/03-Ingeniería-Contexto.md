@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T03:53:17-06:00
-date_modified: 2025-10-27T00:19:27-06:00
 dg-path: 03-Ingeniería-Contexto.md
 ---
 

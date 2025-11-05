@@ -1,6 +1,6 @@
 {
-  "autoUpdate": true,
-  "autoAddTimestamps": true,
+  "autoUpdate": false,
+  "autoAddTimestamps": false,
   "createdPropertyName": "date_created",
   "modifiedPropertyName": "date_modified",
   "dateFormat": "YYYY-MM-DDTHH:mm:ssZ",

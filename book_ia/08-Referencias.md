@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T02:23:14-06:00
-date_modified: 2025-10-27T00:21:07-06:00
 dg-path: 08-Referencias.md
 ---
 
@@ -138,6 +136,10 @@ Litmaps. (2024). Litmaps: Literature mapping software for researchers. https://w
 ---
 
 ## M
+
+### (Maslej et al., 2025)
+
+Maslej, N., Fattorini, L., Perrault, R., Gil, Y., Parli, V., Kariuki, N., Capstick, E., Reuel, A., Brynjolfsson, E., Etchemendy, J., Ligett, K., Lyons, T., Manyika, J., Niebles, J. C., Shoham, Y., Wald, R., Walsh, T., Hamrah, A., Santarlasci, L., ... Oak, S. (2025). _The AI Index 2025 Annual Report_. AI Index Steering Committee, Institute for Human-Centered AI, Stanford University. https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
 
 ### (Mathis et al., 2024)
 

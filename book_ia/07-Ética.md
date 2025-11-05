@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T13:58:43-06:00
-date_modified: 2025-10-27T00:20:53-06:00
 dg-path: 07-Ética.md
 ---
 

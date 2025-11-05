@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T02:58:58-06:00
-date_modified: 2025-10-27T00:19:08-06:00
 dg-path: 02-Ingeniería-Prompts.md
 ---
 

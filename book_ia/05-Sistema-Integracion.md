@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T00:03:00-06:00
-date_modified: 2025-10-27T00:20:24-06:00
 dg-path: 05-Sistema-Integración.md
 ---
 
@@ -91,13 +89,13 @@ Antes de integrar IA avanzada, debemos construir una **base sólida** de gestió
 
 **Por qué Zotero y no otras opciones:**
 
-| Característica | Zotero | Mendeley | EndNote |
-|---|---|---|---|
-| **Open Source** | ✅ Sí | ❌ No | ❌ No |
-| **Gratuito** | ✅ Completo | ⚠️ Limitado | ❌ Pago |
-| **Plugins** | ✅ Extenso | ⚠️ Limitado | ⚠️ Limitado |
-| **Privacidad** | ✅ Total control | ⚠️ Elsevier | ⚠️ Clarivate |
-| **Integración Obsidian** | ✅ Excelente | ⚠️ Básica | ❌ Ninguna |
+| Característica           | Zotero          | Mendeley    | EndNote      |
+| ------------------------ | --------------- | ----------- | ------------ |
+| **Open Source**          | ✅ Sí            | ❌ No        | ❌ No         |
+| **Gratuito**             | ✅ Completo      | ⚠️ Limitado | ❌ Pago       |
+| **Plugins**              | ✅ Extenso       | ⚠️ Limitado | ⚠️ Limitado  |
+| **Privacidad**           | ✅ Total control | ⚠️ Elsevier | ⚠️ Clarivate |
+| **Integración Obsidian** | ✅ Excelente     | ⚠️ Básica   | ❌ Ninguna    |
 
 ### 5.2.2 Obsidian: El Grafo de Conocimiento Personal
 

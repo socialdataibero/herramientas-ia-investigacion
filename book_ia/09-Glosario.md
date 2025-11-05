@@ -1,7 +1,6 @@
 ---
 dg-publish: true
 dg-show-toc: true
-date_modified: 2025-10-27T00:23:05-06:00
 dg-path: 09-Glosario.md
 ---
 

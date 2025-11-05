@@ -1,20 +1,19 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T00:03:00-06:00
-date_modified: 2025-10-27T00:20:42-06:00
 dg-path: 06-Herramientas-Externas.md
 ---
 
-# Capítulo 6: Herramientas de IA para Análisis de Datos
-
-> [!abstract] Introducción al capítulo
-> El análisis de datos constituye el corazón de la investigación empírica moderna. Es el proceso mediante el cual los datos crudos se transforman en información, conocimiento y, en última instancia, en respuestas a nuestras preguntas de investigación. Con la explosión en el volumen de datos disponibles —tanto estructurados como no estructurados— las técnicas tradicionales a menudo se quedan cortas. La Inteligencia Artificial emerge como un poderoso aliado, ofreciendo herramientas capaces de procesar, interpretar y visualizar grandes conjuntos de datos de maneras que antes eran impensables.
+> [!warning] En construcción
+# Capítulo 6: Análisis cuantitativo y cualitativo asistido con IA
 
 ---
 
-## 6.1 La Revolución del Análisis de Datos con IA
+## 6.1 Análisis de datos asistido con IA
 
-Tradicionalmente, el análisis de datos ha requerido habilidades técnicas especializadas: dominio de lenguajes de programación como Python o R, conocimiento de estadística avanzada, y experiencia con herramientas complejas de visualización. Esta barrera de entrada ha limitado significativamente quiénes pueden realizar análisis sofisticados de datos.
+> [!abstract] Introducción
+> Tradicionalmente, el análisis de datos ha requerido habilidades técnicas especializadas: dominio de lenguajes de programación como Python o R, conocimiento de estadística avanzada, y experiencia con herramientas complejas de visualización. Esta barrera de entrada ha limitado significativamente quiénes pueden realizar análisis sofisticados de datos.
+> 
+> El análisis de datos constituye el corazón de la investigación empírica moderna. Es el proceso mediante el cual los datos crudos se transforman en información, conocimiento y, en última instancia, en respuestas a nuestras preguntas de investigación. Con la explosión en el volumen de datos disponibles —tanto estructurados como no estructurados— las técnicas tradicionales a menudo se quedan cortas. La Inteligencia Artificial emerge como un poderoso aliado, ofreciendo herramientas capaces de procesar, interpretar y visualizar grandes conjuntos de datos de maneras que antes eran impensables.
 
 ### 6.1.1 El Cambio de Paradigma
 

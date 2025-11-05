@@ -1,7 +1,5 @@
 ---
 dg-publish: true
-date_created: 2025-10-22T12:47:41-06:00
-date_modified: 2025-10-27T00:19:48-06:00
 dg-path: 04-Revisión-Literatura-IA.md
 ---
 # Capítulo 4: Herramientas de IA para la Revisión de Literatura Científica
