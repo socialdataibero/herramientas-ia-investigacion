@@ -3,32 +3,29 @@ dg-publish: true
 dg-path: 03-Ingeniería-Contexto.md
 ---
 
-# Capítulo 3: Ingeniería de Contexto - Arquitectura para la Inteligencia Artificial
+# Capítulo 3: Ingeniería de contexto
 
-> [!abstract] Introducción al capítulo
-> En este capítulo exploraremos la **[[09-Glosario#Ingeniería de Contexto|ingeniería de contexto]]**, una disciplina emergente que ha transformado la forma en que diseñamos e implementamos sistemas de IA. A diferencia de la ingeniería de prompts, que se enfoca en optimizar instrucciones individuales, la ingeniería de contexto nos invita a pensar en todo el ecosistema informativo que rodea al modelo. Aprenderemos cómo construir ese "mundo mental" en el que operan los LLMs para maximizar su efectividad en tareas de investigación académica.
+En este capítulo exploraremos la **_Ingeniería de Contexto_**, una disciplina emergente que ha transformado la forma en que diseñamos e implementamos sistemas de IA generativa. A diferencia de la _Ingeniería de Prompts_, que se enfoca en optimizar instrucciones individuales, la ingeniería de contexto nos invita a pensar en todo el ecosistema informativo que rodea al modelo. Aprenderemos cómo construir ese "mundo mental" en el que operan los modelos generativos para maximizar su efectividad en tareas de investigación académica.
 
----
+## 3.1 ¿Qué es la _Ingeniería de Contexto_?
 
-## 3.1 ¿Qué es la Ingeniería de Contexto?
+La _Ingeniería de Contexto_ es la disciplina que diseña, selecciona y gestiona deliberadamente la información que rodea a un modelo generativo durante su ejecución. En lugar de enfocarse solo en redactar un buen _Prompt_ (instrucción), la _Ingeniería de Contexto_ se ocupa de optimizar todo el entorno informativo que recibe el modelo, para guiar su comportamiento de forma eficaz [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
 
-La **ingeniería de contexto** es la disciplina que diseña, selecciona y gestiona deliberadamente la información que rodea a un modelo de lenguaje durante su ejecución. En lugar de enfocarse solo en redactar un buen prompt (instrucción), la ingeniería de contexto se ocupa de **optimizar todo el entorno informativo** que recibe el modelo, para guiar su comportamiento de forma eficaz [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
+> [!note] Definición formal
+> La _Ingeniería de Contexto_ es "el delicado arte y ciencia de llenar la ventana de contexto con la información justa y necesaria para el siguiente paso". No se limita al prompt inmediato, sino que abarca el diseño de todo el "mundo mental" en el que opera el modelo.
 
-> [!note] Definición Formal
-> La ingeniería de contexto es "_el delicado arte y ciencia de llenar la [[09-Glosario#Ventana de Contexto|ventana de contexto]] con la información justa y necesaria para el siguiente paso_". No se limita al prompt inmediato, sino que abarca el diseño de todo el "mundo mental" en el que opera el modelo.
+Dicho de otro modo, no se trata únicamente de qué le decimos a la IA, sino:
 
-Dicho de otro modo, no se trata únicamente de _qué_ le decimos a la IA, sino:
+- Qué datos le proporcionamos
+- Cómo se los presentamos
+- Cuándo se los entregamos
+- Bajo qué condiciones los procesa
 
-- **Qué datos** le proporcionamos
-- **Cómo** se los presentamos
-- **Cuándo** se los entregamos
-- Bajo **qué condiciones** los procesa
-
-Esta práctica trasciende el simple diseño de prompts y abarca la **orquestación sistemática del contenido** que entra en la ventana de [[09-Glosario#Contexto|contexto]] del modelo.
+Esta práctica trasciende el simple diseño de prompts y abarca la orquestación sistemática del contenido que entra en la ventana de contexto del modelo.
 
 ### La Analogía de Karpathy
 
-Andrej Karpathy, uno de los pioneros en el campo de la IA, resumió esta idea con una analogía reveladora: _"el LLM es la CPU y la ventana de contexto es la RAM"_. En otras palabras, la IA solo "recuerda" aquello que cargamos en su contexto en cada momento. Bajo esta analogía, la **ingeniería de contexto actuaría como el sistema operativo** que decide qué datos cargar en la memoria (contexto) y cuándo, asegurando que el modelo siempre tenga a mano la información necesaria para la tarea en cuestión.
+Andrej Karpathy, uno de los pioneros en el campo de la IA, resumió esta idea con una analogía reveladora: _"el LLM es la CPU y la ventana de contexto es la RAM"_. En otras palabras, la IA solo "recuerda" aquello que cargamos en su contexto en cada momento. Bajo esta analogía, la _ingeniería de contexto_ actuaría como el sistema operativo que decide qué datos cargar en la memoria (contexto) y cuándo, asegurando que el modelo siempre tenga a mano la información necesaria para la tarea en cuestión.
 
 ```mermaid
 graph TD
@@ -46,16 +43,14 @@ graph TD
     style B fill:#ffe1ff
 ```
 
-En términos simples, la ingeniería de contexto implica crear un **entorno informativo estructurado** para la IA. Esto abarca no solo el texto del prompt en sí, sino también condiciones, reglas, datos adicionales, definiciones de herramientas o funciones que puede usar, el rol que debe asumir, y cualquier otro detalle relevante para que el modelo **comprenda mejor la situación y produzca respuestas más pertinentes**.
-
----
+En términos simples, la ingeniería de contexto implica crear un entorno informativo estructurado para la IA generativa. Esto abarca no solo el texto del prompt en sí, sino también condiciones, reglas, datos adicionales, definiciones de herramientas o funciones que puede usar, el rol que debe asumir, y cualquier otro detalle relevante para que el modelo comprenda mejor la situación y produzca respuestas más pertinentes.
 
 ## 3.2 Ingeniería de Prompt vs Ingeniería de Contexto
 
-Es importante distinguir entre **ingeniería de prompt** e **ingeniería de contexto**, ya que ambas son complementarias pero operan a diferentes niveles.
+Es importante distinguir entre _ingeniería de prompt_ e _ingeniería de contexto_, ya que ambas son complementarias pero operan a diferentes niveles.
 ### Ingeniería de Prompt
 
-La **ingeniería de prompt** se enfoca en optimizar la redacción de una instrucción específica: elegir las palabras, el tono y la estructura de un prompt para inducir la mejor respuesta posible del modelo. Esto fue crucial en los primeros años de los LLM (2020–2021), donde se descubrió que reformulando cuidadosamente las peticiones (incluso proporcionando ejemplos en el prompt) se mejoraba notablemente el resultado.
+La _ingeniería de prompt_ (como vimos en el capítulo pasado) se enfoca en optimizar la redacción de una instrucción específica: elegir las palabras, el tono y la estructura de un prompt para inducir la mejor respuesta posible del modelo. Esto fue crucial en los primeros años de los modelos generativos como los LLM (2020–2021), donde se descubrió que reformulando cuidadosamente las peticiones (incluso proporcionando ejemplos en el prompt) se mejoraba notablemente el resultado.
 
 > [!tip] Características del Prompt Engineering
 > 
@@ -66,7 +61,7 @@ La **ingeniería de prompt** se enfoca en optimizar la redacción de una instruc
 
 ### Ingeniería de Contexto
 
-Por otro lado, la **ingeniería de contexto** abarca _todo lo que rodea al prompt_. No solo considera la instrucción en sí, sino también la **información adicional y el estado** que acompaña a esa instrucción. Incluye:
+Por otro lado, la _ingeniería de contexto_ abarca todo lo que rodea al prompt. No solo considera la instrucción en sí, sino también la información adicional y el estado que acompaña a esa instrucción. Incluye:
 
 - La historia previa de la conversación
 - Datos o documentos proporcionados al modelo
@@ -74,7 +69,7 @@ Por otro lado, la **ingeniería de contexto** abarca _todo lo que rodea al promp
 - Las preferencias del usuario
 - Resultados de herramientas externas consultadas
 
-Mientras el prompt es una sola pregunta o indicación, el contexto es **todo el paquete de información** que el modelo "lee" en su ventana de entrada antes de generar una respuesta.
+Mientras el _prompt_ es una sola pregunta o indicación, el contexto es todo el paquete de información que el modelo "lee" en su ventana de entrada antes de generar una respuesta.
 
 > [!example]- Comparación Práctica **Solo con Ingeniería de Prompt:**
 > 
@@ -106,50 +101,48 @@ flowchart LR
     style F fill:#e1ffe1
 ```
 
-La diferencia fundamental es de **alcance**: la ingeniería de prompt optimiza _qué_ le pedimos al modelo en un único turno, mientras que la ingeniería de contexto diseña _todo el flujo de información_ que alimenta al modelo a lo largo de una interacción.
+La diferencia fundamental es de alcance: la ingeniería de prompt optimiza _qué_ le pedimos al modelo en un único turno, mientras que la ingeniería de contexto diseña todo el flujo de información que alimenta al modelo a lo largo de una interacción.
 
 > [!important] Complementariedad 
 > **Ambas disciplinas siguen siendo necesarias**. Un prompt claro y bien formulado sigue siendo crucial, pero a medida que las aplicaciones con IA se vuelven más dinámicas y de múltiples pasos, confiar solo en un buen prompt es insuficiente. La ingeniería de contexto viene a llenar ese vacío, asegurando que el modelo tenga la información correcta en cada paso.
 
 Una analogía útil es que _"un prompt es una frase, pero un contexto es una experiencia completa y estructurada"_.
 
----
-
 ## 3.3 ¿Por qué es importante la Ingeniería de Contexto?
 
-La ingeniería de contexto ha cobrado protagonismo porque aborda varios **desafíos críticos** en el uso de modelos de lenguaje avanzados, especialmente relevantes para la investigación académica.
+La ingeniería de contexto ha cobrado protagonismo porque aborda varios desafíos críticos en el uso de modelos generativos avanzados, especialmente relevantes para la investigación académica.
 
 ### 3.3.1 Limitaciones de la Memoria del Modelo
 
-Los LLM como GPT, Claude o Llama **no tienen memoria permanente de la conversación**; solo consideran lo que cabe en su ventana de contexto en cada turno. Este es uno de los tres problemas fundamentales identificados en la literatura:
+Los modelos generativos (LLM) como GPT, Claude o Llama no tienen memoria permanente de la conversación; solo consideran lo que cabe en su ventana de contexto en cada turno. Este es uno de los tres problemas fundamentales identificados en la literatura:
 
 > [!warning] Tres Debilidades Críticas de los LLMs
 > 
-> 1. **Falta de Estado (Statelessness)**: Los LLM no "recuerdan" información entre interacciones
+> 1. **Falta de Estado (Statelessness)**: Los modelos generativos (LLM) no "recuerdan" información entre interacciones
 > 2. **Alucinaciones**: Pueden generar información incorrecta o inventada
 > 3. **Fragilidad (Brittleness)**: Los enfoques basados únicamente en prompts no escalan bien
 
-Si la conversación es larga o la tarea requiere muchos datos, el modelo puede "olvidar" información importante de los primeros turnos. Aunque ampliar la ventana de contexto ayuda (algunos modelos recientes aceptan 250k tokens o más), estudios han mostrado que **el rendimiento del modelo comienza a degradarse** cuando se le sobrecarga con demasiado contexto irrelevante, incluso antes de alcanzar el máximo teórico de la ventana.
+Si la conversación es larga o la tarea requiere muchos datos, el modelo puede "olvidar" información importante de los primeros turnos. Aunque ampliar la ventana de contexto ayuda (algunos modelos recientes aceptan 250k tokens o más), estudios han mostrado que el rendimiento del modelo comienza a degradarse cuando se le sobrecarga con demasiado contexto irrelevante, incluso antes de alcanzar el máximo teórico de la ventana.
 
-Por lo tanto, es vital **gestionar inteligentemente qué entra y qué no entra en ese espacio limitado**. La ingeniería de contexto se encarga de mantener solo lo más relevante y útil dentro de la ventana del modelo en cada momento, mitigando el riesgo de que "pierda el hilo" de la tarea.
+Por lo tanto, es vital gestionar inteligentemente qué entra y qué no entra en ese espacio limitado. La ingeniería de contexto se encarga de mantener solo lo más relevante y útil dentro de la ventana del modelo en cada momento, mitigando el riesgo de que "pierda el hilo" de la tarea.
 
-### 3.3.2 Calidad de las Respuestas y Reducción de Alucinaciones
+### 3.3.2 Calidad de las respuestas y reducción de Alucinaciones
 
-Un modelo de lenguaje, por muy avanzado que sea, puede dar respuestas mediocres o incorrectas si no se le proporciona el contexto adecuado. De hecho, muchos fallos en aplicaciones de IA _no_ se deben a falta de capacidad del modelo en sí, sino a que **no recibió los datos o instrucciones necesarios para tomar una buena decisión**.
+Un modelo generativo, por muy avanzado que sea, puede dar respuestas mediocres o incorrectas si no se le proporciona el contexto adecuado. De hecho, muchos fallos en aplicaciones de IA generativa no se deben a falta de capacidad del modelo en sí (aunque si puede haber sesgos y desalineaciones), sino a que no recibió los datos o instrucciones necesarios para tomar una buena decisión.
 
 > [!tip] El Poder del Contexto 
 > Un mismo modelo puede pasar de ofrecer una respuesta vaga a una respuesta precisa simplemente cambiando el contexto en el que se formula la pregunta.
 
-Proporcionar datos verídicos y relevantes (por ejemplo, pasajes de textos científicos en una pregunta técnica) ayuda a **[[09-Glosario#Grounding|anclar]]** (_grounding_) las respuestas del modelo en información real, reduciendo la probabilidad de invenciones o errores factuales. La **[[09-Glosario#RAG|Generación Aumentada por Recuperación]] (RAG)** es una de las técnicas clave para lograr este anclaje, como veremos más adelante.
+Proporcionar datos verídicos y relevantes (por ejemplo, pasajes de textos científicos en una pregunta técnica) ayuda a **anclar** (_grounding_) las respuestas del modelo en información real, reduciendo la probabilidad de alucinaciones, sesgos o desalineaciones. La Generación Aumentada por Recuperación (RAG) es una de las técnicas clave para lograr este anclaje, como veremos más adelante.
 
 **Ejemplo en investigación académica:**
 
-- _Sin contexto_: El modelo podría "imaginar" resultados inexistentes de un estudio
-- _Con contexto_: Al incorporar el texto del estudio en la ventana de contexto, el modelo citará y resumirá correctamente porque dicho estudio fue incluido en su contexto
+- _Sin contexto_: El modelo podría "inventar" resultados inexistentes de un estudio
+- _Con contexto_: Al incorporar el texto del estudio en la ventana de contexto, el modelo podría citar y resumir correctamente elementos del texto.
 
 ### 3.3.3 Tareas complejas y de múltiples pasos
 
-A medida que usamos IA para tareas más sofisticadas (investigación científica, resolución de problemas, toma de decisiones), crece la necesidad de que el modelo **razone sobre múltiples piezas de información** y mantenga coherencia a lo largo de varios pasos.
+A medida que usamos IA generativa para tareas más sofisticadas (investigación científica, resolución de problemas, toma de decisiones), crece la necesidad de que el modelo razone sobre múltiples piezas de información y mantenga coherencia a lo largo de varios pasos.
 
 La ingeniería de contexto permite estructurar ese flujo de información:
 
@@ -172,39 +165,39 @@ sequenceDiagram
     Note over S,M: El sistema mantiene coherencia<br/>actualizando el contexto
 ```
 
-Sin este enfoque, el modelo trataría cada pregunta de forma aislada y perdería la continuidad. Con un contexto diseñado adecuadamente, la IA **"recuerda" el progreso** y puede profundizar en siguientes pasos sin partir de cero en cada turno.
+Sin este enfoque, el modelo trataría cada pregunta de forma aislada y perdería la continuidad. Con un contexto diseñado adecuadamente, la IA generativa "recordaría el progreso” y puede profundizar en siguientes pasos sin partir de cero en cada turno.
 
 ### 3.3.4 Adaptabilidad y Personalización
 
-La ingeniería de contexto también permite que los modelos se **adapten al usuario o dominio específico** en cada situación, sin necesidad de re-entrenamiento.
+La _ingeniería de contexto_ también permite que los modelos se adapten al usuario o dominio específico en cada situación, sin necesidad de re-entrenamiento.
 
 > [!example]- Ejemplo: Especialización Dinámica 
-> Un mismo modelo base (GPT-4 o Claude) puede actuar como:
+> Un mismo modelo base (GPT-5 o Claude 4.5) puede actuar como:
 > 
 > - **Tutor de matemáticas**: Con contexto de fórmulas y ejemplos pedagógicos
 > - **Asesor jurídico**: Con contexto de leyes y casos relevantes
 > - **Asistente de investigación en biología molecular**: Con contexto de papers especializados y terminología técnica
 > 
-> Todo esto **sin reentrenar el modelo**, solo cambiando el contexto.
+> Todo esto sin reentrenar el modelo, solo cambiando el contexto.
 
-Este enfoque contextual hace posible personalizar la IA para diferentes usos al vuelo. En el ámbito de la investigación, eso significa que un modelo general puede volverse _especialista_ en cualquier área durante una conversación, siempre y cuando le entreguemos los papers, definiciones de términos técnicos y demás información de contexto que necesita para desenvolverse en ese campo.
+Este enfoque contextual hace posible personalizar la IA generativa para diferentes usos. En el ámbito de la investigación, eso significa que un modelo general puede volverse _especialista_ en cualquier área durante una conversación, siempre y cuando le entreguemos los papers, definiciones de términos técnicos y demás información de contexto que necesita para desenvolverse en ese campo.
 
-### El Nuevo Paradigma
+### 3.3.5 El nuevo paradigma
 
-Numerosos expertos señalan que el _cuello de botella_ en el rendimiento de la IA ya no está tanto en el tamaño del modelo, sino en la **calidad del contexto** con el que lo alimentamos. De hecho, se pronostica que la ingeniería de contexto será cada vez más importante; empresas como Gartner han llegado a sugerir que **la ingeniería de contexto _suplantará_ a la ingeniería de prompt** como la habilidad clave para desarrollar soluciones de IA exitosas en los próximos años [[08-Referencias#(IntuitionLabs, 2025)|(IntuitionLabs, 2025)]].
+Numerosos expertos señalan que el _cuello de botella_ en el rendimiento de la IA generativa ya no está tanto en el tamaño del modelo, sino en la calidad del contexto con el que lo alimentamos. De hecho, se pronostica que la _ingeniería de contexto_ será cada vez más importante; empresas como Gartner han llegado a sugerir que la _ingeniería de contexto_ suplantará a la _ingeniería de prompt_ como la habilidad clave para desarrollar soluciones de IA exitosas en los próximos años [[08-Referencias#(IntuitionLabs, 2025)|(IntuitionLabs, 2025)]].
 
 > [!quote] Reflexión Clave 
-> "El desempeño de un modelo de lenguaje está **fundamentalmente determinado por la información contextual** que se le proporciona durante la inferencia" [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
+> "El desempeño de un modelo de lenguaje estáfundamentalmente determinado por la información contextua que se le proporciona durante la inferencia" [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
 
-Para el académico o investigadora, entender esta importancia significa reconocer que para obtener lo mejor de las herramientas de IA, hay que dedicar esfuerzo no solo a pedir _qué_ queremos, sino a **preparar el contenido y las condiciones adecuadas** en las que hacemos la petición.
+Para el estudiante, docente o académico, entender esta importancia significa reconocer que para obtener lo mejor de las herramientas de IA generativa, hay que dedicar esfuerzo no solo a pedir _qué_ queremos, sino a preparar el contenido y las condiciones adecuadas en las que hacemos la petición.
 
 ---
 
 ## 3.4 La Anatomía de la Ventana de Contexto
 
-La ventana de contexto es una **carga útil cuidadosamente ensamblada** que puede incluir diversos componentes. Comprender su anatomía es fundamental para dominar la ingeniería de contexto.
+La ventana de contexto es una carga útil cuidadosamente ensamblada* que puede incluir diversos componentes. Comprender su anatomía es fundamental para dominar la _ingeniería de contexto_.
 
-### Componentes Principales
+### 3.4.1 Componentes Principales
 
 > [!info] Elementos de la Ventana de Contexto
 > 
@@ -240,9 +233,9 @@ graph TB
     style H fill:#e1ffe1
 ```
 
-### Optimización de la Ventana
+### 3.4.2 Optimización de la Ventana
 
-La ingeniería de contexto no solo se trata de _qué_ incluir, sino también de:
+La _ingeniería de contexto_ no solo se trata de _qué_ incluir, sino también de:
 
 - **Cuándo** incluir cada componente
 - **Cómo** estructurar la información para máxima claridad
@@ -250,17 +243,15 @@ La ingeniería de contexto no solo se trata de _qué_ incluir, sino también de:
 - **Qué** información descartar para evitar sobrecarga
 
 > [!warning] Sobrecarga de Contexto 
-> Incluir demasiada información irrelevante puede ser tan perjudicial como no incluir información suficiente. La clave está en la **relevancia** y la **estructuración** del contenido.
+> Incluir demasiada información irrelevante puede ser tan perjudicial como no incluir información suficiente. La clave está en la relevancia y la estructuración del contenido.
 
----
+## 3.5 Componentes de la Ingeniería de Contexto
 
-## 3.5 Componentes y Pilares de la Ingeniería de Contexto
-
-Diseñar el contexto ideal para un modelo requiere atender a varios **componentes fundamentales**. A continuación, se presentan los pilares o etapas clave en la construcción de un contexto eficaz [[08-Referencias#(Dhaliwal, 2025)|(Dhaliwal, 2025)]]:
+Diseñar el contexto ideal para un modelo requiere atender a varios componentes fundamentales. A continuación, se presentan los pilares o etapas clave en la construcción de un contexto eficaz [[08-Referencias#(Dhaliwal, 2025)|(Dhaliwal, 2025)]].
 
 ### 3.5.1 Construcción de Contexto (Context Construction)
 
-Este pilar se refiere a cómo **preparamos y estructuramos la información** antes de presentarla al modelo. Incluye:
+Este pilar se refiere a cómo preparamos y estructuramos la información antes de presentarla al modelo. Incluye:
 
 - **Recuperación de información relevante**: Identificar qué datos o documentos son pertinentes para la consulta actual
 - **Formato y estructuración**: Organizar la información de manera que el modelo la pueda procesar eficientemente
@@ -274,7 +265,7 @@ Este pilar se refiere a cómo **preparamos y estructuramos la información** ant
 
 ### 3.5.2 Compresión de Contexto (Context Compression)
 
-A medida que las conversaciones se extienden o se acumula información, la ventana de contexto puede llenarse rápidamente. La **compresión de contexto** busca reducir el tamaño del contexto sin perder información crítica.
+A medida que las conversaciones se extienden o se acumula información, la ventana de contexto puede llenarse rápidamente. La compresión de contexto busca reducir el tamaño del contexto sin perder información crítica.
 
 **Técnicas de compresión:**
 
@@ -300,7 +291,7 @@ flowchart LR
 
 ### 3.5.3 Gestión de Contexto (Context Management)
 
-La gestión de contexto implica **mantener, actualizar y organizar el contexto a lo largo del tiempo**, especialmente en conversaciones largas o sistemas multi-agente.
+La gestión de contexto implica mantener, actualizar y organizar el contexto a lo largo del tiempo, especialmente en conversaciones largas o sistemas multi-agente.
 
 **Aspectos clave:**
 
@@ -310,17 +301,17 @@ La gestión de contexto implica **mantener, actualizar y organizar el contexto a
 
 > [!info] Arquitecturas de Memoria
 > 
-> - **Memoria a Corto Plazo**: Se refiere al historial de la conversación actual. Su gestión es clave para evitar la "sobrecarga de contexto"
-> - **Memoria a Largo Plazo**: Información compartida _entre_ conversaciones, proporcionando al LLM un conocimiento persistente sobre un usuario o proyecto
+> - **Memoria a Corto Plazo**: Se refiere al historial de la conversación actual. Su gestión es clave para evitar la "sobrecarga de contexto".
+> - **Memoria a Largo Plazo**: Información compartida entre conversaciones, proporcionando al modelo generativo un conocimiento persistente sobre un usuario o proyecto.
 
-**Ejemplo práctico:** En una sesión de análisis de literatura que dura varios días:
+**Ejemplo práctico:** Una sesión de análisis de literatura que dura varios días:
 
 - _Memoria a corto plazo_: Los últimos 10 papers discutidos hoy
 - _Memoria a largo plazo_: El campo de investigación del usuario, su estilo de citación preferido, papers ya revisados en sesiones anteriores
 
 ### 3.5.4 Optimización de Contexto (Context Optimization)
 
-La optimización busca **mejorar continuamente la calidad y eficiencia del contexto** mediante la evaluación y refinamiento.
+La optimización busca mejorar continuamente la calidad y eficiencia del contexto mediante la evaluación y refinamiento.
 
 **Estrategias de optimización:**
 
@@ -340,10 +331,10 @@ La optimización busca **mejorar continuamente la calidad y eficiencia del conte
 
 ## 3.6 Generación Aumentada por Recuperación (RAG)
 
-La **Generación Aumentada por Recuperación** (RAG, por sus siglas en inglés) es uno de los patrones arquitectónicos más importantes en la ingeniería de contexto y constituye una solución directa al problema de las alucinaciones.
+La _Generación Aumentada por Recuperación_ (RAG, por sus siglas en inglés) es uno de los patrones arquitectónicos más importantes en la ingeniería de contexto y constituye una solución directa al problema de las alucinaciones.
 
 > [!note] Definición: RAG 
-> RAG es un patrón arquitectónico que obtiene datos de un sistema de recuperación de información (como una base de datos vectorial) y los proporciona a un LLM como contexto para **anclar** (_grounding_) y mejorar sus respuestas.
+> RAG es un patrón arquitectónico que obtiene datos de un sistema de recuperación de información (como una base de datos vectorial) y los proporciona a un LLM como contexto para anclar (_grounding_) y mejorar sus respuestas.
 
 ### 3.6.1 El Pipeline de RAG
 
@@ -368,19 +359,19 @@ flowchart TB
     style C fill:#e1ffe1
 ```
 
-**1. [[09-Glosario#Retrieval|Recuperación]] (Retrieval):**
+**1. Recuperación (Retrieval):**
 
 - Obtiene información relevante de una base de conocimiento externa
-- Utiliza [[09-Glosario#Búsqueda Semántica|búsqueda semántica]] para encontrar los documentos o fragmentos más pertinentes
+- Utiliza búsqueda semántica para encontrar los documentos o fragmentos más pertinentes
 - Puede incluir múltiples fuentes: bases de datos, documentos, papers académicos
 
-**2. [[09-Glosario#Aumentación|Aumentación]] (Augmentation):**
+**2. Aumentación (Augmentation):**
 
 - Mejora el prompt del usuario añadiendo la información recuperada como contexto
 - Estructura la información de manera que el modelo la pueda procesar efectivamente
 - Combina la consulta original con los datos recuperados
 
-**3. [[09-Glosario#Generación|Generación]] (Generation):**
+**3. Generación (Generation):**
 
 - El LLM genera una respuesta final utilizando su conocimiento interno combinado con el contexto aumentado
 - La respuesta está "anclada" en datos reales, reduciendo alucinaciones
@@ -411,7 +402,7 @@ Para implementar RAG exitosamente en investigación académica, debemos dominar 
 
 ### 3.7.1 Fragmentación de Documentos (Chunking)
 
-La **[[09-Glosario#Fragmentación|fragmentación]]** (_chunking_) es posiblemente **la decisión más crítica** en un sistema RAG. Una mala fragmentación destruye el significado y contextualización de la información.
+La **fragmentación** (_chunking_) es posiblemente la decisión más crítica en un sistema RAG. Una mala fragmentación destruye el significado y contextualización de la información.
 
 > [!warning] La Importancia del Chunking 
 > El chunking determina cómo se divide un documento largo en fragmentos más pequeños que pueden ser recuperados y proporcionados al modelo. Si los fragmentos son muy pequeños, pierden contexto; si son muy grandes, incluyen información irrelevante.
@@ -419,19 +410,19 @@ La **[[09-Glosario#Fragmentación|fragmentación]]** (_chunking_) es posiblement
 **Estrategias de fragmentación:**
 
 1. **Tamaño Fijo**
-    
     - Divide el texto en fragmentos de N tokens (ej. 512 tokens)
     - _Ventaja_: Simple de implementar
     - _Desventaja_: Puede cortar en medio de ideas importantes, ignorando estructura natural del texto
+
 2. **Fragmentación Recursiva**
-    
     - Respeta límites naturales como párrafos, secciones, capítulos
     - Intenta dividir primero por separadores más grandes (secciones), luego más pequeños (párrafos)
     - _Ventaja_: Mantiene coherencia semántica
     - _Desventaja_: Puede resultar en fragmentos de tamaños muy dispares
+
 3. **Fragmentación Semántica**
     
-    - Crea fragmentos basados en el **significado**, no en tamaño o estructura
+    - Crea fragmentos basados en el significado, no en tamaño o estructura
     - Agrupa oraciones que tratan el mismo tema
     - _Ventaja_: Supera a menudo a otras estrategias en calidad de recuperación
     - _Desventaja_: Más complejo computacionalmente
@@ -478,10 +469,10 @@ graph TB
 
 ### 3.7.2 Embeddings Vectoriales y Búsqueda Semántica
 
-Los **[[09-Glosario#Embeddings|embeddings]]** son la tecnología que hace posible la búsqueda semántica en sistemas RAG.
+Los **embeddings** son la tecnología que hace posible la búsqueda semántica en sistemas RAG.
 
 > [!info] ¿Qué son los Embeddings?
-> Los embeddings transforman fragmentos de texto en **vectores numéricos** (listas de números) que capturan su esencia semántica. Textos con significado similar tendrán vectores cercanos en el espacio matemático.
+> Los embeddings transforman fragmentos de texto en vectores numéricos (listas de números) que capturan su esencia semántica. Textos con significado similar tendrán vectores cercanos en el espacio matemático.
 
 **El proceso:**
 
@@ -520,7 +511,7 @@ flowchart LR
 
 ### 3.7.3 Bases de Datos Vectoriales
 
-Las **[[09-Glosario#Base de Datos Vectorial|bases de datos vectoriales]]** son sistemas especializados diseñados para almacenar y consultar vectores de embeddings de manera eficiente a escala.
+Las **bases de datos vectoriales** son sistemas especializados diseñados para almacenar y consultar vectores de embeddings de manera eficiente a escala.
 
 > [!tip] Bases de Datos Vectoriales Populares
 > 
@@ -565,7 +556,7 @@ sequenceDiagram
 
 ## 3.8 Ingeniería de Flujos de Trabajo
 
-La **ingeniería de flujos de trabajo** se centra en la secuencia de llamadas al LLM y pasos no-LLM necesarios para completar una tarea compleja. En lugar de un solo prompt masivo, la tarea se descompone en pasos enfocados, cada uno con su propia ventana de contexto optimizada.
+La _ingeniería de flujos de trabajo_ se centra en la secuencia de llamadas al modelo generativo (LLM ) y pasos no-LLM necesarios para completar una tarea compleja. En lugar de un solo prompt masivo, la tarea se descompone en pasos enfocados, cada uno con su propia ventana de contexto optimizada.
 
 > [!important] Principio Fundamental
 >  Las tareas complejas rara vez se resuelven bien con un solo prompt. La descomposición en pasos secuenciales, cada uno con su contexto optimizado, produce resultados superiores.
@@ -633,7 +624,7 @@ Comparemos dos enfoques:
 **Enfoque 1: Un Solo Prompt Masivo**
 
 ```markdown
-Aquí están 10 artículos completos (50,000 palabras total). 
+Aquí están 10 artículos completos (50,000 palabras en total). 
 Analízalos y escribe una revisión de literatura.
 ```
 
@@ -666,14 +657,12 @@ Analízalos y escribe una revisión de literatura.
 > - Tareas que involucran grandes cantidades de documentos
 > - Procesos que requieren diferentes "modos" del LLM (resumir, analizar, crear)
 
----
-
 ## 3.9 El Futuro: Hacia Sistemas Agénticos
 
-El campo de la ingeniería de contexto se está moviendo hacia **[[09-Glosario#Sistemas Agénticos|sistemas agénticos]]** que pueden gestionar dinámicamente su propio contexto de forma autónoma.
+El campo de la _ingeniería de contexto_ se está moviendo hacia **sistemas agénticos** que pueden gestionar dinámicamente su propio contexto de forma autónoma.
 
 > [!note] Definición:
-> Sistemas Agénticos Los sistemas agénticos son aplicaciones de IA que pueden **tomar decisiones independientes** sobre qué información recuperar, qué mantener en memoria, qué descartar, y cómo optimizar su "presupuesto de atención" en tiempo real.
+> Los sistemas agénticos son aplicaciones de IA generativa que pueden tomar decisiones independientes sobre qué información recuperar, qué mantener en memoria, qué descartar, y cómo optimizar su "presupuesto de atención" en tiempo real.
 
 ### 3.9.1 Características de los Sistemas Agénticos
 
@@ -733,8 +722,8 @@ Los sistemas agénticos implementan estrategias sofisticadas para optimizar su u
 - Balancean entre profundidad (detalle) y amplitud (cobertura)
 - Ajustan el balance según la fase de la tarea
 
-> [!important] La Ingeniería de Contexto es Fundamental 
-> La ingeniería de contexto es el **requisito fundamental** para que estos sistemas agénticos se mantengan coherentes y efectivos. Sin una gestión robusta del contexto, los agentes autónomos pierden el hilo, se contradicen, o repiten trabajo ya realizado.
+> [!important] La Ingeniería de contexto es fundamental 
+> La ingeniería de contexto es el requisito fundamental para que estos sistemas agénticos se mantengan coherentes y efectivos. Sin una gestión robusta del contexto, los agentes autónomos pierden el hilo, se contradicen, o repiten trabajo ya realizado.
 
 ### 3.9.3 Aplicaciones en Investigación Académica
 
@@ -776,11 +765,9 @@ Los sistemas agénticos prometen revolucionar la investigación académica:
 > 
 > Todo esto manteniendo **coherencia contextual** a lo largo de semanas o meses.
 
----
-
 ## 3.10 Mejores Prácticas en Ingeniería de Contexto
 
-Para cerrar este capítulo, presentamos un conjunto de **mejores prácticas** que todo investigador debe considerar al diseñar sistemas que utilicen ingeniería de contexto.
+Para cerrar este capítulo, presentamos un conjunto de mejores prácticas que todo estudiante, docente e investigador debe considerar al diseñar sistemas que utilicen ingeniería de contexto.
 
 ### 3.10.1 Principios Fundamentales
 
@@ -841,20 +828,20 @@ graph LR
 
 ---
 
-## 3.11 Conclusión del Capítulo
+## 3.11 Conclusión
 
-La **ingeniería de contexto** representa una evolución fundamental en cómo interactuamos con los modelos de lenguaje. Hemos transitado de simplemente formular buenas preguntas (ingeniería de prompts) a diseñar ecosistemas informativos completos que maximizan el potencial de la IA.
+La _ingeniería de contexto_ representa una evolución fundamental en cómo interactuamos con los modelos generativos. Hemos transitado de simplemente formular buenas preguntas (_ingeniería de prompts_) a diseñar ecosistemas informativos completos que maximizan el potencial de la IA generativa.
 
 > [!success] Puntos Clave del Capítulo
 > 
-> - La ingeniería de contexto **supera las limitaciones** inherentes de los LLMs: falta de estado, alucinaciones, y fragilidad
+> - La ingeniería de contexto supera las limitaciones inherentes de los modelos generativos: falta de estado, alucinaciones, sesgos. 
 > - **RAG** (Generación Aumentada por Recuperación) es fundamental para anclar respuestas en datos verificables
-> - La **fragmentación** (chunking) y los **embeddings vectoriales** son tecnologías clave para sistemas RAG efectivos
+> - La **fragmentación** (chunking) y los embeddings vectoriales son tecnologías clave para sistemas RAG efectivos
 > - Los **flujos de trabajo estructurados** producen mejores resultados que prompts masivos únicos
-> - Los **sistemas agénticos** representan el futuro: IA que gestiona su propio contexto de forma autónoma
-> - La calidad del contexto es ahora **más importante** que el tamaño del modelo
+> - Los **sistemas agénticos** representan el futuro: IA que gestiona su propio contexto de forma autónoma. Sin embargo, hay debates acalorados sobre dejar que la IA decida por ti.
+> - La calidad del contexto es ahora más importante que el tamaño del modelo
 
-Para el investigador académico, dominar la ingeniería de contexto significa:
+Para el estudiantes, docente e investigador, dominar la ingeniería de contexto significa:
 
 - Obtener respuestas más precisas y verificables de herramientas de IA
 - Reducir significativamente las alucinaciones
@@ -865,6 +852,4 @@ Para el investigador académico, dominar la ingeniería de contexto significa:
 > [!quote] Reflexión Final 
 > "La ingeniería de prompts es _lo que se hace dentro_ de la ventana de contexto, mientras que la ingeniería de contexto es _cómo se decide qué llena_ esa ventana".
 
-En el próximo capítulo, exploraremos cómo aplicar estos principios de ingeniería de contexto específicamente a la **revisión de literatura con IA**, una de las tareas más demandantes y valiosas en la investigación académica.
-
----
+En el próximo capítulo, exploraremos cómo aplicar estos principios de ingeniería de contexto específicamente a la revisión de literatura con IA, una de las tareas más demandantes y valiosas en la investigación académica.

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4ec50750d7c4ef0a",
+        "id": "8d3f471c7d77d3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "6fae4d29aefb1ceb",
+            "id": "5eb99864a173d290",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book_ia/00-¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
+                "file": "book_ia/04-Revisión-Literatura-IA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-¡Hola! Has llegado a Herramientas de IA para la Investigación Académica"
-            }
-          },
-          {
-            "id": "9751d35128c0cf9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "book_ia/01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #)"
+              "title": "04-Revisión-Literatura-IA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 287.5
   },
   "right": {
     "id": "b9c761f3571d2503",
@@ -184,34 +169,36 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "9751d35128c0cf9b",
+  "active": "5eb99864a173d290",
   "lastOpenFiles": [
-    "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
-    "book_ia/05-Sistema-Integracion.md",
-    "book_ia/04-Revisión-Literatura-IA.md",
     "book_ia/03-Ingeniería-Contexto.md",
     "book_ia/02-Ingeniería-Prompts.md",
-    "book_ia/01-Fundamentos-IA-Generativa (# Edit conflict 2025-11-05 zNI0md4 #).md",
     "book_ia/01-Fundamentos-IA-Generativa.md",
     "book_ia/00-Prefacio.md",
     "book_ia/00-Herramientas de IA para la Investigación Académica.md",
-    "book_ia/00-¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
-    "book_ia/¡Hola! Has llegado a Herramientas de IA para la Investigación Académica.md",
-    "LICENSE.md",
+    "book_ia/04-Revisión-Literatura-IA.md",
     "README.md",
-    "book_ia/09-Glosario.md",
-    "book_ia/08-Referencias.md",
     "book_ia/07-Ética.md",
-    "tutoriales_herramientas/litmaps.md",
-    "Untitled.md",
-    "book_ia/00-Bienvenidos a Herramientas de IA para la Investigación Académica.md",
-    "book_ia/00- Bienvenido a Herremientas de IA para la Investigación Académica.md",
-    "book_ia/Untitled.md",
-    "book_ia/00-Introducción.md",
-    "tutoriales_herramientas/elicit.md",
-    "tutoriales_herramientas/consensus.md",
-    "ARMANDO/Untitled.md",
-    "tutoriales_herramientas/notebooklm.md",
+    "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
+    "book_ia/05-Sistema-Integracion.md",
+    "book_ia/09-Glosario.md",
+    "().md",
+    "book_ia/08-Referencias.md",
+    "Archivo/07-Ética.md",
+    "Pre.md",
+    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 5vltv0C #) (# Name clash 2025-11-06 exozavC #).md",
+    "book_ia/03-Ingeniería-Contexto (# Edit conflict 2025-11-06 2p32fgC #).md",
+    "book_ia/02-Ingeniería-Prompts (# Edit conflict 2025-11-06 frhblfC #).md",
+    "book_ia/00-Prefacio (# Name clash 2025-11-06 e2ig45C #).md",
+    "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 zh1areC #).md",
+    "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 ybwpbfC #).md",
+    "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 xrmzimC #) (# Name clash 2025-11-06 lbyi67C #).md",
+    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 xb52cdC #).md",
+    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 rug1c1C #).md",
+    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 orl4lmC #) (# Name clash 2025-11-06 4p4eyyC #).md",
+    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 k108v8C #).md",
+    "recursos/imagenes_portada/Portada.jpg",
+    "herrameintas 1.jpg",
     "ARMANDO/Untitled",
     "Pasted image 20251031223121.png",
     "Pasted image 20251028094128.png",
@@ -229,8 +216,6 @@
     "07-Ética.md.tmp.19944.1761186366605",
     "recursos/imagenes_portada/Gemini_Generated_Image_byudq9byudq9byud.png",
     "recursos/logos/SocialData_blanco.svg",
-    "Pasted image 20251022024342.png",
-    "recursos/logos/EducaIA.svg",
-    "recursos/logos/SocialData.svg"
+    "Pasted image 20251022024342.png"
   ]
 }

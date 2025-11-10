@@ -208,3 +208,7 @@ Zhang, Y., Wang, D., & Evans, J. A. (2023). Augmenting scientific creativity wit
 ### (Zia, 2025)
 
 Zia, T. (2025, 19 de junio). _Los límites de memoria de los LLM: cuando la IA recuerda demasiado_. Unite.AI. Recuperado de [https://www.unite.ai/es/llms-memory-limits-when-ai-remembers-too-much/](https://www.unite.ai/es/llms-memory-limits-when-ai-remembers-too-much/)
+
+---
+
+**🧭 Navegación:** [[07-Ética|⬅️ Capítulo 7]] | [[00-Herramientas de IA para la Investigación Académica|🏠 Volver al Inicio]]

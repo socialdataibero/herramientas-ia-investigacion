@@ -1,25 +1,25 @@
 ---
 dg-publish: true
+date_created: 2025-10-22T12:47:41-06:00
+date_modified: 2025-10-27T00:19:48-06:00
 dg-path: 04-Revisión-Literatura-IA.md
 ---
-# Capítulo 4: Herramientas de IA para la Revisión de Literatura Científica
----
 
-La revisión de la literatura científica ha sido históricamente uno de los procesos más demandantes en la investigación académica. Identificar artículos relevantes, sintetizar hallazgos clave y mantener el ritmo con las publicaciones emergentes requiere dedicación considerable [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Sin embargo, la Inteligencia Artificial está transformando radicalmente este panorama, introduciendo herramientas que no solo aceleran el proceso, sino que amplían nuestra capacidad de descubrir conexiones y patrones en la literatura científica.
+# Capítulo 4: Herramientas de IA para la revisión de literatura
 
-En este capítulo, exploraremos cuatro herramientas fundamentales que, utilizadas en conjunto, crean un ecosistema completo para la revisión de literatura: **[[09-Glosario#Litmaps|Litmaps]]** para la visualización y descubrimiento del panorama investigativo, **[[09-Glosario#Consensus|Consensus]]** para la [[09-Glosario#Búsqueda Semántica|búsqueda semántica]] y síntesis de evidencia, **[[09-Glosario#Elicit|Elicit]]** para la extracción sistemática de datos, y **[[09-Glosario#NotebookLM|NotebookLM]]** para el análisis profundo de tus propios documentos. Cada una representa una etapa diferente del proceso investigativo, y su integración estratégica puede revolucionar tu flujo de trabajo académico.
+La revisión de la literatura ha sido históricamente uno de los procesos más demandantes en la investigación académica. Identificar artículos relevantes, sintetizar hallazgos clave y mantener el ritmo con las publicaciones emergentes requiere dedicación considerable [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Sin embargo, la IA generativa está transformando radicalmente este panorama, introduciendo herramientas que no solo aceleran el proceso, sino que amplían nuestra capacidad de descubrir conexiones y patrones en la literatura científica.
 
----
+En este capítulo, exploraremos cuatro herramientas fundamentales que, utilizadas en conjunto, crean un ecosistema completo para la revisión de literatura: **Litmaps** para la visualización y descubrimiento del panorama investigativo, **Consensus** para la búsqueda semántica y síntesis de evidencia, **Elicit** para la extracción sistemática de datos, y **NotebookLM** para el análisis profundo de tus propios documentos. Cada una representa una etapa diferente del proceso investigativo, y su integración estratégica puede revolucionar tu flujo de trabajo académico.
 
-## Visualización y Descubrimiento: **Litmaps**
+## 4.1 Visualización y descubrimiento: **Litmaps**
 
-Uno de los mayores desafíos al iniciar una revisión de literatura es comprender el panorama general del campo de estudio. ¿Cuáles son los trabajos seminales? ¿Qué líneas de investigación están emergiendo? ¿Existen artículos clave que no hemos identificado? **Litmaps** aborda estas preguntas mediante la visualización interactiva de [[09-Glosario#Red de Citación|redes de citación]].
+Uno de los mayores desafíos al iniciar una revisión de literatura es comprender el panorama general del campo de estudio. ¿Cuáles son los trabajos seminales? ¿Qué líneas de investigación están emergiendo? ¿Existen artículos clave que no hemos identificado? **Litmaps** aborda estas preguntas mediante la visualización interactiva de redes de citación.
 
 > [!info] ¿Qué es Litmaps?
 > 
 > Litmaps es una plataforma de visualización de literatura científica que transforma las relaciones de citación entre artículos en mapas interactivos. Su propósito es ayudar a los investigadores a "descubrir artículos que no sabían que necesitaban conocer" mediante la exploración visual de conexiones académicas [[08-Referencias#(Litmaps, 2024)|(Litmaps, 2024)]].
 
-### Fundamentos del Mapeo de Citas
+### 4.1.1 Fundamentos del Mapeo de Citas
 
 La red de citación académica es un grafo complejo donde cada artículo representa un nodo, y las referencias y citaciones forman las aristas que los conectan [[08-Referencias#(Chen, 2006)|(Chen, 2006)]]. Litmaps aprovecha esta estructura para revelar patrones que serían imposibles de detectar mediante búsquedas tradicionales.
 
@@ -45,7 +45,7 @@ graph TB
     style SEED fill:#4a90e2,stroke:#2171c9,stroke-width:3px
 ```
 
-### Flujo de Trabajo en Litmaps
+### 4.1.2 Flujo de Trabajo en Litmaps
 
 El proceso de descubrimiento en Litmaps sigue un enfoque iterativo y expansivo:
 
@@ -55,7 +55,7 @@ Comienza ingresando términos relacionados con tu tema de investigación o el DO
 
 **2. Selección de Artículos Semilla**
 
-Identifica entre 3 y 5 artículos fundamentales para tu investigación. Estos [[09-Glosario#Seed Papers|artículos semilla]] actúan como puntos de anclaje desde los cuales se expandirá tu mapa. Es recomendable seleccionar artículos con un número significativo de citas, ya que esto indica su influencia en el campo.
+Identifica entre 3 y 5 artículos fundamentales para tu investigación. Estos artículos semilla actúan como puntos de anclaje desde los cuales se expandirá tu mapa. Es recomendable seleccionar artículos con un número significativo de citas, ya que esto indica su influencia en el campo.
 
 **3. Generación del Mapa**
 
@@ -80,7 +80,7 @@ A medida que exploras el mapa, puedes:
 > 
 > Además, los filtros avanzados permiten segmentar por H-Index, cuartil SJR y año de publicación para enfocarte en trabajos de alto impacto.
 
-### Aplicación Práctica: Caso de Uso
+### 4.1.3 Aplicación práctica: Caso de uso
 
 Imagina que investigas sobre "aprendizaje automático aplicado a diagnóstico médico". Comenzarías seleccionando 3-4 artículos seminales como semillas. Litmaps generaría un mapa mostrando:
 
@@ -91,17 +91,15 @@ Imagina que investigas sobre "aprendizaje automático aplicado a diagnóstico m�
 
 Este panorama visual te permite identificar no solo qué leer, sino también comprender la evolución temporal del campo y detectar brechas de investigación.
 
----
-
-## Búsqueda Semántica y Síntesis: Consensus
+## 4.2 Búsqueda semántica y síntesis: Consensus
 
 Una vez que comprendes el panorama de tu campo, el siguiente paso es obtener respuestas precisas a preguntas específicas. Aquí es donde **Consensus** brilla, transformando la búsqueda de literatura de un proceso de exploración a uno de respuesta directa.
 
 > [!info] ¿Qué es Consensus?
 >
-> Consensus es un motor de búsqueda académico potenciado por Modelos de Lenguaje Grandes ([[09-Glosario#LLM|LLMs]]) que analiza más de 200 millones de artículos científicos para extraer y sintetizar respuestas directas a preguntas de investigación [[08-Referencias#(Consensus, 2024)|(Consensus, 2024)]]. A diferencia de los buscadores tradicionales que simplemente listan resultados, Consensus interpreta el contenido de los artículos y presenta el consenso científico sobre un tema.
+> Consensus es un motor de búsqueda académico potenciado por modelos generativos que analiza más de 200 millones de artículos científicos para extraer y sintetizar respuestas directas a preguntas de investigación [[08-Referencias#(Consensus, 2024)|(Consensus, 2024)]]. A diferencia de los buscadores tradicionales que simplemente listan resultados, Consensus interpreta el contenido de los artículos y presenta el consenso científico sobre un tema.
 
-### Arquitectura de Búsqueda
+### 4.2.1 Arquitectura de búsqueda
 
 Consensus combina tres tecnologías clave para proporcionar respuestas precisas:
 
@@ -120,7 +118,7 @@ flowchart LR
     style H fill:#d4edda
 ```
 
-### Tipos de Búsqueda Efectiva
+### 4.2.2 Tipos de búsqueda efectiva
 
 La clave para maximizar el valor de Consensus es formular preguntas en lenguaje natural, como si consultaras a un experto en el campo:
 
@@ -149,9 +147,9 @@ La clave para maximizar el valor de Consensus es formular preguntas en lenguaje 
 > - Las limitaciones metodológicas
 > - El nivel de acuerdo entre investigadores
 > 
-> Finalmente presentaría un **[[09-Glosario#Consensus Meter|Consensus Meter]]** indicando si la mayoría de estudios respaldan la hipótesis, junto con un resumen narrativo de los hallazgos clave.
+> Finalmente presentaría un **Consensus Meter** indicando si la mayoría de estudios respaldan la hipótesis, junto con un resumen narrativo de los hallazgos clave.
 
-### El Consensus Meter: Interpretando el Acuerdo Científico
+### 4.2.3 El Consensus Meter: Interpretando el acuerdo científico
 
 Una característica distintiva de Consensus es su indicador visual del nivel de acuerdo en la literatura. Este medidor analiza los resultados de múltiples estudios y muestra:
 
@@ -165,23 +163,23 @@ Una característica distintiva de Consensus es su indicador visual del nivel de 
 > Si bien Consensus es una herramienta poderosa, es esencial mantener el pensamiento crítico:
 > 
 > - El consenso científico puede cambiar con nuevas evidencias
-> - Los [[09-Glosario#LLM|LLMs]] pueden ocasionalmente malinterpretar matices metodológicos
+> - Los modelos generativos pueden ocasionalmente malinterpretar matices metodológicos
 > - Siempre verifica los artículos originales para decisiones cruciales
 > - El consenso no equivale a verdad absoluta, especialmente en campos emergentes
 
 ---
 
-## Extracción Sistemática de Datos: Elicit
+## 4.3 Extracción sistemática de datos: Elicit
 
-Cuando la revisión de literatura requiere un enfoque más estructurado y cuantitativo, **Elicit** ofrece capacidades de extracción de datos que van mucho más allá de la simple lectura de artículos.
+Cuando la revisión de literatura requiere un enfoque más estructurado y cuantitativo, _Elicit_ ofrece capacidades de extracción de datos que van mucho más allá de la simple lectura de artículos.
 
 > [!info] ¿Qué es Elicit?
 > 
-> Elicit es un asistente de investigación basado en IA que automatiza el proceso de revisión sistemática de literatura [[08-Referencias#(Elicit, 2024)|(Elicit, 2024)]]. A diferencia de herramientas de búsqueda tradicionales, Elicit no solo encuentra artículos relevantes, sino que extrae datos específicos de cada uno, organizándolos en tablas personalizables para análisis comparativo. Con acceso a más de 125 millones de artículos académicos, es especialmente potente para investigaciones empíricas en biomedicina, ciencias sociales y machine learning [[08-Referencias#(Nikolaev, 2024)|(Nikolaev, 2024)]].
+> Elicit es un asistente de investigación basado en IA generativa que automatiza el proceso de revisión sistemática de literatura [[08-Referencias#(Elicit, 2024)|(Elicit, 2024)]]. A diferencia de herramientas de búsqueda tradicionales, Elicit no solo encuentra artículos relevantes, sino que extrae datos específicos de cada uno, organizándolos en tablas personalizables para análisis comparativo. Con acceso a más de 125 millones de artículos académicos, es especialmente potente para investigaciones empíricas en biomedicina, ciencias sociales y machine learning [[08-Referencias#(Nikolaev, 2024)|(Nikolaev, 2024)]].
 
-### Capacidades de Búsqueda Semántica
+### 4.3.1 Capacidades de búsqueda semántica
 
-Elicit utiliza [[09-Glosario#Búsqueda Semántica|búsqueda semántica]] en lugar de coincidencia exacta de palabras clave. Esto significa que comprende el significado conceptual de tu pregunta, no solo los términos literales [[08-Referencias#(Academia Insider, 2024)|(Academia Insider, 2024)]]. Por ejemplo:
+Elicit utiliza búsqueda semántica en lugar de coincidencia exacta de palabras clave. Esto significa que comprende el significado conceptual de tu pregunta, no solo los términos literales [[08-Referencias#(Academia Insider, 2024)|(Academia Insider, 2024)]]. Por ejemplo:
 
 - **Búsqueda tradicional**: "diabetes treatment efficacy"
 - **Búsqueda semántica en Elicit**: _¿Qué intervenciones son más efectivas para controlar la glucosa en pacientes con diabetes tipo 2?_
@@ -206,11 +204,11 @@ flowchart TD
     style I fill:#d4edda
 ```
 
-**1. Iniciar Búsqueda**
+**1. Iniciar búsqueda**
 
 Accede a `elicit.org` y crea tu cuenta. Comienza con la función "Find Papers" e ingresa tu pregunta de investigación en lenguaje natural.
 
-**2. Revisión de Resultados Iniciales**
+**2. Revisión de resultados iniciales**
 
 Elicit presenta los 8 artículos más relevantes con:
 
@@ -218,7 +216,7 @@ Elicit presenta los 8 artículos más relevantes con:
 - **Puntuación de relevancia** basada en similitud semántica
 - **Metadatos** como año, autores, revista y número de citas
 
-**3. Aplicar Filtros**
+**3. Aplicar filtros**
 
 Refina los resultados usando filtros de:
 
@@ -227,7 +225,7 @@ Refina los resultados usando filtros de:
 - **Conteo de citas** (para enfocarte en trabajos influyentes)
 - **Fuente de acceso** (open access vs. paywall)
 
-**4. Extracción de Datos Personalizada**
+**4. Extracción de datos personalizada**
 
 Esta es la característica distintiva de Elicit. Puedes crear columnas personalizadas para extraer información específica de cada artículo:
 
@@ -248,20 +246,20 @@ Esta es la característica distintiva de Elicit. Puedes crear columnas personali
 > 
 > Elicit extrae automáticamente esta información de los abstracts y, en planes Pro, del texto completo de los artículos.
 
-**5. Validación con Citas**
+**5. Validación con citas**
 
 Para cada dato extraído, Elicit proporciona la cita textual del artículo original, permitiéndote verificar la precisión de la extracción [[08-Referencias#(BMC Medical Research, 2025)|(BMC Medical Research, 2025)]]. Esta transparencia es crucial para mantener el rigor académico.
 
-**6. Organización y Exportación**
+**6. Organización y exportación**
 
 - **Marcar con estrella** los papers más relevantes para revisión posterior
 - **Exportar datos** en formato CSV para análisis estadístico
 - **Exportar referencias** en formato BibTeX para gestores como Zotero
 - **Integración directa** con Zotero para sincronización automática
 
-### Limitaciones y Consideraciones
+### 4.3.2 Limitaciones y consideraciones
 
-> [!warning] Aspectos a Tener en Cuenta
+> [!warning] Aspectos a tener en cuenta
 > 
 > Si bien Elicit es una herramienta poderosa, presenta limitaciones importantes:
 > 
@@ -271,33 +269,37 @@ Para cada dato extraído, Elicit proporciona la cita textual del artículo origi
 > - **Verificación necesaria**: La extracción automatizada requiere validación humana, especialmente para decisiones críticas
 > - **Enfoque empírico**: Funciona mejor con investigación cuantitativa que con estudios teóricos o cualitativos
 
-### Casos de Uso Óptimos
+### 4.3.3 Casos de uso óptimos
 
 Elicit es particularmente efectivo para:
 
-✓ **Revisiones sistemáticas** que requieren extracción de datos estructurados ✓ **Metaanálisis** donde necesitas compilar estadísticas de múltiples estudios ✓ **Análisis de tendencias** investigativas a lo largo del tiempo ✓ **Identificación de brechas** metodológicas en la literatura ✓ **Screening inicial** de grandes volúmenes de literatura
+- **Revisiones sistemáticas** que requieren extracción de datos estructurados 
+- **Metaanálisis** donde necesitas compilar estadísticas de múltiples estudios 
+- **Análisis de tendencias** investigativas a lo largo del tiempo 
+- **Identificación de brechas** metodológicas en la literatura 
+- **Screening inicial** de grandes volúmenes de literatura
 
 ---
 
-## Asistencia Personalizada con tus Documentos: NotebookLM
+## 4.4 Asistencia personalizada con tus documentos: NotebookLM
 
-Las herramientas anteriores trabajan con bases de datos externas masivas. Pero ¿qué sucede cuando necesitas analizar profundamente tu propia colección de documentos? Aquí es donde **NotebookLM** se convierte en tu asistente de investigación personal.
+Las herramientas anteriores trabajan con bases de datos externas masivas. Pero ¿qué sucede cuando necesitas analizar profundamente tu propia colección de documentos? Aquí es donde _NotebookLM_ se convierte en tu asistente de investigación personal.
 
 > [!info] ¿Qué es NotebookLM?
 > 
-> NotebookLM es una plataforma de IA de Google diseñada para funcionar exclusivamente con las fuentes que tú proporcionas [[08-Referencias#(Google, 2024)|(Google, 2024)]]. A diferencia de ChatGPT o Claude que tienen conocimiento general, NotebookLM no sabe nada excepto lo que está en tus documentos. Esto lo convierte en un asistente confiable que nunca "alucina" información externa a tus fuentes.
+> _NotebookLM_ es una sistema de IA generativa de Google, diseñada para funcionar exclusivamente con las fuentes que tú proporcionas [[08-Referencias#(Google, 2024)|(Google, 2024)]]. A diferencia de ChatGPT o Claude que tienen conocimiento general, NotebookLM no sabe nada excepto lo que está en tus documentos. Esto lo convierte en un asistente confiable que nunca "alucina" información externa a tus fuentes.
 
-### Filosofía de Diseño: Tu Conocimiento, Tu Asistente
+### 4.4.1 Filosofía de diseño: Tu conocimiento, tu asistente
 
-La propuesta de valor de NotebookLM radica en su enfoque de _"source-grounded AI"_ (IA fundamentada en fuentes, o [[09-Glosario#Grounding|grounding]]). Cada respuesta que genera está directamente vinculada a fragmentos específicos de tus documentos, lo que permite:
+La propuesta de valor de NotebookLM radica en su enfoque de _"source-grounded AI"_ (IA fundamentada en fuentes, o grounding). Cada respuesta que genera está directamente vinculada a fragmentos específicos de tus documentos, lo que permite:
 
 - **Verificación inmediata** de la procedencia de cada afirmación
-- **Cero alucinaciones** sobre contenido que no existe en tus fuentes
+- **Reducción de alucinaciones** sobre contenido que no existe en tus fuentes
 - **Análisis confiable** para trabajos académicos donde la precisión es crucial
 
-### Estructura de Trabajo: Cuadernos y Fuentes
+### 4.4.2 Estructura de trabajo: Cuadernos y fuentes
 
-NotebookLM organiza tu investigación en **cuadernos** (_notebooks_), cada uno pudiendo contener hasta 50 fuentes de diversos tipos:
+NotebookLM organiza tu investigación en _cuadernos_ (_notebooks_), cada uno pudiendo contener hasta 50 fuentes de diversos tipos:
 
 - **PDFs**: Artículos académicos, libros, reportes
 - **Google Docs**: Notas de investigación, borradores
@@ -327,7 +329,7 @@ graph TB
 
 ### Funcionalidades Principales
 
-**1. Preguntas y Respuestas Contextualizadas**
+**1. Preguntas y respuestas contextualizadas**
 
 Puedes interrogar a tus documentos de manera natural:
 
@@ -335,9 +337,9 @@ Puedes interrogar a tus documentos de manera natural:
 - _"¿Qué autores coinciden en la definición de resiliencia organizacional?"_
 - _"Compara los hallazgos del estudio A y el estudio B sobre X variable"_
 
-Cada respuesta incluye **citas inline** que vinculan directamente al fragmento específico del documento fuente.
+Cada respuesta incluye _citas inline_ que vinculan directamente al fragmento específico del documento fuente.
 
-**2. Generación de Resúmenes Estructurados**
+**2. Generación de resúmenes estructurados**
 
 NotebookLM puede crear diferentes tipos de síntesis:
 
@@ -349,7 +351,7 @@ NotebookLM puede crear diferentes tipos de síntesis:
 > - **Cronograma**: Línea temporal de eventos mencionados en los documentos
 > - **Briefing Document**: Resumen ejecutivo al estilo periodístico
 
-**3. Mapas Mentales y Visualizaciones**
+**3. Mapas mentales y visualizaciones**
 
 La función de generación de notas puede crear esquemas visuales de las relaciones conceptuales presentes en tus fuentes, útiles para:
 
@@ -357,7 +359,7 @@ La función de generación de notas puede crear esquemas visuales de las relacio
 - Preparar presentaciones
 - Estructurar capítulos de tesis
 
-**4. Podcasts Conversacionales (Audio Overviews)**
+**4. Podcasts conversacionales (Audio Overviews)**
 
 Una de las características más innovadoras es la capacidad de generar un "podcast" donde dos voces de IA discuten el contenido de tus fuentes en un formato conversacional de 5-10 minutos. Esto es útil para:
 
@@ -365,7 +367,7 @@ Una de las características más innovadoras es la capacidad de generar un "podc
 - Obtener una perspectiva diferente sobre tu investigación
 - Compartir resúmenes accesibles con colaboradores no especializados
 
-**5. Función Descubrir (Discover)**
+**5. Función descubrir (Discover)**
 
 NotebookLM puede sugerir fuentes externas adicionales basándose en el contenido de tu cuaderno. Esta función combina tu corpus local con búsqueda en la web para identificar:
 
@@ -373,7 +375,7 @@ NotebookLM puede sugerir fuentes externas adicionales basándose en el contenido
 - Autores clave en el campo
 - Conceptos emergentes conectados a tu investigación
 
-### Flujo de Trabajo Integrado
+### 4.4.3 Flujo de Trabajo Integrado
 
 ```mermaid
 flowchart LR
@@ -391,8 +393,7 @@ flowchart LR
     style B fill:#fbbc04
     style J fill:#34a853
 ```
-
-### Caso de Uso: Preparación de Marco Teórico
+### Caso de uso: Preparación de marco teórico
 
 Imagina que estás escribiendo el marco teórico de tu tesis sobre "adopción de tecnología educativa". Podrías:
 
@@ -405,15 +406,13 @@ Imagina que estás escribiendo el marco teórico de tu tesis sobre "adopción de
 
 > [!note] Privacidad de Datos
 > 
-> Tus fuentes en NotebookLM son privadas por defecto. Google usa el contenido para generar respuestas, pero no para entrenar sus modelos de IA. Sin embargo, siempre verifica las políticas de privacidad antes de subir datos sensibles o confidenciales.
+> Tus fuentes en NotebookLM son privadas por defecto. Google usa el contenido para generar respuestas, pero no para entrenar sus modelos de IA generativa. Sin embargo, siempre verifica las políticas de privacidad antes de subir datos sensibles o confidenciales.
 
----
+## Integrando el ecosistema: Un flujo de trabajo completo
 
-## Integrando el Ecosistema: Un Flujo de Trabajo Completo
+La verdadera potencia de estas herramientas emerge cuando las usamos de manera integrada, aprovechando las fortalezas únicas de cada una. A continuación, proponemos un _flujo de trabajo completo_ para una revisión de literatura robusta:
 
-La verdadera potencia de estas herramientas emerge cuando las usamos de manera integrada, aprovechando las fortalezas únicas de cada una. A continuación, proponemos un **flujo de trabajo completo** para una revisión de literatura robusta:
-
-### Fase 1: Descubrimiento del Panorama (Litmaps)
+### Fase 1: Descubrimiento del panorama (Litmaps)
 
 **Objetivo**: Mapear el campo de investigación e identificar trabajos clave
 
@@ -424,9 +423,7 @@ La verdadera potencia de estas herramientas emerge cuando las usamos de manera i
 
 **Salida**: Lista de artículos candidatos organizados por subtemas
 
----
-
-### Fase 2: Búsqueda de Respuestas Específicas (Consensus)
+### Fase 2: Búsqueda de respuestas específicas (Consensus)
 
 **Objetivo**: Obtener síntesis directas sobre preguntas específicas de investigación
 
@@ -437,9 +434,7 @@ La verdadera potencia de estas herramientas emerge cuando las usamos de manera i
 
 **Salida**: Respuestas fundamentadas con nivel de acuerdo científico
 
----
-
-### Fase 3: Extracción Sistemática de Datos (Elicit)
+### Fase 3: Extracción sistemática de datos (Elicit)
 
 **Objetivo**: Crear tablas estructuradas con información comparativa
 
@@ -451,9 +446,7 @@ La verdadera potencia de estas herramientas emerge cuando las usamos de manera i
 
 **Salida**: Base de datos estructurada de hallazgos clave
 
----
-
-### Fase 4: Análisis Profundo de Documentos Clave (NotebookLM)
+### Fase 4: Análisis profundo de documentos clave (NotebookLM)
 
 **Objetivo**: Analizar detalladamente tus artículos seleccionados
 
@@ -466,9 +459,7 @@ La verdadera potencia de estas herramientas emerge cuando las usamos de manera i
 
 **Salida**: Comprensión profunda con citas verificables
 
----
-
-### Fase 5: Síntesis y Escritura
+### Fase 5: Síntesis y escritura
 
 **Objetivo**: Redactar tu revisión de literatura
 
@@ -498,9 +489,9 @@ flowchart TD
     style F fill:#fff3e0
 ```
 
-### Ejemplo Aplicado: Revisión sobre IA en Educación
+### Ejemplo Aplicado: Revisión sobre IA en educación
 
-Supongamos que tu pregunta de investigación es: _"¿Cómo están utilizando las universidades la inteligencia artificial para personalizar el aprendizaje?"_
+Supongamos que tu pregunta de investigación es: _"¿Cómo están utilizando las universidades la IA generativa para personalizar el aprendizaje?"_
 
 **Con Litmaps**:
 
@@ -510,7 +501,7 @@ Supongamos que tu pregunta de investigación es: _"¿Cómo están utilizando las
 
 **Con Consensus**:
 
-- Preguntas: _"¿Los sistemas de IA personalizados mejoran el rendimiento estudiantil?"_
+- Preguntas: _"¿Los sistemas de IA generativa personalizados mejoran el rendimiento estudiantil?"_
 - El Consensus Meter muestra 78% de acuerdo positivo
 - Identificas que la mayoría de estudios reportan mejoras de 15-25% en métricas de aprendizaje
 
@@ -529,30 +520,26 @@ Supongamos que tu pregunta de investigación es: _"¿Cómo están utilizando las
 
 **Resultado**: Una revisión de literatura completa, respaldada por datos estructurados, consenso científico, visualización del campo, y análisis profundo de fuentes clave.
 
----
+## Consideraciones finales y mejores prácticas
 
-## Consideraciones Finales y Mejores Prácticas
-
-> [!warning] Limitaciones de las Herramientas de IA
+> [!warning] Limitaciones de los sistemas de IA generativa
 > 
-> Aunque estas herramientas son poderosas, es fundamental mantener una perspectiva crítica:
+> Aunque estas sistemas son poderosos, es fundamental mantener una perspectiva crítica:
 > 
-> - **No reemplazan el juicio académico**: La IA puede identificar patrones, pero el investigador debe interpretar y contextualizar
+> - **No reemplazan el juicio académico**: La IA generativa puede identificar patrones, pero el investigador debe interpretar y contextualizar
 > - **Sesgos algorítmicos**: Los modelos de búsqueda pueden favorecer ciertos tipos de publicaciones o fuentes
 > - **Verificación necesaria**: Siempre valida las citas y afirmaciones con los documentos originales
 > - **Actualización constante**: Las bases de datos tienen retrasos, consulta también fuentes tradicionales
-> - **Complemento, no sustituto**: Usa estas herramientas junto con métodos tradicionales de revisión
+> - **Complemento, no sustituto**: Usa estos sistemas junto con métodos tradicionales de revisión
 
-### Principios para el Uso Ético
+### Principios para el uso ético
 
-1. **Transparencia**: Menciona en tu metodología qué herramientas de IA utilizaste
+1. **Transparencia**: Menciona en tu metodología qué herramientas de IA generativa utilizaste
 2. **Verificación**: No confíes ciegamente en las extracciones automatizadas
 3. **Diversidad de fuentes**: No dependas exclusivamente de una herramienta
-4. **Citación adecuada**: Cita los artículos originales, no las síntesis de la IA
+4. **Citación adecuada**: Cita los artículos originales, no las síntesis de la IA generativa
 5. **Actualización continua**: Mantén tus búsquedas actualizadas con monitoreo activo
-
----
 
 Al integrar estratégicamente Litmaps, Consensus, Elicit y NotebookLM en tu flujo de trabajo, transformas la revisión de literatura de una tarea abrumadora en un proceso sistemático, eficiente y profundo. Estas herramientas no solo te ahorran tiempo, sino que expanden tu capacidad de descubrir conexiones, sintetizar hallazgos y construir sobre el conocimiento existente de manera más sofisticada que nunca.
 
-El futuro de la investigación académica no consiste en que la IA reemplace al investigador, sino en que investigadores equipados con IA potente logren descubrimientos que antes eran imposibles [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Con las herramientas exploradas en este capítulo, ese futuro ya está aquí.
+El futuro de la investigación académica no consiste en que la IA generativa reemplace a estudiantes, docentes e investigador, sino en que estén equipados con IA generativa y puedan lograr descubrimientos que antes eran imposibles [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Con las herramientas exploradas en este capítulo, ese futuro ya está aquí.

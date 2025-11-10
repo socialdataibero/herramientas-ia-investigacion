@@ -1,35 +1,37 @@
 ---
 dg-publish: true
+date_created: 2025-10-22T02:58:58-06:00
+date_modified: 2025-10-27T00:19:08-06:00
 dg-path: 02-Ingeniería-Prompts.md
 ---
 
-# Capítulo 2: Ingeniería de Prompts _El Arte de Dialogar con la Inteligencia Artificial_
+# Capítulo 2: Ingeniería de Prompts
 
-## 2.1 El Arte de Preguntar en la Era de la IA
+En la era de la IA, la habilidad más valiosa para un investigador no es dominar lenguajes de programación complejos, sino saber preguntar o hacer "mejores" prompts. Esta afirmación, que puede parecer sorprendente a primera vista, refleja una realidad fundamental: los modelos generativos actuales son extraordinariamente capaces, pero su efectividad depende críticamente de cómo nos comunicamos con ellos.
 
-En la era de la inteligencia artificial, la habilidad más valiosa para un investigador no es dominar lenguajes de programación complejos, sino **saber preguntar**. Esta afirmación, que puede parecer sorprendente a primera vista, refleja una realidad fundamental: los modelos de lenguaje actuales son extraordinariamente capaces, pero su efectividad depende críticamente de cómo nos comunicamos con ellos.
+La **ingeniería de prompts** emerge como la disciplina que estudia y perfecciona este arte de la comunicación con la IA generativa. Se trata de una práctica relativamente nueva, enfocada en el diseño y optimización de **prompts** (las instrucciones o indicaciones que proporcionamos a los LLM) para utilizarlos de forma eficiente y obtener los mejores resultados posibles [[08-Referencias#(DAIR.AI, 2024)|(DAIR.AI, 2024)]
 
-La **[[09-Glosario#Ingeniería de Prompts|ingeniería de prompts]]** emerge como la disciplina que estudia y perfecciona este arte de la comunicación con la IA. Se trata de una práctica relativamente nueva, enfocada en el diseño y optimización de **[[09-Glosario#Prompt|prompts]]** —las instrucciones o indicaciones que proporcionamos a los modelos de lenguaje— para utilizarlos de forma eficiente y obtener los mejores resultados posibles [[08-Referencias#(DAIR.AI, 2024)|(DAIR.AI, 2024)]].
+## 2.1 ¿Qué es la ingeniería de Prompts?
 
-> [!INFO] **¿Qué es un Prompt?** 
-> Un **prompt** es, en esencia, la instrucción que le proporcionamos a un modelo de IA. Puede manifestarse como:
-> 
+Antes de responder la pregunta, es importante responder primero ¿Qué es un _Prompt_?
+
+ Un _Prompt_ es, en esencia, la instrucción que le proporcionamos a un modelo generativo. Puede manifestarse como:
+
 > - Una simple pregunta directa
 > - Una orden o comando específico
 > - Un párrafo descriptivo con contexto
 > - Un texto completo para analizar
 > - Una combinación estructurada de todos los anteriores
 > 
-> Es el **punto de partida** de toda interacción con un modelo de lenguaje.
+> Es el punto de partida de toda interacción con un modelo generativo.
 
-> [!INFO] **¿Y la Ingeniería de Prompts?** 
-> La ingeniería de prompts va más allá de simplemente escribir instrucciones. Es el **proceso estratégico de diseñar y refinar** esas instrucciones de manera que guíen al modelo hacia el resultado deseado. No se trata solo de _qué_ pedimos, sino fundamentalmente de _cómo_ lo pedimos.
+¿Y la _Ingeniería de Prompts_?
 
----
+La _Ingeniería de Prompts_ va más allá de simplemente escribir instrucciones. Es el proceso estratégico de diseñar y refinar esas instrucciones de manera que guíen al modelo hacia el resultado deseado. No se trata solo _qué pedimos_, sino fundamentalmente _cómo lo pedimos_.
 
-## 2.2 La Importancia crítica del diseño de Prompts
+## 2.2 La importancia crítica del diseño de _Prompts_
 
-La calidad de un prompt es un factor determinante en la utilidad de las respuestas que obtenemos de un modelo de IA. Como señalan [[08-Referencias#(Federiakin et al., 2024)|(Federiakin et al., 2024)]], una **ligera modificación en la redacción** puede marcar la diferencia entre que la IA malinterprete completamente una instrucción o supere nuestras expectativas en la respuesta generada.
+La calidad de un _Prompt_ es un factor determinante en la utilidad de las respuestas que obtenemos de un modelo de IA. Como señalan [[08-Referencias#(Federiakin et al., 2024)|(Federiakin et al., 2024)]], una ligera modificación en la redacción puede marcar la diferencia entre que la IA generativa malinterprete completamente una instrucción o supere nuestras expectativas en la respuesta generada.
 
 ```mermaid
 flowchart LR
@@ -42,11 +44,11 @@ flowchart LR
     style C fill:#FFB6C6
 ```
 
-La ingeniería de prompts se reconoce hoy como una **habilidad clave** para investigadores y profesionales, definida como la destreza de articular claramente un problema, su contexto y las restricciones de la solución deseada, de modo que un asistente de IA responda de forma rápida y precisa [[08-Referencias#(Federiakin et al., 2024)|(Federiakin et al., 2024)]].
+La _Ingeniería de Prompts_ se reconoce hoy como una habilidad clave para cualquier persona que quiera interactuar con los modelos de IA generativa. Es definida como la destreza de articular claramente un problema, su contexto y las restricciones de la solución deseada, de modo que un Chatbot responda de forma rápida y precisa [[08-Referencias#(Federiakin et al., 2024)|(Federiakin et al., 2024)]].
 
 ### 2.2.1 Aplicaciones en la investigación académica
 
-En el contexto académico y científico, dominar la ingeniería de prompts permite aprovechar al máximo herramientas de IA para tareas esenciales como:
+En el contexto académico y científico, dominar la _Ingeniería de Prompts_ permite aprovechar al máximo herramientas de IA generativa para tareas esenciales como:
 
 - **Síntesis de literatura**: Condensar grandes volúmenes de información bibliográfica
 - **Resolución de problemas complejos**: Abordar desafíos metodológicos o conceptuales
@@ -54,23 +56,21 @@ En el contexto académico y científico, dominar la ingeniería de prompts permi
 - **Análisis de datos**: Interpretar resultados estadísticos y patrones
 - **Redacción académica**: Estructurar argumentos y refinar la escritura científica
 
-> [!quote] _"El prompt actúa como puente entre la intención del usuario y la comprensión del modelo"_ — Por ello, dominar su elaboración es crítico para obtener resultados relevantes y confiables.
+> [!quote] _"El Prompt actúa como puente entre la intención del usuario y la comprensión del modelo"_ — Por ello, dominar su elaboración es crítico para obtener resultados relevantes y confiables.
 
-|**Prompt Básico**|**Ingeniería de Prompts**|
-|---|---|
-|Es la entrada directa al modelo|Es el diseño estratégico de la entrada|
-|Cualquiera puede escribir uno|Dominarla requiere práctica y conocimiento|
-|_"Escribe algo sobre Marte"_|_"Actúa como un astrobiólogo de la NASA y escribe un análisis técnico de 400 palabras sobre por qué Marte representa el próximo gran objetivo para la exploración espacial humana, considerando viabilidad atmosférica, recursos hídricos y protección contra radiación"_|
+| **_Prompt_ básico**             | **_Ingeniería de Prompts_**                                                                                                                                                                                                                                               |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Es la entrada directa al modelo | Es el diseño estratégico de la entrada                                                                                                                                                                                                                                    |
+| Cualquiera puede escribir uno   | Dominarla requiere práctica y conocimiento                                                                                                                                                                                                                                |
+| _"Escribe algo sobre Marte"_    | _"Actúa como un astrobiólogo de la NASA y escribe un análisis técnico de 400 palabras sobre por qué Marte representa el próximo gran objetivo para la exploración espacial humana, considerando viabilidad atmosférica, recursos hídricos y protección contra radiación"_ |
 
----
+## 2.3 Anatomía de un Prompt efectivo
 
-## 2.3 Anatomía de un Prompt Efectivo
-
-Un prompt puede ser tan simple como una pregunta directa, pero incluso los prompts más básicos contienen **componentes fundamentales** que conviene comprender y dominar. Según [[08-Referencias#(DAIR.AI, 2024)|(DAIR.AI, 2024)]], los elementos estructurales de un prompt efectivo son:
+Un _Prompt_ puede ser tan simple como una pregunta directa, pero incluso los _Prompts_ más básicos contienen componentes fundamentales que conviene comprender y dominar. Según [[08-Referencias#(DAIR.AI, 2024)|(DAIR.AI, 2024)]], los elementos estructurales de un _Prompt_ efectivo son:
 
 > [!example]+ **Componentes Básicos de un Prompt**
 > 
-> ### 1. Instrucción (El Verbo de Acción)
+> ### 1. Instrucción (el verbo de acción)
 > 
 > **¿Qué quieres que haga la IA?**
 > 
@@ -80,7 +80,7 @@ Un prompt puede ser tan simple como una pregunta directa, pero incluso los promp
 > 
 > > `Analiza` las principales causas del conflicto social en América Latina durante el siglo XX.
 > 
-> ### 2. Contexto (La Información Clave)
+> ### 2. Contexto (la información clave)
 > 
 > **¿Qué información de fondo necesita el modelo?**
 > 
@@ -90,7 +90,7 @@ Un prompt puede ser tan simple como una pregunta directa, pero incluso los promp
 > 
 > > Considera las perspectivas de teóricos como Gino Germani y Pablo González Casanova, así como factores estructurales como la desigualdad económica y la intervención extranjera.
 > 
-> ### 3. Rol (La Perspectiva)
+> ### 3. Rol (la perspectiva)
 > 
 > **¿Desde qué punto de vista debe responder?**
 > 
@@ -100,7 +100,7 @@ Un prompt puede ser tan simple como una pregunta directa, pero incluso los promp
 > 
 > > `Responde como si fueras un sociólogo` especializado en teoría del conflicto.
 > 
-> ### 4. Datos de Entrada (El Input)
+> ### 4. Datos de entrada (el input)
 > 
 > **¿Cuál es el contenido a procesar?**
 > 
@@ -110,7 +110,7 @@ Un prompt puede ser tan simple como una pregunta directa, pero incluso los promp
 > 
 > > Texto: _"La inteligencia artificial se ha utilizado extensivamente en..."_
 > 
-> ### 5. Formato de Salida (La Estructura)
+> ### 5. Formato de salida (la estructura)
 > 
 > **¿Cómo quieres que se presente la respuesta?**
 > 
@@ -136,21 +136,19 @@ graph TD
     style G fill:#7ED321
 ```
 
-> [!warning] **Consideración Importante: La Ventana de Contexto** 
-> No todos los componentes son siempre necesarios. El prompt óptimo depende de la **naturaleza de la tarea**. Sin embargo, debemos tener en cuenta que la longitud total del prompt (sumada al resto de la conversación o contexto proporcionado) está limitada por la **ventana de contexto** del modelo — es decir, la cantidad máxima de tokens que el modelo puede procesar de una vez.
+> [!warning] **Consideración importante: La Ventana de Contexto** 
+> No todos los componentes son siempre necesarios. El prompt óptimo depende de la naturaleza de la tarea. Sin embargo, debemos tener en cuenta que la longitud total del prompt (sumada al resto de la conversación o contexto proporcionado) está limitada por la ventana de contexto del modelo, es decir, la cantidad máxima de tokens que el modelo puede procesar de una vez.
 > 
 > Por ello, es crucial ser estratégicos en qué información incluir, priorizando los detalles más relevantes para no exceder ese límite.
 
----
+## 2.4 Técnicas fundamentales de _Ingeniería de Prompts_
 
-## 2.4 Técnicas fundamentales de Ingeniería de Prompts
+La base de la _Ingeniería de Prompts_ moderna se encuentra en el prompting basado en ejemplos (_shot-based prompting_), una forma de Aprendizaje en Contexto (_In-Context Learning_, ICL) donde el número de ejemplos proporcionados en el _Prompt_ guía el comportamiento del modelo [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
 
-La base de la ingeniería de prompts moderna se encuentra en el **prompting basado en ejemplos** (_shot-based prompting_), una forma de Aprendizaje en Contexto (_In-Context Learning_, ICL) donde el número de ejemplos proporcionados en el prompt guía el comportamiento del modelo [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
-
-### 2.4.1 Prompting Zero-Shot: La Instrucción Directa
+### 2.4.1 Prompting Zero-Shot: La instrucción directa
 
 > [!abstract]+ **Definición**
-> El **prompting [[09-Glosario#Zero-Shot|zero-shot]]** es la forma más simple de interactuar con un modelo de lenguaje. Consiste en solicitar directamente la tarea sin proveer ningún ejemplo de referencia. El modelo debe responder basándose únicamente en su conocimiento pre-entrenado.
+> El **prompting zero-shot** es la forma más simple de interactuar con un modelo de lenguaje. Consiste en solicitar directamente la tarea sin proveer ningún ejemplo de referencia. El modelo debe responder basándose únicamente en su conocimiento de entrenamiento.
 
 Esta técnica es la entrada más básica y natural para los usuarios. Muchos modelos de lenguaje modernos son capaces de manejar indicaciones zero-shot para tareas variadas, aunque la calidad puede variar según la complejidad de la tarea.
 
@@ -175,10 +173,10 @@ Es ideal para:
 - Clasificaciones básicas
 - Casos donde el modelo tiene fuerte conocimiento previo sobre el tema
 
-### 2.4.2 Prompting Few-Shot: Guiar por Ejemplos
+### 2.4.2 Prompting Few-Shot: Guiar por ejemplos
 
 > [!abstract]+ **Definición**
-> El **prompting [[09-Glosario#Few-Shot|few-shot]]** implica proporcionar uno (_[[09-Glosario#One-Shot|one-shot]]_) o varios (_few-shot_) **ejemplos de referencia** dentro del prompt para guiar al modelo sobre cómo debe responder. Estos ejemplos actúan como _demostraciones en contexto_, ayudando al modelo a inferir el patrón deseado.
+> El **prompting few-shot** implica proporcionar uno (_one-shot_) o varios (_few-shot_) ejemplos de referencia dentro del prompt para guiar al modelo sobre cómo debe responder. Estos ejemplos actúan como _demostraciones en contexto_, ayudando al modelo a inferir el patrón deseado.
 
 Esta técnica aprovecha la capacidad de _aprendizaje en contexto_ de los LLMs, es decir, su habilidad para extrapolar la tarea a partir de unos pocos casos ilustrativos proporcionados en el mismo prompt.
 
@@ -230,18 +228,16 @@ flowchart TD
 > [!tip] **Principio de Iteración** 
 > Un principio fundamental en ambas técnicas es la **iteración**: comenzar con un prompt sencillo e ir ajustándolo según la respuesta del modelo. Si la respuesta inicial no es satisfactoria, el prompt se puede refinar agregando detalles, reformulando la instrucción o incorporando ejemplos. Esta experimentación forma parte esencial de la ingeniería de prompts.
 
----
-
-## 2.5 Técnicas Avanzadas para Razonamiento Complejo
+## 2.5 Técnicas avanzadas para razonamiento complejo
 
 A medida que profundizamos en el uso de modelos de lenguaje, emergen técnicas más sofisticadas que permiten explotar mejor sus capacidades para tareas complejas de investigación. Estas técnicas son especialmente valiosas cuando necesitamos que el modelo realice razonamientos de múltiples pasos, explore alternativas o sintetice información compleja.
 
 ### 2.5.1 Cadena de Pensamiento (Chain-of-Thought, CoT)
 
 > [!abstract]+ **Definición**
-> La técnica de **[[09-Glosario#Cadena de Pensamiento|Cadena de Pensamiento]]** consiste en incentivar al modelo a desglosar su razonamiento en **pasos intermedios** antes de dar la respuesta final. Se le pide explícitamente que "piense paso a paso" o se le proporciona un ejemplo donde se muestran los pasos lógicos para resolver un problema.
+> La técnica de **Cadena de Pensamiento** consiste en incentivar al modelo a desglosar su razonamiento en pasos intermedios antes de dar la respuesta final. Se le pide explícitamente que "piense paso a paso" o se le proporciona un ejemplo donde se muestran los pasos lógicos para resolver un problema.
 
-Esta técnica ha demostrado mejorar significativamente el rendimiento en tareas que requieren razonamiento matemático, lógico o de múltiples pasos, ya que ayuda al modelo a **organizar su proceso cognitivo** antes de concluir [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
+Esta técnica ha demostrado mejorar significativamente el rendimiento en tareas que requieren razonamiento matemático, lógico o de múltiples pasos, ya que ayuda al modelo a organizar su proceso cognitivo antes de concluir [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
 
 > [!example]- **Ejemplo: Cálculo en Investigación**
 > 
@@ -275,12 +271,12 @@ Esta técnica ha demostrado mejorar significativamente el rendimiento en tareas 
 - Diseño de protocolos experimentales
 - Interpretación de resultados multi-factorial
 
-> [!note] Aunque la técnica CoT es muy útil, su valor puede disminuir en los modelos más avanzados (como GPT-4, Claude 4, o Gemini 2.5), que ya incorporan capacidades de razonamiento robustas de forma nativa.
+> [!note] Aunque la técnica CoT es muy útil, su valor puede disminuir en los modelos más avanzados (como GPT-5, Claude 4.5, o Gemini 2.5 pro), que ya incorporan capacidades de razonamiento robustas de forma nativa.
 
 ### 2.5.2 Árbol de Pensamientos (Tree-of-Thought, ToT)
 
 > [!abstract]+ **Definición**
-> El **[[09-Glosario#Tree-of-Thought|Árbol de Pensamientos]]** es un marco avanzado que permite al modelo explorar **múltiples caminos de razonamiento simultáneamente** en una estructura de árbol. El modelo puede autoevaluar diferentes "pensamientos", avanzar por las ramas más prometedoras o retroceder (_backtracking_) según sea necesario para encontrar la mejor solución.
+> El **Árbol de Pensamientos** es un marco avanzado que permite al modelo explorar múltiples caminos de razonamiento simultáneamente en una estructura de árbol. El modelo puede autoevaluar diferentes "pensamientos", avanzar por las ramas más prometedoras o retroceder (_backtracking_) según sea necesario para encontrar la mejor solución.
 
 A diferencia de la Cadena de Pensamiento que es lineal y secuencial, ToT permite una exploración no lineal del espacio de problemas, evaluando múltiples alternativas antes de decidir.
 
@@ -314,10 +310,10 @@ graph TD
 
 Ha demostrado mejoras significativas sobre CoT en problemas de planificación y tareas que requieren exploración exhaustiva de alternativas.
 
-### 2.5.3 Auto-consistencia (Self-Consistency)
+### 2.5.3 Auto-Consistencia (Self-Consistency)
 
 > [!abstract]+ **Definición**
-> La técnica de **[[09-Glosario#Auto-consistencia|auto-consistencia]]** implica muestrear múltiples y diversos caminos de razonamiento (generalmente usando CoT) y luego seleccionar la respuesta más consistente a través de un **voto mayoritario** o análisis de consenso [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
+> La técnica de **auto-consistencia** implica muestrear múltiples y diversos caminos de razonamiento (generalmente usando CoT) y luego seleccionar la respuesta más consistente a través de un voto mayoritario o análisis de consenso [[08-Referencias#(Chen et al., 2025)|(Chen et al., 2025)]].
 
 **Principio fundamental:**
 
@@ -336,14 +332,14 @@ En la validación de resultados numéricos o interpretaciones críticas, ejecuta
 
 ---
 
-## 2.6 Técnicas para Mejorar la Flexibilidad Cognitiva y Precisión
+## 2.6 Técnicas para mejorar la flexibilidad cognitiva y precisión
 
 Estas técnicas buscan optimizar cómo el modelo enmarca un problema y accede a su conocimiento interno, mejorando tanto la comprensión como la calidad de las respuestas.
 
-### 2.6.1 Prompting de Paso Atrás ([[09-Glosario#Step-Back Prompting|Step-Back Prompting]])
+### 2.6.1 Prompting de Paso Atrás (Step-Back Prompting)
 
 > [!abstract]+ **Definición**
-> Esta técnica anima al modelo a **"dar un paso atrás"** de una pregunta específica para derivar primero conceptos de más alto nivel o primeros principios. Luego, utiliza esta abstracción para razonar sobre la pregunta original con mayor contexto y precisión.
+> Esta técnica anima al modelo a "dar un paso atrás" de una pregunta específica para derivar primero conceptos de más alto nivel o primeros principios. Luego, utiliza esta abstracción para razonar sobre la pregunta original con mayor contexto y precisión.
 
 En lugar de responder directamente una pregunta muy específica, el modelo primero establece el marco conceptual general, lo que conduce a respuestas más fundamentadas y fiables.
 
@@ -359,10 +355,10 @@ En lugar de responder directamente una pregunta muy específica, el modelo prime
 > 
 > Este enfoque recupera un contexto más amplio, haciendo la respuesta específica mucho más confiable.
 
-### 2.6.2 [[09-Glosario#Rephrase and Respond|Rephrase and Respond]] (RaR)
+### 2.6.2 Rephrase and Respond (RaR)
 
 > [!abstract]+ **Definición**
-> En esta técnica, se instruye al modelo para que **primero reformule y expanda** la pregunta del usuario antes de responderla. Este paso intermedio ayuda a resolver ambigüedades y alinea la interpretación del modelo con la verdadera intención del usuario.
+> En esta técnica, se instruye al modelo para que primero reformule y expanda la pregunta del usuario antes de responderla. Este paso intermedio ayuda a resolver ambigüedades y alinea la interpretación del modelo con la verdadera intención del usuario.
 
 > [!example]- **Ejemplo Práctico**
 > 
@@ -393,7 +389,7 @@ Esta técnica es especialmente útil cuando:
 ### 2.6.3 Prompting de Conocimiento Generado
 
 > [!abstract]+ **Definición**
->  En esta técnica, primero se le pide al modelo que **genere un conjunto de hechos o "conocimientos" relevantes** sobre un tema antes de pedirle que complete la tarea final. Este conocimiento generado se integra luego explícitamente en el prompt para la respuesta definitiva.
+>  En esta técnica, primero se le pide al modelo que genere un conjunto de hechos o "conocimientos" relevantes sobre un tema antes de pedirle que complete la tarea final. Este conocimiento generado se integra luego explícitamente en el prompt para la respuesta definitiva.
 
 **Proceso en dos fases:**
 
@@ -424,10 +420,10 @@ Esta técnica es especialmente útil cuando:
 
 ## 2.7 Técnicas Avanzadas de Integración
 
-### 2.7.1 [[09-Glosario#Encadenamiento de Prompts|Encadenamiento de Prompts]] (Prompt Chaining)
+### 2.7.1 Encadenamiento de Prompts (Prompt Chaining)
 
 > [!abstract]+ **Definición**
-> En lugar de un único prompt monolítico, se diseña un **flujo de múltiples prompts encadenados** donde la salida de un paso alimenta el siguiente. Esta técnica permite manejar tareas complejas dividiéndolas estratégicamente en sub-tareas manejables.
+> En lugar de un único prompt monolítico, se diseña un flujo de múltiples prompts encadenados donde la salida de un paso alimenta el siguiente. Esta técnica permite manejar tareas complejas dividiéndolas estratégicamente en sub-tareas manejables.
 
 **Ejemplo de pipeline de análisis de datos:**
 
@@ -451,10 +447,10 @@ flowchart LR
 - Procesamiento de datos: limpieza → análisis → visualización → interpretación
 - Desarrollo de código: diseño → implementación → pruebas → documentación
 
-### 2.7.2 Generación Aumentada por Recuperación ([[09-Glosario#RAG|RAG]])
+### 2.7.2 Generación Aumentada por Recuperación (RAG)
 
 > [!abstract]+ **Definición**
-> La técnica **RAG** (_Retrieval-Augmented Generation_) se centra en incorporar información externa recuperada dinámicamente al prompt para suplir deficiencias de conocimiento del modelo. Se busca en un corpus de documentos relevantes (como papers académicos) y se incluyen fragmentos pertinentes en el contexto del prompt.
+> La técnica RAG (_Retrieval-Augmented Generation_) se centra en incorporar información externa recuperada dinámicamente al prompt para suplir deficiencias de conocimiento del modelo. Se busca en un corpus de documentos relevantes (como papers académicos) y se incluyen fragmentos pertinentes en el contexto del prompt.
 
 **Flujo de trabajo RAG:**
 
@@ -472,24 +468,24 @@ flowchart TD
 
 **Ventajas en investigación académica:**
 
-- Acceso a **conocimiento actualizado** más allá del entrenamiento del modelo
-- Respuestas basadas en **literatura específica** de tu campo
-- Mayor **precisión** al citar fuentes reales
+- Acceso a conocimiento actualizado más allá del entrenamiento del modelo
+- Respuestas basadas en literatura específica de tu campo
+- Mayor precisión al citar fuentes reales
 - Capacidad de trabajar con **documentos propietarios** o especializados
 
 En el contexto de investigación, RAG permite preguntar al modelo sobre datos que no están en su entrenamiento pero sí en literatura reciente, integrando capacidades de búsqueda bibliográfica con el poder analítico del LLM.
 
-### 2.7.3 [[09-Glosario#ReAct|ReAct]]: Razonamiento y Acción
+### 2.7.3 ReAct: Razonamiento y Acción
 
 > [!abstract]+ **Definición**
-> **ReAct** (_Reasoning and Acting_) combina indicaciones de razonamiento con capacidades de acción, permitiendo al modelo interactuar con herramientas externas como motores de búsqueda, calculadoras, bases de datos o APIs.
+> ReAct (_Reasoning and Acting_) combina indicaciones de razonamiento con capacidades de acción, permitiendo al modelo interactuar con herramientas externas como motores de búsqueda, calculadoras, bases de datos o APIs.
 
-El modelo alterna entre **"pensar"** (generar una cadena de razonamiento) y **"actuar"** (producir una consulta o instrucción para usar una herramienta externa) de forma iterativa hasta llegar a la respuesta final.
+El modelo alterna entre "pensar" (generar una cadena de razonamiento) y "actuar" (producir una consulta o instrucción para usar una herramienta externa) de forma iterativa hasta llegar a la respuesta final.
 
 **Ejemplo de flujo ReAct:**
 
 1. **Pensamiento:** "Necesito conocer la tasa de inflación actual para responder"
-2. **Acción:** `búsqueda_web("tasa de inflación México 2025")`
+2. **Acción:** `búsqueda_web ("tasa de inflación México 2025")`
 3. **Observación:** [Resultados de la búsqueda]
 4. **Pensamiento:** "Con esta información puedo calcular el ajuste necesario"
 5. **Acción:** `calculadora("100 * 1.045")`
@@ -499,9 +495,9 @@ El modelo alterna entre **"pensar"** (generar una cadena de razonamiento) y **"a
 
 ---
 
-## 2.8 Consejos Prácticos para Investigadores
+## 2.8 Consejos prácticos
 
-La experiencia práctica en ingeniería de prompts ha revelado patrones y principios que mejoran consistentemente la calidad de las interacciones con modelos de lenguaje. A continuación, presentamos recomendaciones específicas para investigadores:
+La experiencia práctica en ingeniería de prompts ha revelado patrones y principios que mejoran consistentemente la calidad de las interacciones con modelos generativos. A continuación, presentamos algunas recomendaciones específicas:
 
 > [!tip]+ **Especificidad y Claridad** 
 > **Sé específico y claro en tus instrucciones**
@@ -599,7 +595,7 @@ La experiencia práctica en ingeniería de prompts ha revelado patrones y princi
 > 4. Ajusta el prompt agregando especificaciones
 > 5. Repite hasta obtener resultados satisfactorios
 > 
-> **Guarda los prompts efectivos** para reutilizarlos como plantillas.
+> Guarda los prompts efectivos para reutilizarlos como plantillas.
 
 > [!tip]+ **Contextualización Apropiada** 
 > **Proporciona el contexto justo y necesario**
@@ -613,7 +609,7 @@ La experiencia práctica en ingeniería de prompts ha revelado patrones y princi
 > [!warning] **Verificación de Resultados** 
 > **Siempre verifica la información crítica**
 > 
-> Los modelos de lenguaje pueden generar contenido plausible pero incorrecto ("alucinaciones"). Para investigación académica:
+> Los modelos generativos pueden generar contenido plausible pero incorrecto ("alucinaciones"). Para investigación académica:
 > 
 > - Verifica datos estadísticos con fuentes originales
 > - Confirma citas y referencias bibliográficas
@@ -662,26 +658,32 @@ graph TD
 
 ---
 
-## 2.10 Conclusión: Del Arte a la Ciencia
+## 2.10 Conclusión
 
-La ingeniería de prompts representa una nueva frontera en la intersección entre la comunicación humana y la inteligencia artificial. Lo que comenzó como un arte empírico de prueba y error ha evolucionado hacia una disciplina con principios claros, técnicas documentadas y mejores prácticas establecidas.
+La ingeniería de prompts representa una nueva frontera en la intersección entre la comunicación humana y la IA generativa. Lo que comenzó como un arte empírico de prueba y error ha evolucionado hacia una disciplina con principios claros, técnicas documentadas y mejores prácticas establecidas.
 
-Para el investigador académico, dominar estas técnicas no es simplemente una habilidad técnica adicional — es una **competencia fundamental** que multiplica exponencialmente la capacidad de análisis, síntesis y creación de conocimiento. Los modelos de lenguaje son herramientas extraordinariamente poderosas, pero su efectividad depende críticamente de nuestra capacidad para comunicarnos con ellos de manera precisa y estratégica.
+Para estudiantes, docentes e investigadores, dominar estas técnicas no es simplemente una habilidad técnica adicional, es una competencia fundamental que puede multiplicar la capacidad de análisis, síntesis y creación de conocimiento. Los modelos generativos son herramientas extraordinariamente poderosas, pero su efectividad depende críticamente de nuestra capacidad para comunicarnos con esos modelos de manera precisa y estratégica.
 
-> [!quote] **Reflexión Final** _La ingeniería de prompts no trata de hacer que las máquinas piensen como humanos, sino de aprender a comunicarnos efectivamente con una inteligencia fundamentalmente diferente a la nuestra._
+> [!quote] **Reflexión Final** _La ingeniería de prompts no trata de hacer que las máquinas ”piensen” como humanos, sino de aprender a comunicarnos efectivamente con una tecnología que puede asistirnos en multiples maneras._
 
-Las técnicas presentadas en este capítulo — desde el basic zero-shot hasta los sofisticados sistemas RAG y ReAct — forman un **toolkit conceptual** que debe adaptarse a las necesidades específicas de cada investigador y cada contexto. No existe una "mejor técnica" universal; existe la técnica más apropiada para cada situación.
+Las técnicas presentadas en este capítulo — desde el basic zero-shot hasta los sofisticados sistemas RAG y ReAct forman un caja de herramientas conceptual que debe adaptarse a las necesidades específicas de cada estudiante, docente e investigador y cada contexto. No existe una "mejor técnica" universal; existe la técnica más apropiada para cada situación.
 
 **Principios para recordar:**
 
 1. **Claridad sobre complejidad**: Un prompt simple y claro suele superar a uno elaborado y ambiguo
-2. **Iteración sobre perfección**: El refinamiento progresivo es más efectivo que buscar el prompt perfecto en el primer intento
-3. **Contexto apropiado**: Proporciona la información justa que el modelo necesita, ni más ni menos
-4. **Verificación crítica**: Los resultados de la IA son punto de partida, no verdades absolutas
-5. **Experimentación continua**: Los modelos evolucionan, y las técnicas efectivas también
+2. **Iteración sobre perfección**: El refinamiento progresivo es más efectivo que buscar el prompt perfecto en el primer intento.
+3. **Contexto apropiado**: Proporciona la información justa que el modelo necesita, ni más ni menos.
+4. **Verificación crítica**: Los resultados de la IA son punto de partida, no verdades absolutas.
+5. **Experimentación continua**: Los modelos evolucionan y las técnicas efectivas también.
 
-A medida que los modelos de lenguaje continúan avanzando, las técnicas de ingeniería de prompts también evolucionarán. Lo que permanecerá constante es la necesidad de un **diálogo reflexivo y estratégico** entre el investigador humano y sus herramientas de IA — un diálogo que, bien ejecutado, amplifica dramáticamente las capacidades de ambos.
+A medida que los modelos generativos continúan avanzando, las técnicas de ingeniería de prompts también evolucionarán. Lo que permanecerá constante es la necesidad de un diálogo reflexivo y estratégico entre el estudiante, docente e investigador humano y sus herramientas de IA generativas, un diálogo que, bien ejecutado, amplifica dramáticamente las capacidades de ambos.
+
+
+
+> [!TIP] Próximo Paso 
+> En los siguientes capítulos exploraremos cómo estas técnicas se aplican específicamente en contextos de investigación académica, incluyendo la revisión de literatura, el análisis de datos, y la integración de múltiples herramientas de IA en workflows de investigación completos.
 
 ---
 
-_En los siguientes capítulos exploraremos cómo estas técnicas se aplican específicamente en contextos de investigación académica, incluyendo la revisión de literatura, el análisis de datos, y la integración de múltiples herramientas de IA en workflows de investigación completos._
+**Navegación:** [← Capítulo 1](01-Fundamentos-IA-Generativa.md) | [Siguiente: Capítulo 3 →](03-Ingeniería-Contexto.md)
+

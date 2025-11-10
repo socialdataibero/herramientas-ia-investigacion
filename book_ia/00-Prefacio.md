@@ -1,11 +1,16 @@
+---
+dg-publish: true
+dg-path: 00-Prefacio.md
+---
+
 # Prefacio
 
-Hablar hoy de Inteligencia Artificial (IA) es hablar de una tecnología que está transformando nuestra manera de aprender, crear y trabajar. Particularmente, la [[09-Glosario#IA Generativa|IA generativa]] (capaz de generar contenido nuevo) está integrándose rápidamente en nuestras actividades cotidianas: nos ayuda a escribir textos, preparar materiales educativos, automatizar tareas y programar.
+Hablar hoy de Inteligencia Artificial (IA) es hablar de una tecnología que está transformando nuestra manera de aprender, crear y trabajar. Particularmente, la IA generativa (capaz de generar contenido nuevo) está integrándose rápidamente en nuestras actividades cotidianas: nos ayuda a escribir textos, preparar materiales educativos, automatizar tareas y programar.
 
 En el ámbito de la investigación científica, su impacto es particularmente notable. Procesos que tradicionalmente requerían trabajo meticuloso (como la revisión exhaustiva de literatura, la redacción de artículos y el análisis de grandes conjuntos de datos) están siendo redefinidos por algoritmos capaces de sintetizar información, identificar patrones complejos en los datos y asistir en el flujo creativo y cognitivo de generación de conocimiento.
 
-Sin embargo, esta transformación trae desafíos importantes:
-- Cómo distinguir entre soluciones verdaderamente útiles y ruido pasajero?
+Sin embargo, esta transformación trae desafíos importantes. Por ejemplo:
+- ¿Cómo distinguir entre soluciones verdaderamente útiles y ruido pasajero?
 - ¿Cómo mitigar riesgos como las alucinaciones (citas fabricadas o datos inventados), la manipulación de información y los comportamientos desalineados? 
 - Y, más importante aún, ¿cómo integramos estas tecnologías en nuestros flujos de trabajo de manera ética, rigurosa y eficaz?
 
@@ -33,31 +38,15 @@ Suponemos que el lector tiene experiencia básica con chatbots de IA (como ChatG
 
 ## Aspectos técnicos
 
-El libro fue escrito en [Markdown](https://www.markdownguide.org/) utilizando [Obsidian](https://obsidian.md/) como editor principal y los plugin  [Digital Garden](https://herramientasiainvestigacion.vercel.app/) para la publicación en internet y  [Relay](https://github.com/No-Instructions/Relay) para colaboración en tiempo real entre autores. El sitio web está alojado en [vercel](https://herramientasiainvestigacion.vercel.app/) y se actualiza automáticamente con cada cambio en el repositorio de [Github](), el cual incluye todos los prompts, plantillas y ejemplos de código, y está disponible publicamente.
+El libro fue escrito en [Markdown](https://www.markdownguide.org/) utilizando [Obsidian](https://obsidian.md/) como editor principal y los plugin  [Digital Garden](https://dg-docs.ole.dev/) para la publicación en internet y  [Relay](https://relay.md/) para colaboración en tiempo real entre autores. El sitio web está alojado en [Vercel](https://vercel.com) y se actualiza automáticamente con cada cambio en el repositorio de [Github](https://github.com/socialdataibero/herramientas-ia-investigacion), el cual incluye todos los prompts, plantillas y ejemplos de código, y está disponible públicamente.
 
 ## Agradecimientos
 
 Estamos muy agradecidos por el apoyo de la Dirección de Innovación Educativa y Vicerrectoría Académica de la Universidad Iberoamericana Ciudad de México, cuyo respaldo institucional fue fundamental para este proyecto. Nuestro reconocimiento especial a todos los participantes de nuestros cursos y talleres, cuyas preguntas y retroalimentación enriquecieron significativamente este trabajo, así como a los colegas que compartieron sus experiencias y contribuyeron de diversas formas a hacer realidad esta obra digital.
 
-Por último, dedicamos este libro a todas las personas y organizaciones que trabajan incansablemente por una inteligencia artificial segura, ética e inclusiva. Este trabajo es para ustedes, quienes entienden que la verdadera innovación no está solo en desarrollar tecnología más avanzada, sino en asegurar que sus beneficios lleguen a todos y que su uso fortalezca, no comprometa, la integridad de la investigación científica.
-
----
-# índice
-
-⁠ dataview
-TABLE WITHOUT ID
-    icono AS " ",
-    file.link AS Título,
-    resumen AS Resumen,
-    estado AS Estado
-FROM #proyecto-ia
-SORT file.name ASC
- ⁠
-
----
-## Herramientas IA 
-
+Por último, dedicamos este libro a todas las personas y organizaciones que trabajan incansablemente por una inteligencia artificial segura, ética e inclusiva.
 
 
 ---
-## Contacto
+
+**Navegación:** [← Prefacio](00-Prefacio.md) | [Siguiente: Capítulo 1 →](01-Fundamentos-IA-Generativa.md)

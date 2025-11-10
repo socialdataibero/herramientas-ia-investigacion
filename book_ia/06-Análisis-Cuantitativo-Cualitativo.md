@@ -1,23 +1,20 @@
 ---
 dg-publish: true
+date_created: 2025-10-22T00:03:00-06:00
+date_modified: 2025-10-27T00:20:42-06:00
 dg-path: 06-Herramientas-Externas.md
 ---
 
 > [!warning] En construcción
 # Capítulo 6: Análisis cuantitativo y cualitativo asistido con IA
 
----
+Tradicionalmente, el análisis de datos ha requerido habilidades técnicas especializadas: dominio de lenguajes de programación como Python o R, conocimiento de estadística avanzada, y experiencia con herramientas complejas de visualización. Esta barrera de entrada ha limitado significativamente quiénes pueden realizar análisis sofisticados de datos.
 
-## 6.1 Análisis de datos asistido con IA
+El análisis de datos constituye el corazón de la investigación empírica moderna. Es el proceso mediante el cual los datos crudos se transforman en información, conocimiento y, en última instancia, en respuestas a nuestras preguntas de investigación. Con la explosión en el volumen de datos disponibles (tanto estructurados como no estructurados) las técnicas tradicionales a menudo se quedan cortas. La IS generativa emerge como un poderoso aliado, ofreciendo herramientas capaces de procesar, interpretar y visualizar grandes conjuntos de datos de maneras que antes eran impensables.
 
-> [!abstract] Introducción
-> Tradicionalmente, el análisis de datos ha requerido habilidades técnicas especializadas: dominio de lenguajes de programación como Python o R, conocimiento de estadística avanzada, y experiencia con herramientas complejas de visualización. Esta barrera de entrada ha limitado significativamente quiénes pueden realizar análisis sofisticados de datos.
-> 
-> El análisis de datos constituye el corazón de la investigación empírica moderna. Es el proceso mediante el cual los datos crudos se transforman en información, conocimiento y, en última instancia, en respuestas a nuestras preguntas de investigación. Con la explosión en el volumen de datos disponibles —tanto estructurados como no estructurados— las técnicas tradicionales a menudo se quedan cortas. La Inteligencia Artificial emerge como un poderoso aliado, ofreciendo herramientas capaces de procesar, interpretar y visualizar grandes conjuntos de datos de maneras que antes eran impensables.
+## 6.1 El cambio de paradigma
 
-### 6.1.1 El Cambio de Paradigma
-
-La IA está democratizando el acceso al análisis de datos mediante tres transformaciones fundamentales:
+La IA generativa está apoyando en el análisis de datos mediante tres transformaciones fundamentales:
 
 ```mermaid
 flowchart LR
@@ -41,36 +38,34 @@ flowchart LR
 
 **1. Interfaces en Lenguaje Natural**
 
-Ya no necesitas memorizar sintaxis compleja de programación. Puedes describir lo que quieres analizar en lenguaje natural y la IA genera el código correspondiente.
+Ya no necesitas memorizar sintaxis compleja de programación. Puedes describir lo que quieres analizar en lenguaje natural y la IA generativa puede construir el código correspondiente.
 
-**2. Asistencia Contextual**
+**2. Asistencia contextual**
 
-Los agentes de IA no solo ejecutan tu código, sino que explican qué hace cada paso, sugieren mejoras y ayudan a depurar errores.
+Los agentes de IA generativa no solo ejecutan tu código, sino que explican qué hace cada paso, sugieren mejoras y ayudan a depurar errores.
 
-**3. Automatización Inteligente**
+**3. Automatización ”inteligente”**
 
 Tareas repetitivas como limpieza de datos, generación de visualizaciones y creación de informes pueden automatizarse mientras mantienes el control sobre el proceso.
 
----
-
-## 6.2 Google Colab potenciado con IA: El Laboratorio en la Nube
+## 6.2 Google Colab potenciado con IA generativa: El laboratorio en la Nube
 
 ### 6.2.1 ¿Qué es Google Colab?
 
 > [!info] Definición
-> [[09-Glosario#Google Colab|Google Colaboratory]] (Colab) es un entorno de desarrollo gratuito basado en la nube que permite escribir y ejecutar código Python directamente desde el navegador. Es especialmente útil para proyectos de análisis de datos, aprendizaje automático y ciencia de datos en general, ya que no requiere ninguna configuración en tu máquina local y proporciona acceso gratuito a recursos computacionales como [[09-Glosario#GPU|GPUs]].
+> Google Colaboratory (Colab) es un entorno de desarrollo gratuito basado en la nube que permite escribir y ejecutar código Python (o R) directamente desde el navegador. Es especialmente útil para proyectos de análisis de datos, aprendizaje automático y ciencia de datos en general, ya que no requiere ninguna configuración en tu máquina local y proporciona acceso gratuito a recursos computacionales como GPUs.
 
 **Características principales:**
 
-- **Basado en [[09-Glosario#Jupyter Notebooks|Jupyter Notebooks]]**: Combina código, texto explicativo y visualizaciones en un solo documento
+- **Basado en Jupyter Notebooks**: Combina código, texto explicativo y visualizaciones en un solo documento
 - **Sin instalación**: Funciona completamente en el navegador
-- **Hardware gratuito**: Acceso a GPUs y [[09-Glosario#TPU|TPUs]] para computación intensiva
+- **Hardware gratuito**: Acceso a GPUs y TPUs para computación intensiva
 - **Integración con Google Drive**: Guarda y comparte notebooks fácilmente
 - **Colaboración en tiempo real**: Múltiples usuarios pueden trabajar simultáneamente
 
-### 6.2.2 El Agente de IA de Colab: Gemini en Acción
+### 6.2.2 El Agente de IA de Colab: Gemini en acción
 
-La verdadera revolución llega con la integración de **agentes de IA como [[09-Glosario#Gemini|Gemini]]** dentro de Colab. Este asistente te permite generar y ejecutar código para analizar tus datos simplemente describiendo lo que necesitas en lenguaje natural.
+La verdadera revolución llega con la integración de agentes de IA como Gemini dentro de Colab. Este asistente te permite generar y ejecutar código para analizar tus datos simplemente describiendo lo que necesitas en lenguaje natural.
 
 > [!tip] Ventajas de Colab con Agente IA vs. un Chatbot General
 >
@@ -78,7 +73,7 @@ La verdadera revolución llega con la integración de **agentes de IA como [[09-
 > A diferencia de un chatbot que te da una respuesta directa, el agente de Colab genera el código Python que realiza el análisis. Puedes ver exactamente qué está haciendo, aprender de él y entender el proceso.
 >
 > **2. Modificabilidad:**
-> Tienes control total. Puedes editar el código generado, ajustar parámetros, cambiar las visualizaciones, corregir errores y experimentar. Es un entorno de aprendizaje y trabajo interactivo, no una caja negra.
+> Tienes control total. Puedes editar el código generado, ajustar parámetros, cambiar las visualizaciones, corregir errores y experimentar. Es un entorno de aprendizaje y trabajo interactivo.
 >
 > **3. Reproducibilidad:**
 > El código generado queda documentado en el notebook, permitiendo que otros repliquen tu análisis exactamente.
@@ -86,13 +81,11 @@ La verdadera revolución llega con la integración de **agentes de IA como [[09-
 > **4. Iteración rápida:**
 > Puedes refinar tu análisis con instrucciones adicionales sin empezar desde cero.
 
----
-
 ## 6.3 Tutorial: Análisis Exploratorio de Datos con Gemini en Colab
 
-Realizar un **[[09-Glosario#Análisis Exploratorio de Datos (EDA)|análisis exploratorio de datos]]** (EDA, _Exploratory Data Analysis_) es fundamental para entender un conjunto de datos antes de aplicar modelos más complejos. Veamos cómo el agente de IA en Colab simplifica radicalmente este proceso.
+Realizar un **análisis exploratorio de datos** (EDA, _Exploratory Data Analysis_) es fundamental para entender un conjunto de datos antes de aplicar modelos más complejos. Veamos cómo el agente de IA en Colab simplifica este proceso.
 
-### 6.3.1 Flujo de Trabajo General
+### 6.3.1 Flujo de trabajo general
 
 ```mermaid
 flowchart TD
@@ -116,7 +109,7 @@ flowchart TD
     style K fill:#fff3e0
 ```
 
-### 6.3.2 Paso 1: Configuración Inicial
+### 6.3.2 Paso 1: Configuración inicial
 
 **1. Acceder a Google Colab:**
 - Visita [colab.research.google.com](https://colab.research.google.com/)
@@ -172,11 +165,11 @@ Simplemente escribe en el chat de Gemini:
 
 El agente generará y ejecutará el código necesario automáticamente.
 
-### 6.3.4 Paso 3: Análisis Exploratorio con Prompts en Lenguaje Natural
+### 6.3.4 Paso 3: Análisis exploratorio con Prompts en Lenguaje Natural
 
 Aquí es donde ocurre la magia. En lugar de escribir código manualmente, describes lo que quieres hacer.
 
-> [!example]- Ejemplo de Prompt Completo para EDA
+> [!example]- Ejemplo de Prompt completo para EDA
 >
 > ```
 > Realiza un análisis exploratorio completo del dataset cargado. Específicamente:
@@ -201,7 +194,7 @@ Aquí es donde ocurre la magia. En lugar de escribir código manualmente, descri
 4. Muestra los resultados: tablas, gráficos, estadísticas
 5. Añade comentarios explicativos en el código
 
-### 6.3.5 Paso 4: Interpretación y Refinamiento
+### 6.3.5 Paso 4: Interpretación y refinamiento
 
 **El código generado se verá similar a esto:**
 
@@ -304,14 +297,14 @@ Una vez completado el EDA básico, puedes solicitar análisis más sofisticados:
 > Muestra los coeficientes, R², y evalúa los supuestos del modelo"
 > ```
 >
-> **[[09-Glosario#Clustering|Clustering]]:**
+> **Clustering:**
 > ```
 > "Aplica K-means clustering con k=3 a las variables numéricas.
 > Visualiza los clusters en un gráfico de dispersión usando PCA
 > para reducir a 2 dimensiones. Describe las características de cada cluster"
 > ```
 
-### 6.3.7 Paso 6: Generación de Informes
+### 6.3.7 Paso 6: Generación de informes
 
 El agente puede ayudarte a documentar tus hallazgos:
 
@@ -325,11 +318,9 @@ hallazgos del análisis, incluyendo:
 "
 ```
 
----
+## 6.4 Casos de uso avanzados en investigación
 
-## 6.4 Casos de Uso Avanzados en Investigación
-
-### 6.4.1 Limpieza y Preprocesamiento de Datos
+### 6.4.1 Limpieza y preprocesamiento de datos
 
 **Problema común:** Los datos del mundo real son desordenados
 
@@ -347,20 +338,19 @@ hallazgos del análisis, incluyendo:
 "
 ```
 
-### 6.4.2 Visualizaciones Avanzadas
+### 6.4.2 Visualizaciones avanzadas
 
 **Dashboards interactivos:**
 
 ```
 "Crea un dashboard interactivo usando Plotly que incluya:
 - Un gráfico de líneas mostrando la evolución temporal de la variable X
-- Un gráfico de dispersión 3D con las variables X, Y, Z
 - Un histograma interactivo con slider para filtrar por rango de fechas
 - Asegúrate de que todos los gráficos tengan tooltips informativos
 "
 ```
 
-### 6.4.3 [[09-Glosario#Machine Learning|Machine Learning]] Supervisado
+### 6.4.3 Machine Learning Supervisado
 
 **Clasificación:**
 
@@ -397,29 +387,29 @@ Para cada modelo:
 
 ---
 
-## 6.5 Análisis Cualitativo Asistido por LLM
+## 6.5 Análisis Cualitativo asistido por IA generativa
 
-Mientras que Google Colab brilla en análisis cuantitativo, los LLM están transformando también el **análisis cualitativo**, que busca interpretar datos no numéricos como entrevistas, textos o publicaciones en redes sociales.
+Mientras que Google Colab brilla en análisis cuantitativo, la IA generativa está transformando también el análisis cualitativo, que busca interpretar datos no numéricos como entrevistas, textos o publicaciones en redes sociales.
 
-### 6.5.1 El Desafío del Análisis Cualitativo Tradicional
+### 6.5.1 El Desafío del Análisis Cualitativo tradicional
 
 El análisis cualitativo ha sido tradicionalmente:
 
-❌ **Manual y lento**: Leer cientos de páginas de transcripciones
+❌ **Manual**: Leer cientos de páginas de transcripciones
 ❌ **Difícil de escalar**: Imposible analizar miles de documentos
 ❌ **Subjetivo**: La codificación depende de la interpretación del investigador
 ❌ **Laborioso**: Identificar temas emergentes toma semanas o meses
 
 > [!quote] Transformación con LLMs
-> Los LLM ofrecen soluciones transformadoras a estos desafíos. Al ser entrenados con vastos conjuntos de datos, pueden "comprender" y generar texto con una calidad similar a la humana, permitiendo un análisis a una escala y velocidad sin precedentes.
+> La IA generativa ofrece soluciones transformadoras a estos desafíos. Al ser entrenados con vastos conjuntos de datos, pueden estructurar y generar texto, permitiendo un análisis a una escala y velocidad sin precedentes.
 
-### 6.5.2 Análisis Temático Inductivo de Entrevistas
+### 6.5.2 Análisis temático inductivo de entrevistas
 
-El **[[09-Glosario#Análisis Temático|análisis temático]]** es una de las técnicas más comunes en la investigación cualitativa. El siguiente flujo de trabajo, adaptado de Mathis et al. (2024), muestra cómo los LLM pueden asistir en un análisis temático inductivo.
+El **análisis temático** es una de las técnicas más comunes en la investigación cualitativa. El siguiente flujo de trabajo, adaptado de Mathis et al. (2024), muestra cómo los modelos generativos pueden asistir en un análisis temático inductivo.
 
 ```mermaid
 flowchart TD
-    A[Grabaciones de Audio] --> B[Paso 1: [[09-Glosario#Transcripción|Transcripción]]<br/>[[09-Glosario#Whisper|Whisper]] AI]
+    A[Grabaciones de Audio] --> B[Paso 1: Transcripción<br/>Whisper AI]
     B --> C[Transcripciones de Texto]
     C --> D[Paso 2: Codificación Inicial<br/>LLM identifica temas]
     D --> E[Listado de Códigos Iniciales]
@@ -435,9 +425,9 @@ flowchart TD
     style H fill:#fff3cd
 ```
 
-#### Paso 1: [[09-Glosario#Transcripción|Transcripción]] Automática
+#### Paso 1: Transcripción automática
 
-**Herramienta:** [[09-Glosario#Whisper|Whisper]] de OpenAI
+**Herramienta:** Whisper de OpenAI
 
 Whisper es un modelo de reconocimiento de voz de código abierto que convierte audio en texto con precisión cercana al humano.
 
@@ -464,11 +454,11 @@ print("Transcripción completada")
 > [!tip] Modelos de Whisper
 > - **tiny**: Más rápido, menos preciso
 > - **base**: Equilibrio velocidad/precisión (recomendado)
-> - **small, medium, large**: Mayor precisión, más lentos
+> - **large**: Mayor precisión, más lentos
 
-#### Paso 2: Generación de Códigos Iniciales
+#### Paso 2: Generación de códigos iniciales
 
-Una vez que tienes las transcripciones, el LLM puede identificar temas emergentes.
+Una vez que tienes las transcripciones, el modelo generativo puede identificar temas emergentes.
 
 **Prompt para codificación inicial:**
 
@@ -504,9 +494,9 @@ Para cada tema identificado, proporciona:
 | Apoyo familiar | Rol de la familia en salud mental | "Mis papás no entienden por qué estoy tan estresado" |
 | Estrategias de afrontamiento | Técnicas para manejar ansiedad | "Empecé a hacer meditación por las mañanas..." |
 
-#### Paso 3: Agrupación de Temas
+#### Paso 3: Agrupación de temas
 
-Una vez que tienes códigos de múltiples entrevistas (ej: 15 entrevistas = 150-200 códigos iniciales), necesitas agruparlos en **temas de orden superior**.
+Una vez que tienes códigos de múltiples entrevistas (ej: 15 entrevistas = 150-200 códigos iniciales), necesitas agruparlos en temas de orden superior.
 
 **Prompt para agrupación:**
 
@@ -545,9 +535,9 @@ códigos.
 [Repetir para cada tema de orden superior]
 ```
 
-#### Paso 4: Evaluación Crítica
+#### Paso 4: Evaluación crítica
 
-Aquí usamos el LLM como un **crítico** que identifica debilidades en nuestra agrupación.
+Aquí podemos usar un modelo generativo como un crítico que identifica debilidades en nuestra agrupación.
 
 **Prompt de crítica:**
 
@@ -573,9 +563,9 @@ defectuosa en esta agrupación. Específicamente:
 específicos.
 ```
 
-#### Paso 5: Refinamiento Final
+#### Paso 5: Refinamiento final
 
-Con los problemas identificados, pedimos al LLM que proponga una versión mejorada.
+Con los problemas identificados, pedimos a la IA generativa que proponga una versión mejorada.
 
 **Prompt de refinamiento:**
 
@@ -612,7 +602,7 @@ abordando los problemas identificados.
 [Patrones que emergen al mirar todos los temas en conjunto]
 ```
 
-### 6.5.3 Ventajas y Limitaciones del Análisis Cualitativo con LLM
+### 6.5.3 Ventajas y limitaciones del Análisis Cualitativo con modelos generativos
 
 **Ventajas:**
 
@@ -624,25 +614,23 @@ abordando los problemas identificados.
 
 **Limitaciones:**
 
-⚠️ **Comprensión contextual limitada**: El LLM no entiende sutilezas culturales o contextuales profundas
+⚠️ **Comprensión contextual limitada**: El modelo generativo no entiende sutilezas culturales o contextuales profundas
 ⚠️ **Falta de experiencia vivida**: No tiene la comprensión experiencial que tiene un investigador humano
 ⚠️ **Sesgos del modelo**: Puede reproducir sesgos presentes en sus datos de entrenamiento
 ⚠️ **Requiere validación humana**: Los resultados deben ser revisados críticamente por expertos
-⚠️ **Consideraciones éticas**: Uso de IA en investigación cualitativa es debatido en algunas disciplinas
+⚠️ **Consideraciones éticas**: Uso de IA generativa en investigación cualitativa es debatido en algunas disciplinas
 
 > [!important] Principio Fundamental
-> El análisis cualitativo asistido por LLM debe verse como una **colaboración humano-IA**, no un reemplazo. El investigador sigue siendo quien:
+> El análisis cualitativo asistido por IA generativa debe verse como una colaboración humano-IA, no un reemplazo. El investigador sigue siendo quien:
 > - Formula las preguntas de investigación
 > - Diseña el proceso de análisis
 > - Interpreta críticamente los resultados
 > - Valida los temas emergentes con teoría existente
 > - Contextualiza los hallazgos en el marco más amplio
 
----
+## 6.6 Extracción de datos estructurados de literatura científica
 
-## 6.6 Extracción de Datos Estructurados de Literatura Científica
-
-Otra aplicación poderosa es la **extracción de información específica de cientos o miles de documentos**, como artículos científicos. Este proceso, que tradicionalmente tomaba semanas, puede automatizarse significativamente con LLMs.
+Otra aplicación es la extracción de información específica de cientos o miles de documentos, como artículos científicos. Este proceso, que tradicionalmente tomaba semanas, puede automatizarse significativamente con los modelos generativos.
 
 ### 6.6.1 El Problema
 
@@ -655,7 +643,7 @@ Imagina que necesitas extraer información metodológica de 100 papers para una 
 
 Hacerlo manualmente implica leer 100 papers y llenar una tabla, tomando aproximadamente 30-60 minutos por paper = **50-100 horas de trabajo**.
 
-### 6.6.2 La Solución con LLMs
+### 6.6.2 La solución con los modelos generativos
 
 **Flujo de trabajo automatizado:**
 
@@ -803,7 +791,7 @@ print(f"\n✓ Extracción completada: {len(resultados)} papers procesados")
 print(f"✓ Archivo guardado: datos_extraidos_papers.csv")
 ```
 
-#### Paso 4: Validación Humana
+#### Paso 4: Validación humana
 
 **Es crítico validar una muestra aleatoria:**
 
@@ -820,7 +808,7 @@ muestra_validacion.to_excel('validacion_manual_10_papers.xlsx', index=False)
 > [!tip] Criterio de Aceptación
 > Si la precisión de la extracción en la muestra de validación es ≥ 90%, puedes confiar en los resultados automatizados para el resto. Si es menor, refina tus prompts y repite.
 
-### 6.6.3 Ventajas de este Enfoque
+### 6.6.3 Ventajas de este enfoque
 
 ✅ **Ahorro de tiempo**: De 100 horas a 5-10 horas (incluyendo validación)
 ✅ **Consistencia**: Criterios de extracción uniformes en todos los papers
@@ -828,280 +816,12 @@ muestra_validacion.to_excel('validacion_manual_10_papers.xlsx', index=False)
 ✅ **Reproducibilidad**: El proceso está documentado y automatizado
 ✅ **Análisis cuantitativo**: Los datos estructurados permiten análisis estadísticos
 
----
 
-## 6.7 Google AI Studio: Tu Laboratorio Personal de IA
-
-### 6.7.1 ¿Qué es [[09-Glosario#Google AI Studio|Google AI Studio]]?
-
-> [!info] Definición
-> [[09-Glosario#Google AI Studio|Google AI Studio]] es una plataforma web gratuita que permite experimentar con los modelos Gemini de Google mediante una interfaz gráfica intuitiva. A diferencia de usar APIs directamente, AI Studio ofrece un entorno visual para diseñar, probar y refinar prompts sin escribir código.
-
-**Acceso:** [aistudio.google.com](https://aistudio.google.com)
-
-### 6.7.2 Características Clave para Investigación
-
-**1. [[09-Glosario#Multimodalidad|Multimodalidad]] Nativa**
-
-Puedes combinar en un solo prompt:
-- Texto
-- Imágenes
-- Audio
-- Video
-- Documentos PDF
-
-**Ejemplo de uso:**
-```
-Prompt: "Analiza esta imagen de un diagrama de flujo de mi experimento
-y transcribe todos los pasos del proceso. Luego, identifica posibles
-puntos de falla metodológica."
-
-[Adjuntar imagen del diagrama]
-```
-
-**2. Prompts Estructurados (System Instructions)**
-
-AI Studio permite definir **instrucciones de sistema** que se aplican a toda la conversación, similar a configurar un "rol" permanente para el modelo.
-
-**Ejemplo:**
-```
-System Instructions: "Eres un bioestadístico especializado en ensayos
-clínicos. Siempre proporcionas respuestas con:
-1. Explicación conceptual
-2. Código R o Python si aplica
-3. Interpretación de resultados
-4. Advertencias sobre supuestos estadísticos
-
-Usa un tono pedagógico pero riguroso."
-```
-
-**3. Ajuste de Parámetros**
-
-Puedes modificar parámetros del modelo en tiempo real:
-
-| Parámetro | Función | Recomendación para Investigación |
-|---|---|---|
-| **Temperature** | Creatividad vs Determinismo | 0.1-0.3 para análisis técnico<br/>0.7-0.9 para brainstorming |
-| **Top-k** | Diversidad de tokens | 10-20 para precisión |
-| **Top-p** | Sampling nucleus | 0.8-0.95 para balance |
-| **Max Output Tokens** | Longitud de respuesta | 2048-8192 para análisis extensos |
-
-**4. Historial y Versionado**
-
-Todas tus conversaciones se guardan automáticamente, permitiendo:
-- Comparar resultados de diferentes prompts
-- Recuperar conversaciones anteriores
-- Exportar interacciones completas
-
-### 6.7.3 Casos de Uso Específicos en Investigación
-
-#### Caso 1: Análisis de Imágenes Científicas
-
-**Escenario:** Tienes micrografías de tejidos que necesitas clasificar
-
-**Flujo de trabajo:**
-
-1. Subir imagen de micrografía
-2. Prompt:
-```
-Analiza esta imagen de tejido histológico teñido con H&E:
-
-1. Identifica el tipo de tejido
-2. Describe las estructuras celulares visibles
-3. Señala cualquier anormalidad patológica evidente
-4. Proporciona el grado de confianza en tu evaluación (bajo/medio/alto)
-
-Si necesitas más contexto para un diagnóstico preciso, indica qué
-información adicional requerirías.
-```
-
-#### Caso 2: Revisión de Literatura con PDFs
-
-**Escenario:** Necesitas comparar rápidamente 3-4 papers sobre un tema
-
-**Flujo de trabajo:**
-
-1. Subir 3-4 PDFs de papers
-2. Prompt:
-```
-He adjuntado 4 papers sobre [tema]. Realiza un análisis comparativo:
-
-**Tabla Comparativa:**
-| Paper | Metodología | N | Hallazgo Principal | Limitación Principal |
-|-------|-------------|---|-------------------|----------------------|
-| ... | ... | ... | ... | ... |
-
-**Análisis de Convergencia:**
-- ¿En qué coinciden todos los estudios?
-- ¿Dónde hay desacuerdo o resultados contradictorios?
-
-**Síntesis:**
-Redacta 2 párrafos integrando estos estudios, señalando el estado
-del conocimiento y las brechas existentes.
-
-**Recomendación:**
-Basándote en estos papers, ¿qué dirección de investigación sería
-más prometedora?
-```
-
-#### Caso 3: Generación de Código para Análisis
-
-**Escenario:** Necesitas código para un análisis estadístico pero no recuerdas la sintaxis
-
-**Flujo de trabajo:**
-
-```
-Necesito realizar un ANOVA de medidas repetidas en R para analizar
-el efecto de 3 condiciones experimentales (control, tratamiento A,
-tratamiento B) medidas en 4 tiempos diferentes (baseline, semana 1,
-semana 2, semana 4) en 30 participantes.
-
-Mi dataframe se llama `datos` y tiene las columnas:
-- participante_id
-- condicion (factor con 3 niveles)
-- tiempo (factor con 4 niveles)
-- respuesta (variable continua)
-
-Genera código R que:
-1. Verifique supuestos (esfericidad, normalidad)
-2. Ejecute el ANOVA de medidas repetidas
-3. Realice comparaciones post-hoc si hay efectos significativos
-4. Genere un gráfico de perfil de medias
-
-Incluye comentarios explicativos en el código.
-```
-
-#### Caso 4: Traducción Técnica Contextual
-
-**Escenario:** Necesitas traducir tu paper manteniendo precisión técnica
-
-**Flujo de trabajo:**
-
-```
-Traduce el siguiente abstract de inglés a español académico,
-manteniendo la precisión técnica:
-
-[Pegar abstract en inglés]
-
-Requisitos:
-- Usa terminología estándar en español para términos técnicos
-- Mantén el estilo formal académico
-- Si un término técnico tiene múltiples traducciones aceptadas,
-  proporciona alternativas entre paréntesis
-- Respeta la estructura de oraciones del original
-
-Después de la traducción, explica cualquier decisión de traducción
-que consideres relevante.
-```
-
----
-
-## 6.8 Flujo de Trabajo Integrado: De la Recolección al Manuscrito
-
-Integremos todas las herramientas de este capítulo en un flujo de investigación completo:
-
-```mermaid
-flowchart TD
-    A[Pregunta de Investigación] --> B[Diseño Metodológico]
-    B --> C[Recolección de Datos]
-
-    C --> D{Tipo de Datos}
-    D -->|Cuantitativos| E[Google Colab con Gemini]
-    D -->|Cualitativos| F[Transcripción con Whisper]
-    D -->|Literatura| G[Extracción con LLM]
-
-    E --> H[EDA + Visualización]
-    E --> I[Modelado Estadístico]
-
-    F --> J[Análisis Temático<br/>con ChatGPT/Claude]
-
-    G --> K[Tabla de Datos Extraídos]
-
-    H --> L[Resultados Cuantitativos]
-    I --> L
-    J --> M[Resultados Cualitativos]
-    K --> N[Síntesis de Literatura]
-
-    L --> O[Google AI Studio:<br/>Integración de Resultados]
-    M --> O
-    N --> O
-
-    O --> P[Borrador de Manuscrito]
-    P --> Q[Revisión y Refinamiento]
-    Q --> R[Manuscrito Final]
-
-    style A fill:#e8f5e9
-    style O fill:#e1f5ff
-    style R fill:#c8e6c9
-```
-
-### 6.8.1 Ejemplo Integrado Completo
-
-> [!example]- Proyecto: Impacto de Redes Sociales en Salud Mental Estudiantil
->
-> **Diseño:** Mixto (cuantitativo + cualitativo)
->
-> **Fase 1: Datos Cuantitativos (Colab)**
-> - Encuesta a 500 estudiantes
-> - Variables: Horas de uso de RRSS, medidas de ansiedad, depresión, autoestima
-> - Análisis: Regresión múltiple, clustering, visualizaciones
-> - Código generado por Gemini en Colab
->
-> **Fase 2: Datos Cualitativos (Whisper + Claude)**
-> - 20 entrevistas semi-estructuradas
-> - Transcripción automática con Whisper
-> - Análisis temático con Claude siguiendo metodología de 5 pasos
-> - Temas emergentes: adicción digital, FOMO, comparación social, etc.
->
-> **Fase 3: Revisión de Literatura (LLM Extraction)**
-> - 80 papers sobre RRSS y salud mental
-> - Extracción automatizada de metodologías, N, resultados principales
-> - Tabla comparativa generada automáticamente
->
-> **Fase 4: Integración (Google AI Studio)**
-> - Subir: Resultados cuantitativos + Temas cualitativos + Síntesis de literatura
-> - Prompt: "Integra estos tres componentes en una narrativa coherente para la sección de Discusión de mi paper. Identifica cómo los hallazgos cualitativos contextualizan los cuantitativos, y cómo ambos se relacionan con la literatura existente."
-> - Resultado: Borrador de Discusión de 2,000 palabras con citas integradas
->
-> **Fase 5: Refinamiento**
-> - Revisión crítica humana
-> - Verificación de todas las afirmaciones
-> - Ajustes de tono y estructura
-> - Manuscrito final listo para sometimiento
-
----
-
-## 6.9 Mejores Prácticas y Consideraciones Éticas
-
-### 6.9.1 Validación de Resultados
-
-> [!warning] Regla de Oro
-> **Nunca confíes ciegamente en los resultados generados por IA**. Siempre:
->
-> 1. Valida una muestra aleatoria manualmente
-> 2. Verifica que los resultados tengan sentido teórico
-> 3. Compara con técnicas tradicionales cuando sea posible
-> 4. Documenta cualquier discrepancia identificada
-
-### 6.9.2 Transparencia Metodológica
-
-Cuando uses IA en tu investigación, documenta:
-
-✅ Qué herramientas de IA utilizaste (nombre, versión, fecha)
-✅ Para qué tareas específicas se usó la IA
-✅ Qué prompts o configuraciones se emplearon (si es relevante)
-✅ Qué validaciones manuales se realizaron
-✅ Qué limitaciones identificaste en el uso de IA
-
-**Ejemplo de declaración metodológica:**
-
-> "El análisis exploratorio de datos cuantitativos se realizó utilizando Google Colab con el asistente Gemini 2.5 (diciembre 2024) para generar código Python de visualización y análisis estadístico. Todo el código generado fue revisado por el equipo de investigación antes de su ejecución, y los resultados fueron validados mediante análisis independientes usando el software SPSS v.28. El análisis temático de las transcripciones de entrevistas fue asistido por Claude 3.5 Sonnet (Anthropic, 2024) siguiendo la metodología de cinco pasos propuesta por Mathis et al. (2024). Una muestra aleatoria del 30% de las codificaciones fue validada independientemente por dos codificadores humanos, alcanzando un acuerdo inter-codificador de κ = 0.87."
-
-### 6.9.3 Consideraciones Éticas Específicas
+## 6.7 Consideraciones Éticas Específicas
 
 #### Análisis Cuantitativo
 
-⚠️ **Riesgo:** Interpretación incorrecta de resultados estadísticos generados por IA
+⚠️ **Riesgo:** Interpretación incorrecta de resultados estadísticos generados por IA generativa
 ✅ **Solución:** Siempre consulta con un estadístico si los resultados son críticos
 
 #### Análisis Cualitativo
@@ -1111,7 +831,7 @@ Cuando uses IA en tu investigación, documenta:
 
 #### Datos Sensibles
 
-⚠️ **Riesgo:** Subir datos de participantes a plataformas de IA en la nube
+⚠️ **Riesgo:** Subir datos de participantes a sistemas de IA generativa en la nube
 ✅ **Solución:**
 - Anonimiza todos los datos antes de procesarlos con IA
 - Usa modelos locales (ej: Whisper local) para datos muy sensibles
@@ -1126,13 +846,11 @@ Cuando uses IA en tu investigación, documenta:
 | **LLM para análisis temático** | Puede forzar interpretaciones basadas en patrones de entrenamiento | Triangulación con codificación humana |
 | **Extracción automatizada de papers** | Puede malinterpretar información compleja | Validación de muestra aleatoria |
 
----
+## 6.8 Conclusión 
 
-## 6.10 Conclusión del Capítulo: El Analista de Datos Aumentado
+Las herramientas presentadas en este capítulo no buscan reemplazar al estudiante, docente e investigador, sino aumentar sus herramientas de uso diario.
 
-Las herramientas presentadas en este capítulo no buscan reemplazar al investigador o analista de datos, sino **aumentar sus capacidades** de manera exponencial.
-
-> [!success] Transformación Lograda
+> [!success] Transformación lograda
 >
 > **Antes:**
 > - Análisis limitado por habilidades técnicas de programación
@@ -1149,22 +867,21 @@ Las herramientas presentadas en este capítulo no buscan reemplazar al investiga
 
 **Principios para recordar:**
 
-1. **La IA como colaboradora**: No delega el pensamiento crítico, sino las tareas repetitivas
+1. **La IA generativa como colaboradora**: No delega el pensamiento crítico, sino las tareas repetitivas
 2. **Validación es esencial**: Siempre verifica una muestra de resultados automatizados
-3. **Transparencia metodológica**: Documenta el uso de IA en tus publicaciones
+3. **Transparencia metodológica**: Documenta el uso de IA generativa en tus publicaciones
 4. **Interpretación humana irreemplazable**: Los números y temas no hablan solos; el investigador da significado
 5. **Aprendizaje continuo**: Las herramientas evolucionan rápido; mantente actualizado
 
 > [!quote] Reflexión Final
-> "El futuro del análisis de datos en investigación no es humano versus IA, sino humano con IA. Las herramientas de este capítulo nos permiten dedicar menos tiempo a la mecánica del análisis y más tiempo a lo que realmente importa: formular las preguntas correctas, interpretar críticamente los resultados y generar conocimiento que avance nuestra comprensión del mundo."
+> "El futuro del análisis de datos en investigación no es humano versus IA, sino humano con IA. Las herramientas de este capítulo nos permiten automatizar ciertos procesos de análisis y dedicar más tiempo a formular las preguntas correctas, interpretar críticamente los resultados y generar conocimiento que avance nuestra comprensión del mundo."
 
 **Próximos pasos:**
 
-En el siguiente capítulo abordaremos las **consideraciones éticas** del uso de IA en investigación: desde la propiedad intelectual y autoría, hasta los sesgos algorítmicos y la responsabilidad del investigador. Comprender estos aspectos es crucial para usar estas poderosas herramientas de manera responsable y éticamente fundamentada.
+En el siguiente capítulo abordaremos las consideraciones éticas del uso de IA generativa en investigación: desde la propiedad intelectual y autoría, hasta los sesgos algorítmicos y la responsabilidad del investigador. Comprender estos aspectos es crucial para usar estas  herramientas de manera responsable y éticamente fundamentada.
 
----
 
-## 6.11 Recursos Adicionales
+## 6.9 Recursos Adicionales
 
 > [!tip] Para Profundizar
 >
@@ -1190,3 +907,5 @@ En el siguiente capítulo abordaremos las **consideraciones éticas** del uso de
 > - AI for Research Discord
 
 ---
+
+**🧭 Navegación:** [[05-Sistema-Integracion|⬅️ Capítulo 5]] | [[07-Ética|Siguiente: Capítulo 7 ➡️]]

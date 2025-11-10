@@ -1,12 +1,23 @@
+<div align="center">
+
+<img src="recursos/imagenes_portada/Portada.jpg" alt="Portada del Libro" width="400"/>
+
 # 📚 Herramientas de IA para la Investigación Académica
 
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Versión](https://img.shields.io/badge/Versión-1.0.0-blue.svg)](https://github.com/ArmaHui/book_ia)
+[![Versión](https://img.shields.io/badge/Versión-1.0.0-blue.svg)](https://github.com/socialdataibero/herramientas-ia-investigacion)
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow.svg)]()
 
 > Una guía práctica y accesible para estudiantes, docentes e investigadores que buscan aprovechar las herramientas de Inteligencia Artificial de manera responsable y efectiva en sus proyectos académicos.
 
 🌐 **[Visita el sitio web del proyecto](https://herramientasiainvestigacion.vercel.app/)**
+
+<br/>
+
+<img src="recursos/logos/SocialData.svg" alt="Social Data" height="60" style="margin: 20px;"/>
+<img src="recursos/logos/EducaIA_largo.svg" alt="EducaIA" height="60" style="margin: 20px;"/>
+
+</div>
 
 ---
 
@@ -18,7 +29,7 @@
 
 ---
 
-## 📖 Acerca del Proyecto
+## 📖 Acerca del proyecto
 
 Este repositorio contiene el código fuente y contenido de _Herramientas de IA para la Investigación Académica_, un libro digital diseñado para ayudar a la comunidad académica a navegar el ecosistema de la Inteligencia Artificial generativa de manera ética, rigurosa y eficaz.
 
@@ -35,40 +46,37 @@ Este libro responde a estos desafíos con una guía práctica, no técnica, pens
 
 ---
 
-## 📑 Contenido del Libro
+## 📑 Contenido del libro
 
-### Capítulos Principales
+### Capítulos principales
 
 1. **💡 Fundamentos de la IA Generativa**  
    Conceptos esenciales sobre qué es la IA generativa, cómo funciona y sus capacidades y limitaciones.
 
-2. **✍️ Ingeniería de Prompts**  
+2. **✍️ Ingeniería de prompts**  
    El arte de dialogar con la IA: técnicas para diseñar instrucciones efectivas y obtener mejores resultados.
 
-3. **🧩 Ingeniería de Contexto**  
+3. **🧩 Ingeniería de contexto**  
    Cómo proporcionar el contexto adecuado para maximizar la precisión y relevancia de las respuestas.
 
-4. **🔍 Revisión de Literatura con IA**  
+4. **🔍 Revisión de literatura con IA**  
    Herramientas y estrategias para la búsqueda, análisis y síntesis de literatura académica.
 
-5. **🔗 Sistema de Integración de Investigación**  
+5. **🔗 Sistema de integración de investigación**  
    Cómo construir flujos de trabajo robustos que integren IA en el proceso de investigación.
 
-6. **📊 Análisis Cuantitativo y Cualitativo**  
+6. **📊 Análisis cuantitativo y cualitativo**  
    Técnicas de análisis de datos asistido por IA, desde estadísticas hasta análisis de texto.
 
-7. **⚖️ Ética en el Uso de IA**  
+7. **⚖️ Ética en el uso de IA**  
    Principios fundamentales para garantizar la integridad, transparencia y responsabilidad en la investigación.
 
 8. **📚 Referencias**  
    Bibliografía completa y recursos adicionales.
 
-9. **📝 Glosario**  
-   Términos clave y definiciones para navegar el lenguaje de la IA.
-
 ---
 
-## 🛠️ Tutoriales de Herramientas
+## 🛠️ Tutoriales de herramientas
 
 El repositorio incluye tutoriales prácticos paso a paso para herramientas específicas:
 
@@ -80,7 +88,7 @@ El repositorio incluye tutoriales prácticos paso a paso para herramientas espec
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📂 Estructura del repositorio
 
 ```
 book_ia/
@@ -93,8 +101,7 @@ book_ia/
 │   ├── 05-Sistema-Integracion.md
 │   ├── 06-Análisis-Cuantitativo-Cualitativo.md
 │   ├── 07-Ética.md
-│   ├── 08-Referencias.md
-│   └── 09-Glosario.md
+│   └── 08-Referencias.md
 ├── tutoriales_herramientas/    # Guías prácticas de herramientas
 │   ├── consensus.md
 │   ├── elicit.md
@@ -107,7 +114,7 @@ book_ia/
 
 ---
 
-## 🚀 Cómo Usar Este Repositorio
+## 🚀 Cómo usar este repositorio
 
 ### Para Lectores
 
@@ -121,7 +128,7 @@ book_ia/
 
 ¡Las contribuciones son bienvenidas! Si deseas contribuir:
 
-- 📝 Reporta errores o sugiere mejoras abriendo un [Issue](https://github.com/ArmaHui/book_ia/issues)
+- 📝 Reporta errores o sugiere mejoras abriendo un [Issue](https://github.com/socialdataibero/herramientas-ia-investigacion/issues)
 - 🔧 Envía correcciones o nuevo contenido mediante Pull Requests
 - 💡 Comparte ideas para nuevos tutoriales o capítulos
 - 🌍 Ayuda con traducciones o mejoras de accesibilidad
@@ -169,19 +176,25 @@ Bajo los siguientes términos:
 
 Para preguntas, comentarios o colaboraciones:
 
-- **Repositorio GitHub**: [github.com/ArmaHui/book_ia](https://github.com/ArmaHui/book_ia)
+- **Repositorio GitHub**: [github.com/socialdataibero/herramientas-ia-investigacion](https://github.com/socialdataibero/herramientas-ia-investigacion)
+- **Correos institucionales:**
+   - **Wilfrido A. Gómez Arias**: wilfrido.gomez@ibero.mx
+   - **Armando Huitzilt Rodríguez**: arhuitzilt@gmail.com
+   - **Andrea Moctezuma**: andrea.moctezuma.geo@gmail.com
 - **Sitio Web**: [herramientasiainvestigacion.vercel.app](https://herramientasiainvestigacion.vercel.app/)
-- **Issues**: [Reportar un problema](https://github.com/ArmaHui/book_ia/issues)
+- **Issues**: [Reportar un problema](https://github.com/socialdataibero/herramientas-ia-investigacion/issues)
 
 ---
 
 ## 🙏 Agradecimientos
 
+Estamos muy agradecidos por el apoyo de la Dirección de Innovación Educativa y Vicerrectoría Académica de la Universidad Iberoamericana Ciudad de México, cuyo respaldo institucional fue fundamental para este proyecto. Nuestro reconocimiento especial a todos los participantes de nuestros cursos y talleres, cuyas preguntas y retroalimentación enriquecieron significativamente este trabajo, así como a los colegas que compartieron sus experiencias y contribuyeron de diversas formas a hacer realidad esta obra digital.
 
+Por último, dedicamos este libro a todas las personas y organizaciones que trabajan incansablemente por una inteligencia artificial segura, ética e inclusiva.
 
 ---
 
-## ⭐ Apoyo al Proyecto
+## ⭐ Apoyo al proyecto
 
 Si este recurso te ha sido útil:
 
@@ -196,6 +209,6 @@ Si este recurso te ha sido útil:
 
 **Hecho con ❤️ para la comunidad académica de Social Data Ibero**
 
-[Reportar un Error](https://github.com/ArmaHui/book_ia/issues) • [Solicitar una Característica](https://github.com/ArmaHui/book_ia/issues) • [Discusiones](https://github.com/ArmaHui/book_ia/discussions)
+[Reportar un Error](https://github.com/socialdataibero/herramientas-ia-investigacion/issues) • [Solicitar una Característica](https://github.com/socialdataibero/herramientas-ia-investigacion/issues) • [Discusiones](https://github.com/socialdataibero/herramientas-ia-investigacion/discussions)
 
 </div>

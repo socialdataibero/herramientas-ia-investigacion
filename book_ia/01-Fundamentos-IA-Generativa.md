@@ -45,21 +45,21 @@ Todo este proceso de entrenamiento requiere recursos colosales: miles de unidade
 
 Una vez construidos los modelos generativos, estos se integran en sistemas, comúnmente en chatbots conversacionales capaces de mantener diálogos, simular procesos de razonamiento, procesar millones de _tokens_ (fragmentos de texto) en segundos y generar textos con un nivel de coherencia que hace apenas unos años resultaba impensable. Sin embargo, detrás de esa aparente “magia” hay estadística, matemáticas y computación.
 
-## 1.3 ¿Qué es un sistema de IA Generativa?
+## 1.3 ¿Qué es un Sistema de IA Generativa?
 
-Un sistema de IA generativa es un entorno de software que articula interfaces, algoritmos y datos, combinando uno o varios modelos generativos para ofrecer servicios útiles como chatbots conversacionales, buscadores que proporcionan respuestas resumidas, asistentes para generación de código o plataformas de creación de imágenes. Por ejemplo, ChatGPT integra una interfaz conversacional con diferentes modelos GPT (actualmente GPT-5, GPT-5 Thinking o GPT-5 Pro). Estos sistemas reciben un _prompt_ (una instrucción o consulta textual) y generan respuestas, imágenes o código en función de esa entrada.
+Un Sistema de IA generativa es un entorno de software que articula interfaces, algoritmos y datos, combinando uno o varios modelos generativos para ofrecer servicios útiles como chatbots conversacionales, buscadores que proporcionan respuestas resumidas, asistentes para generación de código o plataformas de creación de imágenes. Por ejemplo, ChatGPT es un chatbots que integra una interfaz conversacional con diferentes modelos GPT (actualmente GPT-5, GPT-5 Thinking o GPT-5 Pro), los cuales reciben un _prompt_ (una instrucción o consulta textual) y generan respuestas, imágenes o código en función de esa entrada.
 
 En sistemas cerrados como ChatGPT, Gemini o Grok, los modelos funcionan como cajas negras: no se conoce con exactitud qué datos fueron utilizados durante el entrenamiento ni los procesos aplicados en el postentrenamiento. Aunque es posible seleccionar la versión del modelo o modificar algunas configuraciones, el acceso al interior del modelo es restringido. Lo único que el usuario controla es la entrada (el prompt) y lo que recibe es la salida (la respuesta).
 
-Esta limitación dio origen a la _ingeniería de prompts_ (ver capítulo siguiente): el arte de diseñar y perfeccionar instrucciones para guiar al modelo hacia respuestas precisas y útiles (Boonstra 2025; Federiakin et al. 2024; Giray 2023; Lee et al. 2025; White et al. 2023). Por ello, sin acceso directo a los modelos, aprender a formular prompts efectivos se convierte en la estrategia clave para comunicarnos con ellos y aprovechar al máximo sus capacidades.
+Esta limitación dio origen a la _ingeniería de prompts_ (ver capítulo siguiente): el arte de diseñar y perfeccionar instrucciones para guiar al modelo hacia respuestas precisas y útiles (Boonstra 2025; Federiakin et al. 2024; Giray 2023; Lee et al. 2025; White et al. 2023). Así que, sin acceso directo a los modelos, aprender a formular prompts efectivos se convierte en la estrategia clave para comunicarnos con ellos y aprovechar al máximo sus capacidades.
 
 ## 1.4 Otros conceptos indispensables: Tokens, Ventana de Contexto y Memoria del Modelo
 
-Para comprender un poco más sobre el funcionamiento de los modelos generativos (LLM) y cómo interactuamos con ellos, debemos conocer conceptos fundamentales que a menudo se comparan con la memoria humana: la _memoria de trabajo_ (de corto plazo) del modelo versus la _memoria de entrenamiento_ (conocimiento de largo plazo). Estas nociones se materializan en lo que se llama **[[09-Glosario#Ventana de Contexto|ventana de contexto]]** y los parámetros entrenados del modelo, respectivamente.
+Para comprender un poco más sobre el funcionamiento de los modelos generativos (LLM) y cómo interactuamos con ellos, debemos conocer conceptos fundamentales que a menudo se comparan con la memoria humana: la _memoria de trabajo_ (de corto plazo) del modelo versus la _memoria de entrenamiento_ (conocimiento de largo plazo). Estas nociones se materializan en lo que se llama **ventana de contexto** y los parámetros entrenados del modelo, respectivamente.
 
 ### 1.4.1 Tokens: La unidad básica de procesamiento
 
-Los modelos generativos (LLM) no leen palabras individualmente sino que las descomponen en piezas más pequeñas llamadas **_[[09-Glosario#Tokens|tokens]]_**. Un token puede ser una palabra entera, un fragmento de palabra o un símbolo de puntuación.
+Los modelos generativos (LLM) no leen palabras individualmente sino que las descomponen en piezas más pequeñas llamadas **_tokens_**. Un token puede ser una palabra entera, un fragmento de palabra o un símbolo de puntuación.
 
 > [!EXAMPLE]+ Ejemplo de Tokenización 
 > La frase _"¿Cómo estás?"_ en español puede descomponerse en 5 tokens [[08-Referencias#(Robles, 2025)|(Robles, 2025)]]:
@@ -187,6 +187,10 @@ También están los sesgos, que no sólo reflejan prejuicios existentes en los d
 
 
 
-
 > [!TIP] Próximo Paso 
 > Ahora que comprendemos los fundamentos técnicos, estamos listos para aprender el arte de comunicarnos eficazmente con estos sistemas. En el siguiente capítulo abordaremos la **Ingeniería de Prompts**: la habilidad clave para transformar nuestras ideas en resultados precisos mediante instrucciones bien diseñadas.
+
+---
+
+**🧭 Navegación:** [[00-Prefacio|⬅️ Prefacio]] | [[02-Ingeniería-Prompts|Siguiente: Capítulo 2 ➡️]]
+
