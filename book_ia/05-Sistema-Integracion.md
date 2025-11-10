@@ -878,10 +878,8 @@ En el siguiente capítulo exploraremos “Análisis cuantitativo y cualitativo a
 **🧭 Navegación:** [[04-Revisión-Literatura-IA|⬅️ Capítulo 4]] | [[06-Análisis-Cuantitativo-Cualitativo|Siguiente: Capítulo 6 ➡️]]
 
 ---
-
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
-
 

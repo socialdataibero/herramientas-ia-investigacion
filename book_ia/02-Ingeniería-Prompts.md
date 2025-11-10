@@ -683,15 +683,13 @@ A medida que los modelos generativos continúan avanzando, las técnicas de inge
 > [!TIP] Próximo Paso 
 > En los siguientes capítulos exploraremos cómo estas técnicas se aplican específicamente en contextos de investigación académica, incluyendo la revisión de literatura, el análisis de datos, y la integración de múltiples herramientas de IA en workflows de investigación completos.
 
-
 ---
 
-**Navegación:** [← Capítulo 1](01-Fundamentos-IA-Generativa.md) | [Siguiente: Capítulo 3 →](03-Ingeniería-Contexto.md)
+**🧭 Navegación:** [[01-Fundamentos-IA-Generativa|⬅️ Capítulo 1]] | [[03-Ingeniería-Contexto|Siguiente: Capítulo 3 ➡️]]
 
 ---
-
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
 

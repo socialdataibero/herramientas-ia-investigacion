@@ -378,13 +378,8 @@ Zia, T. (2025, 19 de junio). _Los límites de memoria de los LLM: cuando la IA r
 **🧭 Navegación:** [[07-Ética|⬅️ Capítulo 7]] | [[00-Herramientas de IA para la Investigación Académica|🏠 Volver al Inicio]]
 
 ---
-
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
 
-
----
-
-**🧭 Navegación:** [[07-Ética|⬅️ Capítulo 7]] | [[00-Herramientas de IA para la Investigación Académica|🏠 Volver al Inicio]]

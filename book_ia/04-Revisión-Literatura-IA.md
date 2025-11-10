@@ -9,11 +9,11 @@ dg-path: 04-Revisión-Literatura-IA.md
 
 La revisión de la literatura ha sido históricamente uno de los procesos más demandantes en la investigación académica. Identificar artículos relevantes, sintetizar hallazgos clave y mantener el ritmo con las publicaciones emergentes requiere dedicación considerable [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Sin embargo, la IA generativa está transformando radicalmente este panorama, introduciendo herramientas que no solo aceleran el proceso, sino que amplían nuestra capacidad de descubrir conexiones y patrones en la literatura científica.
 
-En este capítulo, exploraremos cuatro herramientas fundamentales que, utilizadas en conjunto, crean un ecosistema completo para la revisión de literatura: **Litmaps** para la visualización y descubrimiento del panorama investigativo, **Consensus** para la búsqueda semántica y síntesis de evidencia, **Elicit** para la extracción sistemática de datos, y **NotebookLM** para el análisis profundo de tus propios documentos. Cada una representa una etapa diferente del proceso investigativo, y su integración estratégica puede revolucionar tu flujo de trabajo académico.
+En este capítulo, exploraremos cuatro herramientas fundamentales que, utilizadas en conjunto, crean un ecosistema completo para la revisión de literatura: **[[09-Glosario#Litmaps|Litmaps]]** para la visualización y descubrimiento del panorama investigativo, **[[09-Glosario#Consensus|Consensus]]** para la [[09-Glosario#Búsqueda Semántica|búsqueda semántica]] y síntesis de evidencia, **[[09-Glosario#Elicit|Elicit]]** para la extracción sistemática de datos, y **[[09-Glosario#NotebookLM|NotebookLM]]** para el análisis profundo de tus propios documentos. Cada una representa una etapa diferente del proceso investigativo, y su integración estratégica puede revolucionar tu flujo de trabajo académico.
 
 ## 4.1 Visualización y descubrimiento: **Litmaps**
 
-Uno de los mayores desafíos al iniciar una revisión de literatura es comprender el panorama general del campo de estudio. ¿Cuáles son los trabajos seminales? ¿Qué líneas de investigación están emergiendo? ¿Existen artículos clave que no hemos identificado? **Litmaps** aborda estas preguntas mediante la visualización interactiva de redes de citación.
+Uno de los mayores desafíos al iniciar una revisión de literatura es comprender el panorama general del campo de estudio. ¿Cuáles son los trabajos seminales? ¿Qué líneas de investigación están emergiendo? ¿Existen artículos clave que no hemos identificado? **Litmaps** aborda estas preguntas mediante la visualización interactiva de [[09-Glosario#Red de Citación|redes de citación]].
 
 > [!info] ¿Qué es Litmaps?
 > 
@@ -55,7 +55,7 @@ Comienza ingresando términos relacionados con tu tema de investigación o el DO
 
 **2. Selección de Artículos Semilla**
 
-Identifica entre 3 y 5 artículos fundamentales para tu investigación. Estos artículos semilla actúan como puntos de anclaje desde los cuales se expandirá tu mapa. Es recomendable seleccionar artículos con un número significativo de citas, ya que esto indica su influencia en el campo.
+Identifica entre 3 y 5 artículos fundamentales para tu investigación. Estos [[09-Glosario#Seed Papers|artículos semilla]] actúan como puntos de anclaje desde los cuales se expandirá tu mapa. Es recomendable seleccionar artículos con un número significativo de citas, ya que esto indica su influencia en el campo.
 
 **3. Generación del Mapa**
 
@@ -147,7 +147,7 @@ La clave para maximizar el valor de Consensus es formular preguntas en lenguaje 
 > - Las limitaciones metodológicas
 > - El nivel de acuerdo entre investigadores
 > 
-> Finalmente presentaría un **Consensus Meter** indicando si la mayoría de estudios respaldan la hipótesis, junto con un resumen narrativo de los hallazgos clave.
+> Finalmente presentaría un **[[09-Glosario#Consensus Meter|Consensus Meter]]** indicando si la mayoría de estudios respaldan la hipótesis, junto con un resumen narrativo de los hallazgos clave.
 
 ### 4.2.3 El Consensus Meter: Interpretando el acuerdo científico
 
@@ -179,7 +179,7 @@ Cuando la revisión de literatura requiere un enfoque más estructurado y cuanti
 
 ### 4.3.1 Capacidades de búsqueda semántica
 
-Elicit utiliza búsqueda semántica en lugar de coincidencia exacta de palabras clave. Esto significa que comprende el significado conceptual de tu pregunta, no solo los términos literales [[08-Referencias#(Academia Insider, 2024)|(Academia Insider, 2024)]]. Por ejemplo:
+Elicit utiliza [[09-Glosario#Búsqueda Semántica|búsqueda semántica]] en lugar de coincidencia exacta de palabras clave. Esto significa que comprende el significado conceptual de tu pregunta, no solo los términos literales [[08-Referencias#(Academia Insider, 2024)|(Academia Insider, 2024)]]. Por ejemplo:
 
 - **Búsqueda tradicional**: "diabetes treatment efficacy"
 - **Búsqueda semántica en Elicit**: _¿Qué intervenciones son más efectivas para controlar la glucosa en pacientes con diabetes tipo 2?_
@@ -291,7 +291,7 @@ Las herramientas anteriores trabajan con bases de datos externas masivas. Pero �
 
 ### 4.4.1 Filosofía de diseño: Tu conocimiento, tu asistente
 
-La propuesta de valor de NotebookLM radica en su enfoque de _"source-grounded AI"_ (IA fundamentada en fuentes, o grounding). Cada respuesta que genera está directamente vinculada a fragmentos específicos de tus documentos, lo que permite:
+La propuesta de valor de NotebookLM radica en su enfoque de _"source-grounded AI"_ (IA fundamentada en fuentes, o [[09-Glosario#Grounding|grounding]]). Cada respuesta que genera está directamente vinculada a fragmentos específicos de tus documentos, lo que permite:
 
 - **Verificación inmediata** de la procedencia de cada afirmación
 - **Reducción de alucinaciones** sobre contenido que no existe en tus fuentes
@@ -544,13 +544,14 @@ Al integrar estratégicamente Litmaps, Consensus, Elicit y NotebookLM en tu fluj
 
 El futuro de la investigación académica no consiste en que la IA generativa reemplace a estudiantes, docentes e investigador, sino en que estén equipados con IA generativa y puedan lograr descubrimientos que antes eran imposibles [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Con las herramientas exploradas en este capítulo, ese futuro ya está aquí.
 
+
 ---
 
 **🧭 Navegación:** [[03-Ingeniería-Contexto|⬅️ Capítulo 3]] | [[05-Sistema-Integracion|Siguiente: Capítulo 5 ➡️]]
 
 ---
-
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
+

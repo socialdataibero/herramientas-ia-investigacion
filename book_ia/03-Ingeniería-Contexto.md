@@ -3,7 +3,7 @@ dg-publish: true
 dg-path: 03-Ingeniería-Contexto.md
 ---
 
-# Capítulo 3: Ingeniería de contexto
+# Capítulo 3: Ingeniería de Contexto
 
 En este capítulo exploraremos la **_Ingeniería de Contexto_**, una disciplina emergente que ha transformado la forma en que diseñamos e implementamos sistemas de IA generativa. A diferencia de la _Ingeniería de Prompts_, que se enfoca en optimizar instrucciones individuales, la ingeniería de contexto nos invita a pensar en todo el ecosistema informativo que rodea al modelo. Aprenderemos cómo construir ese "mundo mental" en el que operan los modelos generativos para maximizar su efectividad en tareas de investigación académica.
 
@@ -11,7 +11,7 @@ En este capítulo exploraremos la **_Ingeniería de Contexto_**, una disciplina 
 
 La _Ingeniería de Contexto_ es la disciplina que diseña, selecciona y gestiona deliberadamente la información que rodea a un modelo generativo durante su ejecución. En lugar de enfocarse solo en redactar un buen _Prompt_ (instrucción), la _Ingeniería de Contexto_ se ocupa de optimizar todo el entorno informativo que recibe el modelo, para guiar su comportamiento de forma eficaz [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
 
-> [!note] Definición formal
+> [!note] Definición Formal
 > La _Ingeniería de Contexto_ es "el delicado arte y ciencia de llenar la ventana de contexto con la información justa y necesaria para el siguiente paso". No se limita al prompt inmediato, sino que abarca el diseño de todo el "mundo mental" en el que opera el modelo.
 
 Dicho de otro modo, no se trata únicamente de qué le decimos a la IA, sino:
@@ -186,22 +186,8 @@ Este enfoque contextual hace posible personalizar la IA generativa para diferent
 
 Numerosos expertos señalan que el _cuello de botella_ en el rendimiento de la IA generativa ya no está tanto en el tamaño del modelo, sino en la calidad del contexto con el que lo alimentamos. De hecho, se pronostica que la _ingeniería de contexto_ será cada vez más importante; empresas como Gartner han llegado a sugerir que la _ingeniería de contexto_ suplantará a la _ingeniería de prompt_ como la habilidad clave para desarrollar soluciones de IA exitosas en los próximos años [[08-Referencias#(IntuitionLabs, 2025)|(IntuitionLabs, 2025)]].
 
-> [!quote] Reflexión Final 
-> "La ingeniería de prompts es _lo que se hace dentro_ de la ventana de contexto, mientras que la ingeniería de contexto es _cómo se decide qué llena_ esa ventana".
-
-En el próximo capítulo, exploraremos cómo aplicar estos principios de ingeniería de contexto específicamente a la revisión de literatura con IA, una de las tareas más demandantes y valiosas en la investigación académica.
-
----
-
-**🧭 Navegación:** [[02-Ingeniería-Prompts|⬅️ Capítulo 2]] | [[04-Revisión-Literatura-IA|Siguiente: Capítulo 4 ➡️]]
-
----
-
-<div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
-</div>
-
+> [!quote] Reflexión Clave 
+> "El desempeño de un modelo de lenguaje estáfundamentalmente determinado por la información contextua que se le proporciona durante la inferencia" [[08-Referencias#(Mei et al., 2025)|(Mei et al., 2025)]].
 
 Para el estudiante, docente o académico, entender esta importancia significa reconocer que para obtener lo mejor de las herramientas de IA generativa, hay que dedicar esfuerzo no solo a pedir _qué_ queremos, sino a preparar el contenido y las condiciones adecuadas en las que hacemos la petición.
 
@@ -867,3 +853,14 @@ Para el estudiantes, docente e investigador, dominar la ingeniería de contexto 
 > "La ingeniería de prompts es _lo que se hace dentro_ de la ventana de contexto, mientras que la ingeniería de contexto es _cómo se decide qué llena_ esa ventana".
 
 En el próximo capítulo, exploraremos cómo aplicar estos principios de ingeniería de contexto específicamente a la revisión de literatura con IA, una de las tareas más demandantes y valiosas en la investigación académica.
+
+---
+
+**🧭 Navegación:** [[02-Ingeniería-Prompts|⬅️ Capítulo 2]] | [[04-Revisión-Literatura-IA|Siguiente: Capítulo 4 ➡️]]
+
+---
+<div align="center">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>
+

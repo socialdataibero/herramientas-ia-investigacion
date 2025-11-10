@@ -58,7 +58,7 @@ graph TD
 
 #### 1. Supervisión humana y rendición de cuentas
 
-Este es el principio no negociable que subyace a todos los demás. Las y los investigadores humanos son, en última instancia, responsables de todos los aspectos de su trabajo, incluida la precisión, la integridad y las implicaciones éticas del contenido generado o analizado por la IA generativa. La supervisión humana es fundamental para garantizar el uso ético de estas tecnologías.
+Este es el principio no negociable que subyace a todos los demás. Las y los investigadores humanos son, en última instancia, responsables de todos los aspectos de su trabajo, incluida la precisión, la integridad y las implicaciones éticas del contenido generado o analizado por la IA generativa. La supervisión humana]] es fundamental para garantizar el uso ético de estas tecnologías.
 
 > [!important] Principio Fundamental 
 > La IA debe ser considerada una herramienta para aumentar el juicio humano, no para reemplazarlo. La responsabilidad final no puede ser delegada a una máquina.
@@ -67,7 +67,7 @@ En la práctica, esto significa que las herramientas de IA generativa _no pueden
 
 #### 2. Transparencia y explicabilidad
 
-Los algoritmos deben ser comprensibles y auditables, evitando las _"cajas negras"_ cuyo funcionamiento opaco pueda ocultar sesgos o errores. La transparencia en el contexto de la investigación se traduce en varios requisitos concretos:
+Los algoritmos deben ser comprensibles y auditables, evitando las _"cajas negras"_ cuyo funcionamiento opaco es. La [[09-Glosario#Transparencia|transparencia]] en el contexto de la investigación se traduce en varios requisitos concretos:
 
 - Los científicos deben saber y poder explicar cuándo y cómo se ha usado la IA generativa en sus trabajos
 - Debe proporcionarse información clara sobre qué sistemas de IA generativa se utilizaron y para qué propósitos
@@ -111,7 +111,7 @@ Este principio exige que la IA se utilice para el bien de la comunidad investiga
 
 #### 6. Respeto por la Autonomía
 
-Extraído directamente del Informe Belmont, este principio defiende el derecho de las personas a tomar decisiones informadas** sobre sus interacciones con los sistemas de IA. En el contexto de la investigación, esto es especialmente relevante para los sujetos humanos, cuyos datos pueden ser utilizados para entrenar modelos de IA y que deben dar su consentimiento informado para dicho uso.
+Extraído directamente del Informe Belmont, este principio defiende el derecho de las personas a tomar decisiones informadas** sobre sus interacciones con los sistemas de IA. En el contexto de la investigación, esto es especialmente relevante para los sujetos humanos, cuyos datos pued de IA y que deben dar su [[09-Glosario#Consentimiento Informado|consentimiento informado]] para dicho uso.
 
 ### La interconexión de los principios Éticos
 
@@ -128,11 +128,9 @@ Por lo tanto, cualquier marco ético eficaz para la IA en la investigación debe
 
 ## Desafíos éticos en el uso de la IA generativa en la investigación
 
-Al integrar la IA generativa en las distintas etapas de la investigación académica (búsqueda bibliográfica, análisis de datos, generación de texto, etc.), emergen desafíos éticos específicos que deben ser atendidos con cuidado. Comprender estos desafíos es el primer paso para desarrollar estrategias efectivas de mitigación.
+Al integrar la IA generativa en las distintas etapas de la investigación académica (búsqueda bibliográfica, análisis de datos, generación de texto, etc.), emergen desafíos éticos específicos que deben ser atendidos con cuidado. Comprender estos desafíos es el primer paso para desarrollar estr### 1. Sesgos algorítmicos y equidad
 
-### 1. Sesgos algorítmicos y equidad
-
-Los modelos de IA pueden contener sesgos algorítmicos derivados de sus datos de entrenamiento, reflejando prejuicios culturales o evitando perspectivas minoritarias. Este problema se manifiesta de múltiples formas en la investigación:
+Los modelos de IA pueden contener [[09-Glosario#Sesgos Algorítmicos|sesgos algorítmicos]] derivados de sus datos de entrenamiento, reflejando prejuicios culturales o evitando perspectivas minoritarias. Este problema se manifiesta de múltiples formas en la investigación:
 
 **En la revisión de literatura:**
 
@@ -153,11 +151,9 @@ Los modelos de IA pueden contener sesgos algorítmicos derivados de sus datos de
 - Evaluar críticamente la diversidad de los datos de entrenamiento de las herramientas utilizadas
 - Complementar búsquedas asistidas por IA con métodos tradicionales para asegurar cobertura completa
 - Ser especialmente vigilante cuando se trabaja con poblaciones o contextos subrepresentados
-- Validar resultados con múltiples fuentes y perspectivas
+- Validar resultados con múltiples fuentes y perspecncialidad de datos
 
-### 2. Privacidad y confidencialidad de datos
-
-Muchos investigadores manejan datos sensibles (personales, clínicos, empresariales). La privacidad de datos es crucial cuando se utilizan sistemas de IA generativos basados en la nube, ya que podría haber fugas o usos no autorizados de la información.
+Muchos investigadores manejan datos sensibles (personales, clínicos, empresariales). La [[09-Glosario#Privacidad de Datos|privacidad de datos]] es crucial cuando se utilizan sistemas de IA generativos basados en la nube, ya que podría haber fugas o usos no autorizados de la información.
 
 ```mermaid
 flowchart TD
@@ -185,23 +181,23 @@ flowchart TD
 
 - Respetar la confidencialidad de participantes y fuentes
 - Asegurarse de que la utilización de la IA generativa no viole acuerdos de privacidad ni derechos de los sujetos investigados
-- Entender las políticas de las plataformas (¿almacenan datos?, ¿los usan para entrenamiento?, ¿dónde residen los servidores?)
+- Entender las políticas de las plataformas (GDPRsan para entrenamiento?, ¿dónde residen los servidores?)
 - Implementar técnicas de anonimización cuando sea necesario
-- Cumplir con regulaciones como el GDPR y otras leyes locales e internacionales de protección de datos
+- Cumplir con regulacionrio#GDPR|rnacionales de protección de datos
 
 ### 3. Integridad académica y plagio
 
-Un tema crítico es garantizar que el uso de IA no derive en plagio o fraude académico. La integridad académica es fundamental. Dado que los modelos generativos producen texto a partir de patrones de entrenamiento, existen múltiples preocupaciones:
+Un tema crítico es garantizar que el uso de IA no derive en [[09-Glosario#Plagio|plagio]] o fraude académico. La [[09-Glosario#Integridad Académica|integridad académica]] es fundamental. Dado que los modelos generativos producen texto a partir de patrones de entrenamiento, existen múltiples preocupaciones:
 
 **El problema del "plagio automatizado":**
 
 - Un modelo podría generar párrafos similares a fuentes existentes sin citarlas
-- El contenido generado puede reproducir inadvertidamente material protegido por derechos de autor
+- El contenido generadoamente material protegido por derechos de autor
 - No queda claro dónde termina la contribución del investigador y comienza la de la máquina
 
 **El problema de las "alucinaciones":**
 
-- Las herramientas como ChatGPT pueden presentar alucinaciones, generando referencias bibliográficas inventadas
+- Las herramientas como ChatGPT pueden presentar [[09-Glosario#Alucinaciones|alucinaciones]], generando referencias bibliográficas inventadas
 - Pueden presentar datos o estadísticas ficticios con apariencia de autenticidad
 - Pueden generar afirmaciones que suenan plausibles pero son factualmente incorrectas
 
@@ -212,12 +208,12 @@ Un tema crítico es garantizar que el uso de IA no derive en plagio o fraude aca
 
 - Nunca confiar ciegamente en referencias proporcionadas por IA; siempre verificarlas
 - No presentar texto generado por IA como escritura propia sin revisión sustancial y apropiación intelectual
-- Ser transparente sobre el uso de IA en el proceso de investigación
+- Ser transparente sobrroceso de investigación
 - Mantener registros de cómo se utilizó la IA para fines de trazabilidad
 
 ### 4. Autoría y atribución del mérito
 
-La incorporación de IA en la redacción de artículos difumina la línea de quién hizo una contribución intelectual. El concepto de autoría plantea desafíos éticos que tienen varias dimensiones:
+La incorporación de IA en la redacción de artículos difumina la línea de quién hizo una contribución intelectual. El concepto de [[09-Glosario#Autoría|autoría]] plantea desafíos éticos que tienen varias dimensiones:
 
 **Consenso de la comunidad académica:** Por consenso de la comunidad académica, las IA no pueden ser autoras de trabajos científicos, ya que no pueden asumir responsabilidad legal ni ética por el contenido [[08-Referencias#(Elsevier, 2025)|(Elsevier, 2025)]]. La cuestión de si una IA puede ser considerada autora o inventora ha provocado un intenso debate legal y filosófico que llega al corazón de lo que significa la creatividad y la propiedad intelectual.
 
@@ -234,11 +230,11 @@ La incorporación de IA en la redacción de artículos difumina la línea de qui
 - ¿Cómo atribuir el mérito cuando la IA realiza contribuciones sustanciales?
 - ¿Qué nivel de transformación humana es necesario para considerar el trabajo como propio?
 
-**Directrices actuales:** Éticamente, los investigadores deben conservar una contribución sustancial de cosecha propia en cualquier trabajo asistido por IA [[08-Referencias#(Porsdam Mann et al., 2024)|(Porsdam Mann et al., 2024)]]. Asimismo, debe reconocerse el uso de la IA en los agradecimientos o secciones de metodología del documento, para mantener la transparencia sobre cómo se produjo el trabajo.
+**Directrices actuales:** Éticamente, los investigadores deben conservar una contribución sustancial de cosecha propia en cualquier trabajo asistido por IA [[08-., 2024)|(Porsdam Mann et al., 2024)]]. Asimismo, debe reconocerse el uso de la IA en los agradecimientos o secciones de metodología del documento, para mantener la transparencia sobre cómo se produjo el trabajo.
 
 ### 5. Transparencia y Reproducibilidad
 
-La ciencia prospera con la reproducibilidad y la trazabilidad de los métodos. Si un artículo científico se apoyó en una IA para ciertos pasos (por ejemplo, analizar un gran corpus de textos, generar código, traducir entrevistas, o sintetizar literatura), los demás científicos necesitan saberlo para poder evaluar, replicar o comprender plenamente los hallazgos.
+La ciencia prospera con la [[09-Glosario#Reproducibilidad|reproducibilidad]] y la trazabilidad de los métodos. Si un artículo científico se apoyó en una IA para ciertos pasos (por ejemplo, analizar un gran corpus de textos, generar código, traducir entrevistas, o sintetizar literatura), los demás científicos necesitan saberlo para poder evaluar, replicar o comprender plenamente los hallazgos.
 
 **Desafíos para la reproducibilidad:**
 
@@ -732,14 +728,14 @@ Al navegar esta nueva frontera, debemos recordar que la integridad científica n
 
 La brújula ética que este capítulo ha intentado proporcionar no es un mapa completo (el territorio de la IA aún se está formando) sino un conjunto de principios orientadores que pueden ayudarnos a navegar con integridad a través de un paisaje que cambia rápidamente. Al final, la responsabilidad recae en cada uno de nosotros: estudiantes, docentes, investigadores, instituciones, editoriales y la comunidad científica en su conjunto, para asegurar que la revolución de la IA en la investigación sea una que eleve la ciencia en lugar de comprometerla.
 
+
 ---
 
 **🧭 Navegación:** [[06-Análisis-Cuantitativo-Cualitativo|⬅️ Capítulo 6]] | [[08-Referencias|Siguiente: Referencias ➡️]]
 
+
 ---
-
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
-

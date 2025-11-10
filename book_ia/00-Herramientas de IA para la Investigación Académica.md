@@ -6,17 +6,13 @@
 
 > [!SUCCESS] DOI: **https://doi.org/10.5281/zenodo.17574124**
 
-<div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:80px; margin: 0 20px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:80px; margin: 0 20px;">
-</div>
+> [!SUCCESS]  _Versión 1.0.0 (10 de noviembre de 2025)_
 
 > [!info]+ Autores
 > Wilfrido A. Gómez-Arias
 > Armando Huitzilt Rodríguez
 > Andrea Moctezuma
 
-> [!SUCCESS]  _Versión 1.0.0 (10 de noviembre de 2025)_
 
 Este es el [repositorio público en GitHub](https://github.com/socialdataibero/herramientas-ia-investigacion) de _Herramientas de IA para la Investigación Académica_.
  
@@ -43,8 +39,19 @@ Para preguntas, comentarios o colaboraciones:
 
 ## ¿Cómo citar?
 
+```markdown
 Gómez Arias, W. A., Huitzilt Rodríguez, A., & Moctezuma, A. (2025). Herramientas de IA para la Investigación Académica (0.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17574125
+```
+
 
 ---
 
 **🧭 Navegación:** [[00-Herramientas de IA para la Investigación Académica|🏠 Inicio]] | [[00-Prefacio|Siguiente: Prefacio ➡️]]
+
+
+---
+<div align="center">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>
+

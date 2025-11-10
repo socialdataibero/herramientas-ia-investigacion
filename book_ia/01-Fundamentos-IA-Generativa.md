@@ -194,9 +194,10 @@ También están los sesgos, que no sólo reflejan prejuicios existentes en los d
 
 **🧭 Navegación:** [[00-Prefacio|⬅️ Prefacio]] | [[02-Ingeniería-Prompts|Siguiente: Capítulo 2 ➡️]]
 
----
 
+---
 <div align="center">
-  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
-  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/SocialData_blanco.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA_largo.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
 </div>
+
