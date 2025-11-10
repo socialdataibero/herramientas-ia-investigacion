@@ -30,6 +30,14 @@
 
 ---
 
+## ¿Cómo citar?
+
+```
+Gómez Arias, W. A., Huitzilt Rodríguez, A., & Moctezuma, A. (2025). Herramientas de IA para la Investigación Académica (0.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17574125
+```
+
+---
+
 ## 📖 Acerca del proyecto
 
 Este repositorio contiene el código fuente y contenido de _Herramientas de IA para la Investigación Académica_, un libro digital diseñado para ayudar a la comunidad académica a navegar el ecosistema de la Inteligencia Artificial generativa de manera ética, rigurosa y eficaz.

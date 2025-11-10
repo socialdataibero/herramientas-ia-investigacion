@@ -12,7 +12,7 @@ En el ámbito de la investigación científica, su impacto es particularmente no
 Sin embargo, esta transformación trae desafíos importantes. Por ejemplo:
 - ¿Cómo distinguir entre soluciones verdaderamente útiles y ruido pasajero?
 - ¿Cómo mitigar riesgos como las alucinaciones (citas fabricadas o datos inventados), la manipulación de información y los comportamientos desalineados? 
-- Y, más importante aún, ¿cómo integramos estas tecnologías en nuestros flujos de trabajo de manera ética, rigurosa y eficaz?
+- Y, más importante aún, ¿Cómo integramos estas tecnologías en nuestros flujos de trabajo de manera ética, rigurosa y eficaz?
 
 Este libro nace como respuesta práctica a estos desafíos, proporcionando una guía accesible para aprovechar estas herramientas de manera responsable en el contexto académico.
 

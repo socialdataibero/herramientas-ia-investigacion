@@ -1,3 +1,8 @@
+---
+dg-publish: true
+dg-home: true
+dg-path: 00-Herramientas de IA para la Investigación Académica.md
+---
 
 [![](Portada.jpg)
 

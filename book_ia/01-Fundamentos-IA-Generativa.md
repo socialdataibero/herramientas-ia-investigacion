@@ -176,7 +176,7 @@ También están los sesgos, que no sólo reflejan prejuicios existentes en los d
  Por lo tanto, una IA sin gobernanza puede magnificar estos sesgos y salidas dañinas como lenguaje de odio, aumentar la opacidad y concentrar poder; por ello, se recomiendan documentación rigurosa de datos y modelos, evaluaciones de riesgo y mecanismos de rendición de cuentas [[08-Referencias#(Bender et al., 2021)|(Bender et al., 2021)]]; [[08-Referencias#(Bengio et al., 2025)|(Bengio et al., 2025)]]. De ahí que sea importante la alfabetización crítica, para conocer lo que los modelos hacen y no hacen, insistir en mantener humanos en el proceso de su creación para verificar, contextualizar y decidir, así como empoderar a más personas (docentes, estudiantes, periodistas, funcionariado y ciudadanía) para entender y usar la IA con juicio informado y responsable [[08-Referencias#(Mitchell, 2019)|(Mitchell, 2019)]]; [[08-Referencias#(Mitchell y Krakauer, 2023)|(Mitchell y Krakauer, 2023)]].
 
 
-
+%% 
  (ver [[#^fig1|Figura 1]])
 
 <div align="center">
@@ -184,7 +184,7 @@ También están los sesgos, que no sólo reflejan prejuicios existentes en los d
 </div>
  **Figura 1.** Descripción detallada de la imagen
 ^fig1
-
+ %%
 
 
 > [!TIP] Próximo Paso 

@@ -342,11 +342,11 @@ El proceso RAG se compone de tres etapas fundamentales:
 
 ```mermaid
 flowchart TB
-    A[1. RECUPERACIÓN<br/>Retrieval] --> B[2. AUMENTACIÓN<br/>Augmentation]
-    B --> C[3. GENERACIÓN<br/>Generation]
+    A[1- RECUPERACIÓN<br/>Retrieval] --> B[2- AUMENTACIÓN<br/>Augmentation]
+    B --> C[3- GENERACIÓN<br/>Generation]
 
     D[Pregunta del Usuario] --> A
-    A --> E[Base de Conocimiento<br/>Externa]
+    A --> E[Base de Conocimiento <br/>Externa]
     E --> F[Documentos Relevantes]
     F --> B
     G[Prompt Original] --> B

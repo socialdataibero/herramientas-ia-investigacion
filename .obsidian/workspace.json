@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d3f471c7d77d3e8",
+        "id": "522397ed1040f3c5",
         "type": "tabs",
         "children": [
           {
-            "id": "5eb99864a173d290",
+            "id": "19049cb0a1fb4e2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book_ia/08-Referencias.md",
+                "file": "book_ia/00-Prefacio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-Referencias"
+              "title": "00-Prefacio"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 267.5
   },
   "right": {
     "id": "b9c761f3571d2503",
@@ -169,8 +169,10 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "5eb99864a173d290",
+  "active": "19049cb0a1fb4e2e",
   "lastOpenFiles": [
+    "book_ia/00-Herramientas de IA para la Investigación Académica.md",
+    "book_ia/08-Referencias.md",
     "book_ia/07-Ética.md",
     "book_ia/06-Análisis-Cuantitativo-Cualitativo.md",
     "book_ia/05-Sistema-Integracion.md",
@@ -178,12 +180,15 @@
     "book_ia/03-Ingeniería-Contexto.md",
     "book_ia/02-Ingeniería-Prompts.md",
     "book_ia/01-Fundamentos-IA-Generativa.md",
-    "book_ia/00-Herramientas de IA para la Investigación Académica.md",
     "book_ia/00-Prefacio.md",
     "README.md",
+    "recursos/imagenes_portada/Portada.jpg",
+    "tutoriales_herramientas/notebooklm.md",
+    "tutoriales_herramientas/litmaps.md",
+    "tutoriales_herramientas/elicit.md",
+    "tutoriales_herramientas/consensus.md",
     "book_ia/09-Glosario.md",
     "().md",
-    "book_ia/08-Referencias.md",
     "Archivo/07-Ética.md",
     "Pre.md",
     "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 5vltv0C #) (# Name clash 2025-11-06 exozavC #).md",
@@ -192,12 +197,6 @@
     "book_ia/00-Prefacio (# Name clash 2025-11-06 e2ig45C #).md",
     "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 zh1areC #).md",
     "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 ybwpbfC #).md",
-    "book_ia/00-Herramientas de IA para la Investigación Académica (# Edit conflict 2025-11-06 xrmzimC #) (# Name clash 2025-11-06 lbyi67C #).md",
-    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 xb52cdC #).md",
-    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 rug1c1C #).md",
-    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 orl4lmC #) (# Name clash 2025-11-06 4p4eyyC #).md",
-    "book_ia/07-Ética (# Edit conflict 2025-11-06 kuhgg7C #) (# Edit conflict 2025-11-06 k108v8C #).md",
-    "recursos/imagenes_portada/Portada.jpg",
     "herrameintas 1.jpg",
     "ARMANDO/Untitled",
     "Pasted image 20251031223121.png",

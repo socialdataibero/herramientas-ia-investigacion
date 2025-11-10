@@ -1,9 +1,7 @@
 ---
 dg-publish: true
-date_modified: 2025-11-03T11:53:21-06:00
+date_modified: 2025-11-02T23:38:37-06:00
 ---
-
-> [!warning] En construcción
 
 #  Consensus
 
