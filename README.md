@@ -7,6 +7,7 @@
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Versión](https://img.shields.io/badge/Versión-1.0.0-blue.svg)](https://github.com/socialdataibero/herramientas-ia-investigacion)
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow.svg)]()
+[![DOI](https://zenodo.org/badge/1090015743.svg)](https://doi.org/10.5281/zenodo.17574124)
 
 > Una guía práctica y accesible para estudiantes, docentes e investigadores que buscan aprovechar las herramientas de Inteligencia Artificial de manera responsable y efectiva en sus proyectos académicos.
 

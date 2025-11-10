@@ -4,6 +4,8 @@
 ## Herramientas de IA para la Investigación Académica
 #SocialDataIbero #educaia #IA #Investigacion
 
+> [!SUCCESS] DOI: **https://doi.org/10.5281/zenodo.17574124**
+
 <div align="center">
   <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:80px; margin: 0 20px;">
   <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:80px; margin: 0 20px;">
@@ -36,6 +38,12 @@ Para preguntas, comentarios o colaboraciones:
    - **Andrea Moctezuma**: andrea.moctezuma.geo@gmail.com
 - **Sitio Web**: [herramientasiainvestigacion.vercel.app](https://herramientasiainvestigacion.vercel.app/)
 - **Issues**: [Reportar un problema o dejar sugerencias](https://github.com/socialdataibero/herramientas-ia-investigacion/issues)
+
+---
+
+## ¿Cómo citar?
+
+Gómez Arias, W. A., Huitzilt Rodríguez, A., & Moctezuma, A. (2025). Herramientas de IA para la Investigación Académica (0.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17574125
 
 ---
 

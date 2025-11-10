@@ -5,6 +5,9 @@ dg-publish: true
 
 ---
 
+> [!warning] En construcción
+
+
 ## 1. Acceso y Plataformas
 
 **Litmaps** es una herramienta web accesible a través de **https://www.litmaps.com**. No requiere instalación de software y funciona directamente desde cualquier navegador moderno (Chrome, Firefox, Safari, Edge).

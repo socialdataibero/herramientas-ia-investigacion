@@ -3,6 +3,9 @@ dg-publish: true
 date_modified: 2025-11-02T23:36:02-06:00
 ---
 
+> [!warning] En construcción
+
+
 # NotebookLM
 
 ### Acceso oficial
