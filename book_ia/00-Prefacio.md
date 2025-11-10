@@ -47,6 +47,15 @@ Estamos muy agradecidos por el apoyo de la Dirección de Innovación Educativa y
 Por último, dedicamos este libro a todas las personas y organizaciones que trabajan incansablemente por una inteligencia artificial segura, ética e inclusiva.
 
 
+
+
 ---
 
 **Navegación:** [← Prefacio](00-Prefacio.md) | [Siguiente: Capítulo 1 →](01-Fundamentos-IA-Generativa.md)
+
+---
+
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>

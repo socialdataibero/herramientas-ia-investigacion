@@ -543,3 +543,14 @@ Supongamos que tu pregunta de investigación es: _"¿Cómo están utilizando las
 Al integrar estratégicamente Litmaps, Consensus, Elicit y NotebookLM en tu flujo de trabajo, transformas la revisión de literatura de una tarea abrumadora en un proceso sistemático, eficiente y profundo. Estas herramientas no solo te ahorran tiempo, sino que expanden tu capacidad de descubrir conexiones, sintetizar hallazgos y construir sobre el conocimiento existente de manera más sofisticada que nunca.
 
 El futuro de la investigación académica no consiste en que la IA generativa reemplace a estudiantes, docentes e investigador, sino en que estén equipados con IA generativa y puedan lograr descubrimientos que antes eran imposibles [[08-Referencias#(Zhang et al., 2023)|(Zhang et al., 2023)]]. Con las herramientas exploradas en este capítulo, ese futuro ya está aquí.
+
+---
+
+**🧭 Navegación:** [[03-Ingeniería-Contexto|⬅️ Capítulo 3]] | [[05-Sistema-Integracion|Siguiente: Capítulo 5 ➡️]]
+
+---
+
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>

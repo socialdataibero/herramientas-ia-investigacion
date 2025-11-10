@@ -4,6 +4,11 @@
 ## Herramientas de IA para la Investigación Académica
 #SocialDataIbero #educaia #IA #Investigacion
 
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:80px; margin: 0 20px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:80px; margin: 0 20px;">
+</div>
+
 > [!info]+ Autores
 > Wilfrido A. Gómez-Arias
 > Armando Huitzilt Rodríguez

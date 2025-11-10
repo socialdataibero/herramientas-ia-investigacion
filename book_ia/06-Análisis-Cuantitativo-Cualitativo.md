@@ -908,4 +908,12 @@ En el siguiente capítulo abordaremos las consideraciones éticas del uso de IA 
 
 ---
 
+
 **🧭 Navegación:** [[05-Sistema-Integracion|⬅️ Capítulo 5]] | [[07-Ética|Siguiente: Capítulo 7 ➡️]]
+
+---
+
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>

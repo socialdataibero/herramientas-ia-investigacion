@@ -45,7 +45,7 @@ Todo este proceso de entrenamiento requiere recursos colosales: miles de unidade
 
 Una vez construidos los modelos generativos, estos se integran en sistemas, comúnmente en chatbots conversacionales capaces de mantener diálogos, simular procesos de razonamiento, procesar millones de _tokens_ (fragmentos de texto) en segundos y generar textos con un nivel de coherencia que hace apenas unos años resultaba impensable. Sin embargo, detrás de esa aparente “magia” hay estadística, matemáticas y computación.
 
-## 1.3 ¿Qué es un Sistema de IA Generativa?
+## 1.3 ¿Qué es un sistema de IA generativa?
 
 Un Sistema de IA generativa es un entorno de software que articula interfaces, algoritmos y datos, combinando uno o varios modelos generativos para ofrecer servicios útiles como chatbots conversacionales, buscadores que proporcionan respuestas resumidas, asistentes para generación de código o plataformas de creación de imágenes. Por ejemplo, ChatGPT es un chatbots que integra una interfaz conversacional con diferentes modelos GPT (actualmente GPT-5, GPT-5 Thinking o GPT-5 Pro), los cuales reciben un _prompt_ (una instrucción o consulta textual) y generan respuestas, imágenes o código en función de esa entrada.
 
@@ -194,3 +194,9 @@ También están los sesgos, que no sólo reflejan prejuicios existentes en los d
 
 **🧭 Navegación:** [[00-Prefacio|⬅️ Prefacio]] | [[02-Ingeniería-Prompts|Siguiente: Capítulo 2 ➡️]]
 
+---
+
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>

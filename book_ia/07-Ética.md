@@ -735,3 +735,11 @@ La brújula ética que este capítulo ha intentado proporcionar no es un mapa co
 ---
 
 **🧭 Navegación:** [[06-Análisis-Cuantitativo-Cualitativo|⬅️ Capítulo 6]] | [[08-Referencias|Siguiente: Referencias ➡️]]
+
+---
+
+<div align="center">
+  <img src="../recursos/logos/SocialData.svg" alt="SocialData Logo" style="height:60px; margin: 0 15px;">
+  <img src="../recursos/logos/EducaIA.svg" alt="EducaIA Logo" style="height:60px; margin: 0 15px;">
+</div>
+
